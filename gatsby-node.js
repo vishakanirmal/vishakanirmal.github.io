@@ -23,7 +23,7 @@ const path = require(`path`)
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
-  const caseStudyTemplate = path.resolve(`src/templates/caseStudyTemplate.js`)
+  const caseStudyTemplate = path.resolve(`./src/templates/caseStudyTemplate.js`)
 
   const result = await graphql(`
     {
