@@ -24,6 +24,11 @@ jobs:
     - name: Build Gatsby site
       run: npm run build
 
+    - name: Configure Git
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
