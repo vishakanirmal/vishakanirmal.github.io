@@ -1,0 +1,278 @@
+/* Set a global font style and size */
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+  
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Karla', sans-serif;
+    color: #000000;
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0;
+}
+  
+h1 {
+    font-size: 1.5em;
+  }
+  
+h2 {
+    font-size: 1.25em;
+  }
+  
+h3 {
+    font-size: 1em;
+}
+
+
+/* Links */
+a {
+    color: #77C875;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+
+/* button */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #77C875;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2e8b57;
+}
+  
+footer {
+    padding: 20px; /* Adjust the padding as needed */
+    color: #747474; /* Text color */
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+
+}
+
+header {
+    width: 100%; /* Ensure it takes up the full width of the page */
+    position: fixed; /* Make it sticky */
+    top: 0;
+    left: 0;
+    background-color: #fff; /* Or whatever background color you want */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    margin: 0 auto; /* Center the content */
+    padding: 2rem; /* Add padding as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    text-transform: uppercase;
+}
+
+/* landing/about page styling */
+.base-page {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0em;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex-direction: column; /* Stacks elements vertically */
+}
+
+.base-page-intro {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: flex-start; /* Aligns text to the left */
+}
+
+.statictext {
+    text-align: left;
+    display: inline-block;
+}
+
+.typer {
+    display: block;
+    text-align: left;
+    height: 1.4em;
+    width: 100%; /* or a fixed width like 500px */
+
+}
+
+.external-links {
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding-top: 4em;
+
+}
+.aboutinfo {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between image and text */
+
+}
+
+
+
+.about-image {
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    border-radius: 0px; /* Optional: Add some rounded corners */
+}
+
+.about-page-content {
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+/*project tiles styling on home page*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+}
+
+/* case study tile */
+.case-study-tile {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.case-study-image-wrapper {
+    overflow: hidden; /* Hide overflowing parts of the image */
+    display: block;
+}
+  
+.case-study-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.case-study-image-wrapper:hover .case-study-image {
+    transform: scale(1.05); /* Zoom the image on hover */
+}
+  
+.tile-description {
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+    justify-content: space-between;
+}
+
+.tile-description-element:nth-child(1),
+.tile-description-element:nth-child(2) {
+    margin-right: 10px;
+}
+
+.tile-description-element:nth-child(2) {
+    color: #747474;
+    font-weight: lighter;
+}
+
+.tile-description-element:nth-child(3) {
+    margin-left: auto;
+}
+
+
+
+/* case study pages */
+.case-study-container {
+    display: flex;
+    justify-content: center; /* Centers the case study content */
+    padding-top: 6em;
+    position: relative;
+}
+
+.case-study-toc {
+    position: fixed; /* Makes the TOC float and stay in place as you scroll */
+    left: 0; /* Positions it to the very left of the page */
+    top: 50%; /* Vertically centers it on the page */
+    transform: translateY(-50%); /* Ensures it is truly centered */
+    width: 20%; /* Adjust as necessary */
+    text-align: left; /* Left-align text in the TOC */
+    z-index: 100; /* Ensures TOC stays on top */
+
+}
+
+.case-study-toc ul, /* Target unordered lists inside the TOC container */
+.case-study-toc ol { /* Target ordered lists inside the TOC container */
+  list-style-type: none; /* Removes bullet points or numbers */
+}
+
+.case-study-toc a {
+  text-decoration: none; /* Optional: removes underline from links */
+}
+
+.case-study-content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    width: 100%; /* Ensures the content takes up the full width of the page */
+}
+
+.case-study-content {
+    max-width: 50%; /* Adjust this width as needed */
+}
+
+
+/* password pages */
+.passwordpage form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+
+.passwordinput {
+    flex: 1;
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for the input */
+    padding: .5em; /* Padding inside the input */
+    font-size: 1em; /* Font size */
+    font-family: 'Karla', sans-serif; /* Font family */
+    border: 2px solid #47b566; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove the default outline */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+    margin-right: 16px;
+    min-width: 200px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adjust this value based on your header height */
+}
+
+img {
+    max-width: 100%; /* Constrain images to a maximum width of 800px */
+    height: auto; /* Maintain aspect ratio */
+  }
