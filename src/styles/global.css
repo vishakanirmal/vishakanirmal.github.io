@@ -151,7 +151,7 @@ header {
 
 
 .about-image {
-    width: 400px; /* Adjust the width as needed */
+    width: 30vw; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
     flex-shrink: 0; /* Prevent the image from shrinking */
     border-radius: 0px; /* Optional: Add some rounded corners */
@@ -160,6 +160,25 @@ header {
 .about-page-content {
     text-align: left;
     width: 100%;
+}
+
+.logo-section {
+  padding: 2em;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around; /* Distribute space evenly between logos */
+  flex-wrap: wrap; /* Allows wrapping if there are too many logos */
+  padding: 3em 0em;
+}
+
+.logo-container img {
+  height: 4em; /* Adjust the size of the logos */
+  width: auto; /* Maintain aspect ratio */
+  filter: grayscale(100);
+  padding: 1em;
 }
 
 
@@ -175,24 +194,34 @@ header {
 
 /* case study tile */
 .case-study-tile {
-    display: flex;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
 .case-study-image-wrapper {
-    overflow: hidden; /* Hide overflowing parts of the image */
-    display: block;
+  overflow: hidden; /* Hide overflowing parts of the image */
+  display: block;
+  position: relative; /* Establish a positioning context */
 }
-  
+
 .case-study-image {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  display: block; /* Ensure it takes up the container properly */
 }
-  
+
+.case-study-image-wrapper {
+  display: flex; /* Apply flexbox to center content */
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+}
+
 .case-study-image-wrapper:hover .case-study-image {
-    transform: scale(1.05); /* Zoom the image on hover */
+  transform: scale(1.03); /* Zoom the image on hover */
+  transform-origin: center; /* Ensure zoom effect is centered */
 }
+
   
 .tile-description {
     display: flex;

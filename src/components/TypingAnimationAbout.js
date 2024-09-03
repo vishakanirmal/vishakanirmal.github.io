@@ -5,7 +5,7 @@ const TypingAnimationAbout = () => {
   useEffect(() => {
     const words = [
       "#1 she has double-jointed thumbs",
-      "#2 she is a native seattlite, but doesn't drink coffee",
+      "#2 she is a native Seattlite, but doesn't drink coffee",
       "#3 her favorite fish is salmon",
       "#4 she is a die-hard dog lover", 
       "#5 she began snowboarding during the pandemic",
