@@ -2,7 +2,8 @@
 slug: "/visualactivities"
 date: "2024-08-15"
 title: "Visual activities"
-
+isPasswordProtected: true
+password: olive
 ---
 
 ![Hero image of visual activities](../src/images/visualactivities/hero.png)

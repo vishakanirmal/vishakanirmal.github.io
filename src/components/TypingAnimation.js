@@ -3,11 +3,13 @@ import React, { useEffect } from "react";
 const TypingAnimation = () => {
   useEffect(() => {
     let words = [
-      "using a human-centered lens.",
-      "working with multi-modal technologies.",
-      "collaborating with diverse teams",
-      "interested in complex human interactions.",
-      "rooted in user research.",
+      "a human centered designer.",
+      "a design strategist.",
+      "a user researcher.",
+      "a user experience designer.",
+      "a design technologist.",
+      "a motion designer.",
+      "a human-factors designer."
     ];
 
     // Shuffle the array of words

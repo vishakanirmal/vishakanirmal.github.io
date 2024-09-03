@@ -2,7 +2,7 @@
 slug: "/animationcapstone"
 date: "2024-08-15"
 title: "Animation capstone"
-passwordProtected: false
+isPasswordProtected: false
 ---
 
 ![Hero image of animation](../src/images/animation/hero.png)

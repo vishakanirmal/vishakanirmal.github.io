@@ -22,9 +22,6 @@ const AboutPage = () => {
             </div>
             <div>
               <p>
-                As a designer, I find inspiration in the mundane. When I was younger, I would often take it upon myself to reorganize the pantry, media console, or even furniture. How could I make sure the right spices were accessible as my mother cooked? How could I rearrange cabinets to help my sister and I find our shared products easily? As a six-year-old, I didn't quite know what design was, but I was eager to understand my family's needs and positively impact my surroundings. Even today, I still strive to learn from how people interact with our world. Can I learn from how people interact with a microwave? A puzzle? Or at a grocery store? I keenly observe my surroundings, hoping to learn from each trivial interaction.
-              </p>
-              <p>
                 With my undergrad at the University of Washington, I got to build upon my observation skills. I graduated with a B.S. in Human Centered Design & Engineering, with concentration tracks in Human-Computer Interaction, and 3D animation. Throughout the past couple years, I've gotten the opportunity to work with teams such as Microsoft Dynamics, and Lucid Software. With 3.5 years of industry experience in my toolkit, I'm now excited to pursue my Masters degree. I'll be spending my time at both RISD and Brown, honing in my digital+physical prototyping skills with a degree in Design Engineering.
               </p>
               <p>

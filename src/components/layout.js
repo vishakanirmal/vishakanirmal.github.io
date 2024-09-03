@@ -5,8 +5,6 @@ import PasswordProtect from "/src/components/PasswordProtect";
 import Header from "./header";
 
 const Layout = ({ children }) => {
-  const passwordProtected = true;
-  const password = "olive";
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -28,11 +26,9 @@ const Layout = ({ children }) => {
     </div>
   );
 
-  return passwordProtected ? (
-    <PasswordProtect password={password}>{content}</PasswordProtect>
-  ) : (
-    content
-  );
+  return content;
+  
+
 };
 
 export default Layout;
