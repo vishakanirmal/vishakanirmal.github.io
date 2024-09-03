@@ -2,8 +2,9 @@
 slug: "/fieldserviceapp"
 date: "2024-08-15"
 title: "Field Service Application"
-passwordProtected: true
-password: "olive"
+isPasswordProtected: true
+password: olive
+
 ---
 
 ![Hero image of field service app](../src/images/fieldservice/hero.png)

@@ -1,12 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Header from "/src/components/header"; // Assuming you want to include the header
+import PasswordProtect from "/src/components/PasswordProtect"; // Import PasswordProtect component
+import Header from "/src/components/Header"; // Assuming you want to include the header
 
 export default function CaseStudyTemplate({ data }) {
   const { markdownRemark } = data;
   const { frontmatter, html, tableOfContents } = markdownRemark;
+  const { isPasswordProtected, password } = frontmatter;
 
-  return (
+  const content = (
     <div>
       <Header siteTitle="Vishaka Nirmal"/>
       <div className="case-study-container">
@@ -20,9 +22,19 @@ export default function CaseStudyTemplate({ data }) {
           </div>
         </div>
       </div>
+      <footer className="site-footer">
+        © {new Date().getFullYear()} &middot; Built by Vishaka
+      </footer>
     </div>
   );
+
+  return isPasswordProtected ? (
+    <PasswordProtect password={password}>{content}</PasswordProtect>
+  ) : (
+    content
+  );
 }
+
 
 export const query = graphql`
   query($slug: String!) {
@@ -30,8 +42,11 @@ export const query = graphql`
       html
       frontmatter {
         title
+        isPasswordProtected
+        password
       }
       tableOfContents
     }
   }
 `;
+
