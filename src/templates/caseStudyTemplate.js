@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import PasswordProtect from "/src/components/PasswordProtect"; // Import PasswordProtect component
-import Header from "/src/components/Header"; // Assuming you want to include the header
+import Header from "/src/components/header"; // Assuming you want to include the header
 
 export default function CaseStudyTemplate({ data }) {
   const { markdownRemark } = data;
