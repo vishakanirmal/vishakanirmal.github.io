@@ -28,7 +28,7 @@ const IndexPage = () => (
           title="Weft" 
           role="Researcher & Product Designer @ RISD / Brown"
           image={wefthero}
-          isPasswordProtected={false}
+          isPasswordProtected={true}
         />
         <CaseStudyTile 
           to="/quicktools" 
