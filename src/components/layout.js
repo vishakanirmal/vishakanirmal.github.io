@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>{children}</main>
       <footer className="site-footer">
-        © {new Date().getFullYear()} &middot; Built by Vishaka
+        © {new Date().getFullYear()} &middot; Design + development by Vishaka
       </footer>
     </div>
   );

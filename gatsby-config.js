@@ -117,7 +117,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `G-GL1V3HMV74`, // Replace with your tracking ID
-        head: false, // Add the Google Analytics script in the <head> of your pages
+        head: true, // Add the Google Analytics script in the <head> of your pages
         anonymize: true, // Anonymize IP addresses
       },
     },

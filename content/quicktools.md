@@ -15,7 +15,7 @@ Lucid had a robust library of canvas templates, from mind maps to cloud architec
 
 | Time     | Tools     | Design team      |
 |:---------|:----------|:----------|
-| 6 months | Figma     | Vishaka   |
+| 6 months | Figma     | Vishaka Nirmal  |
 |          | Lucidspark |    |
 |          |   Maze        |      |
 
