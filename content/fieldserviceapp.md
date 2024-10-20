@@ -4,114 +4,127 @@ date: "2024-08-15"
 title: "Field Service Application"
 isPasswordProtected: true
 password: olive
-
 ---
+
+> Redesigning a mobile tool for field service technicians to enhance information management.
 
 ![Hero image of field service app](../src/images/fieldservice/hero.png)
 
-## Context
-I participated in a student capstone partnered with Microsoft Dynamics 365. This project redesigned the Field Service Application for enhanced information management.
-## Problem space
-Partnered with Microsoft Dynamics 365, we were tasked with redesigning the Field Service Application. Field service technicians represent any traveling repair technician working on a variety of devices. Microsoft was interested in enhancing how technicians document and managed their notes through their existing application. 
+## Background
+> A capstone project with Microsoft Dynamics 365 to enhance field service documentation.
+
+In this student capstone project, partnered with Microsoft Dynamics 365, we were tasked with redesigning the Field Service Application. Our goal was to improve how field service technicians create, manage, and find resources during their tasks, focusing on a tool that could enhance their workflow.
+
+| Time     | Tools       | Team |
+|:---------|:------------|:-----|
+| 6 months | Figma       | Vishaka Nirmal |
+|          | Maze        | Alli Hishikawa |
+|          | UserTesting | Avery Wolf |
+|           |           | Kailey Terraciano   |
+
+## Problem
+> Technician note-taking and resource management is inefficient.
+
+Field service technicians work on a variety of devices, often relying on notes and images to document their work. However, the existing application made it difficult for technicians to quickly create and access these resources, leading to inefficiencies and potential errors.
 
 This led to our defining question:
 
-How might we design a tool for technicians to effectively create, manage, and find resources for their jobs?
+**How might we design a tool for technicians to effectively create, manage, and find resources for their jobs?**
 
-## My role
-I worked on a student team of 4. We collaborated often with a Design manager and designer from the Microsoft Dynamics team.
+## Role
+As part of a student team of four, I collaborated closely with a design manager and a designer from the Microsoft Dynamics team. While I was involved in all aspects of the process, my most significant contributions were:
 
-Although I worked on all parts of the process, most of my design impact can be seen through:
+- **Information architecture**
+- **Final note-taking flows**
+- **Final documentation flows**
 
-- The information architecture
-- The final note-taking flows
-- The final documentation flows
+## Current application
+> Finding necessary resources is time-consuming.
 
-## The existing application
-In the existing application, technicians could keep track of upcoming work through a calendar interface. Within each task, they could attach only text or images as resources. When looking for prior resources, they would need to dig through previous task documentation, or reach out to the previous technician. 
+The existing Field Service Application allowed technicians to track their upcoming work through a calendar interface, attaching text or images as resources within each task. However, finding prior resources often required digging through previous documentation or contacting previous technicians, which was time-consuming and inefficient.
 
-## Competitive + market analysis
-Beginning our research, we looked for current competitor solutions in the field. We gathered screenshots of products, noted down any functionality, and kept an eye out for specific novel solutions.
+## Competitive Analysis
+> Within the competitive landscape, notetaking was broader than just text-based notes.
 
-This screenshot is an example of another tool, which allowed technicians to add notes on top of images they took with their mobile phones.
+To inform our design, we conducted a competitive analysis, examining existing tools in the market. We gathered screenshots of products, noted their functionalities, and identified any novel solutions. For example, one competitor's tool allowed technicians to add notes on top of images taken with their mobile phones, offering a more integrated approach to documentation.
 
-## User interviews
-We ran semi-structured moderated interviews with 5 active field service technicians. We used the UserTesting platform to recruit based on our criteria, running 1-hour interviews with each technician.
+![Competitive analysis example](../src/images/fieldservice/competitor.png)
 
-💡 User interviews insight
+## User research
+> How do current field service technicians manage these inefficiencies?
 
-At a job site, the devices they work to repair always vary. Technicians learn from paper notes, previous images, or even by messaging another technician. When at a job site, it's important to quickly be able to create these notes for future use. 
+We conducted semi-structured interviews with five active field service technicians, recruited through UserTesting. Each interview lasted one hour, providing us with valuable insights into their workflows and pain points.
 
-## User journey mapping
-As part of the synthesis process after user interviews, I helped map out the user journey for field service technicians as they go through a work order (a specific job they’re assigned to).
+💡 **Interviews insight**
 
-This journey map outlines the day-to-day life of a sample field service technician, highlighting key pain points throughout.
+Technicians often work with a variety of devices and rely on notes, images, and communication with other technicians. At job sites, they need to quickly create and access these resources to perform their tasks efficiently.
 
-## Design jam
-With a foundation of the field service workflow and specific pain points, we wanted to then broaden our design space and start with a design jam.
+## Synthesis
+> Finding and documenting information were the biggest themes of pain points for technicians.
 
-I prepared lightning talks about research and prompted ideation questions. This session included both our student team and the Microsoft design team.
+To synthesize our research, I helped map out the user journey for field service technicians, outlining the day-to-day tasks they perform during a work order. This journey map highlighted key pain points and opportunities for improvement in the application.
 
-Here you can see some of the design prompts we used to spark new ideas, and some of my initial sketches from this session.
+![User journey map](../src/images/fieldservice/journey.png)
 
-## Information architecture mapping
-We sorted out all our ideas, mapping them back to our original pain points from the user journey map. With this process, we realized we’d need to refine where each new feature was housed inside the Field Service application. We mapped out a new information architecture system, seen here.
+## Ideation
+> These problems required big thinking, leading us to a blue-sky design jam.
 
-## Usability testing
-Once we mocked up our new concepts, we utilized Maze to walk 3 active field service technicians throughout our early prototyped designs.
+With a solid understanding of the field service workflow, we conducted a design jam to explore new ideas. I prepared lightning talks on our research findings and facilitated ideation sessions with both our student team and the Microsoft design team.
 
-We had 3 tasks to test whether our redesign provided the right tools and resources.
+![Design jam prompts and sketches](../src/images/fieldservice/designjam.png)
 
-1. Are users able to find and edit current work orders?
-2. Can they successfully find and attach documentation to a current work order?
-3. Are they able to submit their final work order?
+## Information architecture
+> How could we restructure the application's architecture to allow for easy finding and documenting?
 
-💡 Usability insight
+After sorting through our ideas, we mapped them back to the pain points identified in the user journey map. This process led us to refine the information architecture of the Field Service Application, ensuring that each new feature was housed in the most intuitive location.
 
-We found minor usability concerns while testing, seeing users unable to know which pages to navigate to, based on a lack of labeling for our app's navigation.
+![Information architecture mapping](../src/images/fieldservice/ia.png)
 
-## Final designs
-The home page and work orders:
+## Usability Testing
+> Validating our designs with real users.
 
-For the landing page, we knew the importance of updated, relevant information for technicians. 
+Once we had our concepts mocked up, we used Maze to conduct usability tests with three active field service technicians. We tested the following tasks:
 
-From here, technicians can view upcoming work, as well as unscheduled work orders. Within each work order, all information on location, background, and relevant documentation is consolidated.
+1. **Finding and editing current work orders**
+2. **Attaching documentation to a current work order**
+3. **Submitting the final work order**
 
-Note-taking
 
-As the central navigation button in the Field Service Application, I designed the create menu to allow technicians to quickly create documentation while working.
+💡 **Usability insight**
 
-As they complete work orders, they can easily create a note, asset, or AR annotation that connects to the current specified work order.
+We identified minor usability concerns, such as users struggling to navigate due to unclear labeling in the app's navigation.
 
-Watch the flow here to see how an augmented reality annotation can be easily created. 
+![Usability testing](../src/images/fieldservice/usertesting.jpg)
 
-Below, the second video showcases how technicians can search through a physical location to find AR annotations using their device. I designed the interface hints to lay atop surfaces detected by the camera. As a technician moves towards or away from a hint, they'll see the target change in size. 
+## Final Designs
+> The redesigned application, prioritizing technician efficiency in finding and documenting information.
 
-The variety of text, image, and AR notes allows technicians to easily and quickly keep track of their thoughts. Based on location tracking, each added note will be automatically added to the in-progress work order. 
+The landing page prioritizes updated, relevant information for technicians. From here, they can view upcoming work as well as unscheduled work orders. Within each work order, all information on location, background, and relevant documentation is consolidated for easy access.
 
-We heard that technicians are often met with new devices at each job site. To bring them more context on previous work and repairs done, augmented reality could anchor this context at each job site. The variety of note styles encourages technicians to easily create quick notes while working.
+The central navigation button in the Field Service Application is designed to allow technicians to quickly create documentation while working. As they complete work orders, they can easily create a note, asset, or AR annotation that connects to the current specified work order.
 
-Search page
+![Note-taking flow](../src/images/fieldservice/notetaking.png)
 
-I designed the search experience for technicians to easily find and attach relevant resources to their work order. When a resource is starred, it is automatically added to the current work order for easy record-keeping. 
+The variety of text, image, and AR notes allows technicians to efficiently keep track of their thoughts. With location tracking, each note is automatically added to the in-progress work order, streamlining the documentation process. 
 
-The documents on this page can include any resource, including manuals, quick notes, or images from past work orders. 
+We learned that technicians often encounter new devices at each job site. To provide context on previous work, augmented reality can anchor this information at the job site itself, encouraging the creation of quick, contextually relevant notes.
 
-In our interviews, we learned that technicians collect a variety of notes, diagrams, and resources. Our solution needed to easily provide access to any format of a note, and allow them to efficiently connect to the work order.
+The search experience was designed to allow technicians to easily find and attach relevant resources to their work orders. When a resource is starred, it is automatically added to the current work order, simplifying record-keeping.
+
+![Search page](../src/images/fieldservice/starred.png)
+
+The documents on this page include a wide range of resources, from manuals and quick notes to images from past work orders. Our interviews highlighted the need for a solution that could accommodate various note formats and ensure efficient access to information.
 
 ## Handoff
-Our final product for this project was a future vision video. We handed off the full concept to Microsoft, along with our annotated Figma file. 
+> Delivering a comprehensive, future-focused solution to Microsoft.
 
-The final solution outlined here allows technicians to easily create, search for, and manage information throughout their work. 
+Our final deliverable for this project was a future vision video, along with an annotated Figma file. This handoff provided Microsoft with a detailed concept that allows technicians to easily create, search for, and manage information throughout their work. [You can watch the video here!](https://www.youtube.com/watch?v=hZSgOsm4DRg&list=LL&index=1)
 
 ## Reflections
-Mixed reality learnings
-Our team was excited to incorporate augmented reality into this future vision. Before this project, I had minimal knowledge of how augmented reality could work with a mobile device. To effectively create a prototype of what this could look like, we used a combination of Snap Lens and Adobe After Effects. 
+> Gaining insights into mixed reality and reflecting on a significant project.
 
-Since this was a sort of hacky prototype, we weren't able to test out the augmented reality ideas with active technicians. I'd be interested in learning how effective this mobile-based interface is for technicians at a job site. Would this assist with their workflows? Would it be easy to find each anchoring data point?
+Our team was excited to incorporate augmented reality into this future vision. Before this project, I had minimal experience with augmented reality on mobile devices. To prototype the experience, we used a combination of Snap Lens and Adobe After Effects. 
 
-In the future, I'd love to dive into creating full mixed-reality prototypes that are fully testable with users. 
+While the prototype was somewhat limited, preventing us from testing the AR features with active technicians, it sparked my interest in developing full, testable mixed-reality prototypes in the future.
 
-Parting thoughts
-This project was a culmination of my university experience at UW. I appreciated the industry connection with Microsoft, and the 6 months on this project included a lot of collaboration with my peers. We spent a lot of time on Zoom, collaborating over Figma chat, and it was a great end to my college career. 
-
+This project marked the culmination of my university experience at the University of Washington. The industry connection with Microsoft and the six months of collaboration with my peers made it a memorable and rewarding experience. Working together on Zoom and Figma chat, we brought our ideas to life and created a meaningful solution for field service technicians.

@@ -23,13 +23,13 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="projects">
-      <CaseStudyTile 
+{/*       <CaseStudyTile 
           to="/weft" 
           title="Weft" 
           role="Researcher & Product Designer @ RISD / Brown"
           image={wefthero}
           isPasswordProtected={true}
-        />
+        /> */}
         <CaseStudyTile 
           to="/quicktools" 
           title="Quick tools" 

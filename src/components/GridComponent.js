@@ -4,7 +4,7 @@ import image1 from "../images/playground/emp.jpg";
 import image2 from "../images/playground/highlighter.gif";
 import image3 from "../images/playground/laser.gif";
 import image4 from "../images/playground/shapesinuse.gif";
-import image5 from "../images/playground/zoomytunes.png";
+import image5 from "../images/playground/zoomytunez.gif";
 
 const GridComponent = () => {
   const projects = [

@@ -209,12 +209,14 @@ header {
   height: auto;
   transition: transform 0.3s ease-in-out;
   display: block; /* Ensure it takes up the container properly */
+  overflow: hidden;
 }
 
 .case-study-image-wrapper {
   display: flex; /* Apply flexbox to center content */
-  align-items: center; /* Vertically center the image */
+  align-items: baseline; /* Vertically center the image */
   justify-content: center; /* Horizontally center the image */
+  aspect-ratio: 24 / 9;
 }
 
 .case-study-image-wrapper:hover .case-study-image {
@@ -331,9 +333,7 @@ td {
 }
 
 .case-study-content .gatsby-resp-image-wrapper {
-  max-width: 200% !important; /* Override inline max-width */
-  margin-left: -50% !important; /* Center the image */
-  margin-right: -50% !important; /* Center the image */
+  max-width: 100% !important; /* Override inline max-width */
 }
 
 
