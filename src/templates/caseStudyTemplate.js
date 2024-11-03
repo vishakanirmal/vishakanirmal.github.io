@@ -23,7 +23,7 @@ export default function CaseStudyTemplate({ data }) {
         </div>
       </div>
       <footer className="site-footer">
-        © {new Date().getFullYear()} &middot; Built by Vishaka
+        © {new Date().getFullYear()} &middot; Designed + coded by Vishaka
       </footer>
     </div>
   );
