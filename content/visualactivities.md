@@ -41,8 +41,6 @@ Initial user research revealed that teams needed more flexible ways to make deci
 
 With the concept validated, I led discussions with product managers and engineering teams to align our vision and secure investment in the Visual Activities feature. We outlined a strategic roadmap, focusing on creating a shape-like experience that felt both familiar and innovative for users.
 
-![Strategy boards and alignment](../src/images/visualactivities/strategy.png)
-
 ## Iteration
 > Refining the design through continuous feedback and testing.
 
