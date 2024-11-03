@@ -23,18 +23,20 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="projects">
-{/*       <CaseStudyTile 
-          to="/weft" 
-          title="Weft" 
-          role="Researcher & Product Designer @ RISD / Brown"
-          image={wefthero}
-          isPasswordProtected={true}
-        /> */}
         <CaseStudyTile 
           to="/quicktools" 
           title="Quick tools" 
           role="Senior UX Designer @ Lucid Software"
           image={quicktoolshero}
+          isActive={true}
+          isPasswordProtected={true}
+        />
+        <CaseStudyTile 
+          // to="/weft" 
+          title="Weft" 
+          role="Researcher & Product Designer @ RISD / Brown -- coming soon!"
+          image={wefthero}
+          isActive={false}
           isPasswordProtected={true}
         />
         <CaseStudyTile 
@@ -42,6 +44,7 @@ const IndexPage = () => (
           title="Visual activities" 
           role="UX Designer II @ Lucid Software"
           image={vahero}
+          isActive={true}
           isPasswordProtected={true}
         />
         <CaseStudyTile 
@@ -49,6 +52,7 @@ const IndexPage = () => (
           title="Field Service Application" 
           role="Researcher & designer @ Microsoft Dynamics 365"
           image={fshero}
+          isActive={true}
           isPasswordProtected={true}
         />
         <CaseStudyTile 
@@ -56,6 +60,7 @@ const IndexPage = () => (
           title="Taking Flight" 
           role="3D animator @ Animation Research Labs, University of Washington"
           image={animhero}
+          isActive={true}
           isPasswordProtected={false}
         />
         {/* Add more CaseStudyTile components as needed */}

@@ -11,9 +11,9 @@ const Misc = () => {
         <div className="base-page">
           <div className="base-page-intro">
             <div className="statictext">
-              <h1>Vishaka's skillset includes</h1>
+              <h1>Vishaka often tinkers with</h1>
             </div>
-            <TypingAnimationNewPage />
+            <TypingAnimationNewPage/>
           </div>
           <div className="grid-section">
             <GridComponent />
