@@ -228,7 +228,7 @@ header {
 .tile-description {
     display: flex;
     align-items: center; /* Ensures vertical alignment */
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .tile-description-element:nth-child(1),
@@ -399,58 +399,36 @@ img {
   }
 
 
-/*grid component styling */
+ /* grid on misc page */ 
 
 .grid-section {
     width: 100%;
 }
 
 .grid-container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr); /* Create a 3x3 grid */
-    gap: 2em; /* Adjust the gap between images */
-    height: 100%;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
+  gap: 3em;
 }
-  
-  .grid-item {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 3 / 2;
-    overflow: hidden; /* Ensure content doesn't overflow */
-}
-  
-  .grid-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
 
-  }
-  
-  .grid-item:hover .overlay {
-    opacity: 1;
-  }
-  
-  .overlay-text {
-    color: white;
-    text-align: center;
-  }
+.grid-item {
+  display: flex;
+  flex-direction: column; /* Stacks text above the image */
+  align-items: left;
+}
+
+.overlay-text {
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 0.5em; /* Adds space between text and image */
+  color: #333; /* Set color to contrast with the background */
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px; /* Optional styling */
+  aspect-ratio: 3 / 2;
+}

@@ -3,11 +3,14 @@ import React, { useEffect } from "react";
 const TypingAnimationMisc = () => {
   const words = [
     "3d animation.",
-    "participatory design.",
+    "industrial design.",
     "rapid prototyping.",
     "product sketching.",
     "motion design.",
-    "user research studies.",
+    "human-ai collaboration.",
+    "computer vision.",
+    "physical computing.",
+    "sustainable materials.",
     // Add more project descriptions as needed
   ];
 
