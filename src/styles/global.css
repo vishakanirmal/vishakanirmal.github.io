@@ -432,3 +432,29 @@ img {
   border-radius: 4px; /* Optional styling */
   aspect-ratio: 3 / 2;
 }
+
+.tools-section {
+  padding: 2em;
+  padding-top: 4em;
+  width: 100%;
+}
+
+.tools-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.tools-table thead th {
+  border-bottom: 0px solid #ddd;
+  font-weight: bold;
+}
+
+.tools-table tbody td {
+  font-style: italic;
+  font-weight: light;
+  color: #333;
+  width:18%;
+}
