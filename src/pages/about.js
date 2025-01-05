@@ -12,7 +12,7 @@ import TypingAnimationAbout from '../components/TypingAnimationAbout';
 
 // Tool categories and their respective tools
 const tools = {
-  'Research/Synthesis': ['UserResearch', 'Optimal Workshop', 'Maze', 'Lucid', 'Mural', 'Miro'],
+  'Research/Synthesis': ['UserResearch.com', 'Optimal Workshop', 'Maze', 'Lucid', 'Mural', 'Miro'],
   '2D': ['Illustrator', 'Photoshop', 'Figma', 'Sketch'],
   '3D': ['Fusion', 'Blender', 'Unity', 'Rhino', 'Maya'],
   'Fabrication': ['Laser Cutter', '3D Printing', 'CNC', 'Sewing', 'Embroidery'],
@@ -40,7 +40,7 @@ const AboutPage = () => {
                 I am a human-centered designer currently focused on crafting meaningful interactive experiences. My academic journey in Human-Centered Design & Engineering from the University of Washington, combined with my ongoing studies in Design Engineering at Brown University and the Rhode Island School of Design, equips me with a deep understanding of user needs and effective design.
               </p>
               <p>
-                With three years of experience as a UX Designer at Lucid Software and Microsoft Dynamics 365, I’ve had the opportunity to work on impactful projects. At Lucid, I designed Quick Tools and Visual Activities, enhancing user interactions and the functionality of our products. My role also involved refining core features to improve the overall user experience.
+                With four years of experience as a UX Designer at Lucid Software, and client projects with Dandelion chocolate and Microsoft Dynamics 365, I’ve had the opportunity to work on impactful projects. At Lucid, I designed Quick Tools and Visual Activities, enhancing user interactions and the functionality of our products. My role also involved refining core features to improve the overall user experience.
               </p>
               <p>
                 Looking ahead, I’m excited to explore interdisciplinary approaches to design, particularly in researching and creating hybrid digital-physical products. I’m passionate about pushing the boundaries of traditional design and creating innovative solutions that bridge the digital and physical worlds.

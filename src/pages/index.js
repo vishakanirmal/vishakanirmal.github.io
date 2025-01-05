@@ -34,7 +34,7 @@ const IndexPage = () => (
         <CaseStudyTile 
           // to="/weft" 
           title="Weft" 
-          role="Researcher & Product Designer @ RISD / Brown -- coming soon!"
+          role="Researcher & Product Designer @ RISD / Brown -- coming soon! [Accepted to ACM TEI 2025]"
           image={wefthero}
           isActive={false}
           isPasswordProtected={true}
