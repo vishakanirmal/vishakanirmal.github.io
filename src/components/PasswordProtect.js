@@ -5,7 +5,7 @@ const PasswordProtect = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [password, setPassword] = useState("");
 
-  const correctPassword = "olive"; // Set your password here
+  const correctPassword = "green"; // Set your password here
 
   useEffect(() => {
     // Check if the user is already authenticated by looking at localStorage
