@@ -5,13 +5,12 @@ title: "Quick tools"
 isPasswordProtected: true
 password: olive
 ---
-> Building an infinite canvas toolkit for Lucid's smart templates. 
 ![Hero image of quick tools](../src/images/quicktools/hero.png)
+> The newest canvas widgets for Lucid's smart templates. 
 
-## Background 
-> Starting with a blank canvas can be daunting
+## Context 
 
-Lucid had a robust library of canvas templates, from mind maps to cloud architecture diagrams. My task was to enhance Lucid’s smart template capabilities, enabling users to quickly leverage the tool’s features directly from these templates.
+This project was done for Lucid Software. Throughout this work, I helped to lead the strategic and design work for this project. Initiating from my team's winning hackathon project, this work launched to all Lucid users in May 2024. Although most of the details of my work is under an NDA, you can read an overview of my work below. 
 
 | Time     | Tools     | Design team      |
 |:---------|:----------|:----------|

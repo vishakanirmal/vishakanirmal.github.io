@@ -2,11 +2,12 @@ import React from "react"
 //import { Link } from "gatsby"
 import Layout from '../components/layout'
 import CaseStudyTile from "../components/CaseStudyTile"
-import quicktoolshero from "../images/quicktools/hero.png"
-import vahero from "../images/visualactivities/hero.png"
-import fshero from "../images/fieldservice/hero.png"
-import animhero from "../images/animation/hero.png"
-import wefthero from "../images/weft/hero.png"
+import quicktoolshero from "../images/quicktools/newhero.png"
+import vahero from "../images/lucidhero.gif"
+import fshero from "../images/fieldservice/heronew.png"
+import animhero from "../images/animation/newhero.png"
+import wefthero from "../images/weft/newhero.png"
+import terrahero from "../images/terra/terrahero.png"
 import TypingAnimation from "../components/TypingAnimation";
 
 const IndexPage = () => (
@@ -16,13 +17,19 @@ const IndexPage = () => (
         <div className="statictext">
           <h1>Vishaka is</h1>
         </div>
-        <div className="typer">
-          <h1>
-            <TypingAnimation/>
-          </h1>
-        </div>
+          <div>
+            <TypingAnimation />
+          </div>
       </div>
       <div className="projects">
+        <CaseStudyTile 
+          to="/weft" 
+          title="Weft Furniture" 
+          role="Researcher & Product Designer @ RISD / Brown"
+          image={wefthero}
+          isActive={true}
+          isPasswordProtected={false}
+        />
         <CaseStudyTile 
           to="/quicktools" 
           title="Quick tools" 
@@ -32,21 +39,21 @@ const IndexPage = () => (
           isPasswordProtected={true}
         />
         <CaseStudyTile 
-          // to="/weft" 
-          title="Weft" 
-          role="Researcher & Product Designer @ RISD / Brown -- coming soon! [Accepted to ACM TEI 2025]"
-          image={wefthero}
-          isActive={false}
-          isPasswordProtected={true}
+          to="/terra" 
+          title="Terra" 
+          role="Researcher & Product Designer @ RISD / Brown"
+          image={terrahero}
+          isActive={true}
+          isPasswordProtected={false}
         />
-        <CaseStudyTile 
+        {/* <CaseStudyTile 
           to="/visualactivities" 
           title="Visual activities" 
           role="UX Designer II @ Lucid Software"
           image={vahero}
           isActive={true}
           isPasswordProtected={true}
-        />
+        /> */}
         <CaseStudyTile 
           to="/fieldserviceapp" 
           title="Field Service Application" 
