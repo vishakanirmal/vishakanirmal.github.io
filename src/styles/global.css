@@ -1,186 +1,186 @@
 /* Set a global font style and size */
 body {
-    font-family: 'Karla', sans-serif;
-    font-size: 16px;
-    line-height: 1.4em;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
-  
+
 /* Headings */
 h1, h2, h3 {
-    font-family: 'Karla', sans-serif;
-    color: #000000;
-    line-height: 1.4em;
-    padding: 0;
-    margin: 0;
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  line-height: 1.4em;
+  padding: 0;
+  margin: 0;
 }
-  
+
 h1 {
-    font-size: 1.4em;
-  }
-  
+  font-size: 1.4em;
+}
+
 h2 {
-    font-size: 1em;
-    text-transform: uppercase;
-  }
-  
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
 h3 {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 blockquote {
-    font-size: 1.75em;
-    line-height: normal;
-    margin: 0em;
+  font-size: 1.75em;
+  line-height: normal;
+  margin: 0em;
 }
 
 
 /* Links */
 a {
-    color: #77C875;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px; /* Adjust the thickness */
-    text-underline-offset: 6px; /* Adjust this value to move the underline further below */
+  color: #77C875;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  }
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Adjust the thickness */
+  text-underline-offset: 6px; /* Adjust this value to move the underline further below */
+
+}
 
 a.active {
-    text-decoration: underline;
-    text-decoration-thickness: 2px; /* Adjust the thickness */
-    text-underline-offset: 6px; /* Adjust this value to move the underline further below */
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Adjust the thickness */
+  text-underline-offset: 6px; /* Adjust this value to move the underline further below */
 
 }
 
 /* button */
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #77C875;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #77C875;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #2e8b57;
+  background-color: #2e8b57;
 }
-  
+
 footer {
-    padding: 20px; /* Adjust the padding as needed */
-    color: #747474; /* Text color */
-    display: flex;
-    justify-content: space-evenly;
-    text-transform: uppercase;
+  padding: 20px; /* Adjust the padding as needed */
+  color: #747474; /* Text color */
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
 
 }
 
 header {
-    width: 100vw; /* Ensure it takes up the full width of the page */
-    position: fixed; /* Make it sticky */
-    top: 0;
-    left: 0;
-    background-color: #fff; /* Or whatever background color you want */
-    z-index: 1000; /* Ensure it stays on top of other content */
-    /*margin: 0 auto;  Center the content */
-    padding: 2em; /* Add padding as needed */
-    display: flex;
-    justify-content: left;
-    gap: 6em;
-    text-transform: uppercase;
+  width: 100vw; /* Ensure it takes up the full width of the page */
+  position: fixed; /* Make it sticky */
+  top: 0;
+  left: 0;
+  background-color: #fff; /* Or whatever background color you want */
+  z-index: 1000; /* Ensure it stays on top of other content */
+  /*margin: 0 auto;  Center the content */
+  padding: 2em; /* Add padding as needed */
+  display: flex;
+  justify-content: left;
+  gap: 6em;
+  text-transform: uppercase;
 }
 
 /* landing/about page styling */
 .base-page {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 2em 2em;
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    flex-direction: column; /* Stacks elements vertically */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em 2em;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column; /* Stacks elements vertically */
 }
 
 .base-page-intro {
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers content vertically */
-    /* align-items: flex-start; Aligns text to the left */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  /* align-items: flex-start; Aligns text to the left */
 }
 
 .statictext {
-  text-align: left;
-  display: inline-block;
-  align-items: center;
+text-align: left;
+display: inline-block;
+align-items: center;
 }
 
 .typer {
-  display: block;
-  text-align: left;
-  height: 1.4em;
-  align-items: center;
-  width: 100%; /* or a fixed width like 500px */
+display: block;
+text-align: left;
+height: 1.4em;
+align-items: center;
+width: 100%; /* or a fixed width like 500px */
 }
 
 .external-links {
-    display: flex;
-    flex-direction: column;
-    gap:1em;
-    padding-top: 4em;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  padding-top: 4em;
+  width: 100%;
 
 }
 .aboutinfo {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Space between image and text */
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between image and text */
 
 }
 
 
 
 .about-image {
-    width: 30vw; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    flex-shrink: 0; /* Prevent the image from shrinking */
-    border-radius: 0px; /* Optional: Add some rounded corners */
+  width: 30vw; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  border-radius: 0px; /* Optional: Add some rounded corners */
 }
 
 .about-page-content {
-    text-align: left;
-    width: 100%;
-}
-
-.logo-section {
-  padding: 2em;
+  text-align: left;
   width: 100%;
 }
 
+.logo-section {
+padding: 2em;
+width: 100%;
+}
+
 .logo-container {
-  display: flex;
-  justify-content: space-around; /* Distribute space evenly between logos */
-  flex-wrap: wrap; /* Allows wrapping if there are too many logos */
-  padding: 3em 0em;
+display: flex;
+justify-content: space-around; /* Distribute space evenly between logos */
+flex-wrap: wrap; /* Allows wrapping if there are too many logos */
+padding: 3em 0em;
 }
 
 .logo-container img {
-  height: 4em; /* Adjust the size of the logos */
-  width: auto; /* Maintain aspect ratio */
-  filter: grayscale(100);
-  padding: 1em;
+height: 4em; /* Adjust the size of the logos */
+width: auto; /* Maintain aspect ratio */
+filter: grayscale(100);
+padding: 1em;
 }
 
 
@@ -188,159 +188,159 @@ header {
 
 /*project tiles styling on home page*/
 .projects {
-    display: flex;
-    flex-direction: column;
-    gap: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
 
 }
 
 /* case study tile */
 .case-study-tile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .case-study-image-wrapper {
-  overflow: hidden; /* Hide overflowing parts of the image */
-  display: block;
-  position: relative; /* Establish a positioning context */
+overflow: hidden; /* Hide overflowing parts of the image */
+display: block;
+position: relative; /* Establish a positioning context */
 }
 
 .case-study-image {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease-in-out;
-  display: block; /* Ensure it takes up the container properly */
-  overflow: hidden;
+width: 100%;
+height: auto;
+transition: transform 0.3s ease-in-out;
+display: block; /* Ensure it takes up the container properly */
+overflow: hidden;
 }
 
 .case-study-image-wrapper {
-  display: flex; /* Apply flexbox to center content */
-  align-items: baseline; /* Vertically center the image */
-  justify-content: center; /* Horizontally center the image */
-  aspect-ratio: 20 / 9;
+display: flex; /* Apply flexbox to center content */
+align-items: baseline; /* Vertically center the image */
+justify-content: center; /* Horizontally center the image */
+aspect-ratio: 20 / 9;
 }
 
 .case-study-image-wrapper:hover .case-study-image {
-  transform: scale(1.01); /* Zoom the image on hover */
-  transform-origin: center; /* Ensure zoom effect is centered */
+transform: scale(1.01); /* Zoom the image on hover */
+transform-origin: center; /* Ensure zoom effect is centered */
 }
 
-  
+
 .tile-description {
-    display: flex;
-    align-items: center; /* Ensures vertical alignment */
-    width: 100%;
-    /*justify-content: space-between;*/
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  width: 100%;
+  /*justify-content: space-between;*/
 }
 
 .tile-description-element:nth-child(1),
 .tile-description-element:nth-child(2) {
-    margin: 0em 1em 0em 0em;
+  margin: 0em 1em 0em 0em;
 }
 
 .tile-description-element:nth-child(2) {
-    color: #747474;
-    font-weight: lighter;
+  color: #747474;
+  font-weight: lighter;
 }
 
 .tile-description-element:nth-child(3) {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 
 /* case study pages */
 .case-study-toc ul, /* Target unordered lists inside the TOC container */
 .case-study-toc ol { /* Target ordered lists inside the TOC container */
-  list-style-type: none; /* Removes bullet points */
-  padding: 0;
-  margin: 0em 2em;
-  display: flex; /* Makes the TOC horizontal */
-  align-items: center; /* Aligns items vertically in the center */
-  justify-content: center;
+list-style-type: none; /* Removes bullet points */
+padding: 0;
+margin: 0em 2em;
+display: flex; /* Makes the TOC horizontal */
+align-items: center; /* Aligns items vertically in the center */
+justify-content: center;
 }
 
 .case-study-toc li {
-  display: inline; /* Ensures each list item is inline */
-  font-size: .75em;
+display: inline; /* Ensures each list item is inline */
+font-size: .75em;
 }
 
 .case-study-toc a {
-  text-decoration: none; /* Removes underline from links */
-  text-transform: lowercase;
-  font-weight: 400;
-  color: #747474;
+text-decoration: none; /* Removes underline from links */
+text-transform: lowercase;
+font-weight: 400;
+color: #747474;
 }
 
 
 .case-study-toc li::after {
-    content: "-"; /* The line between the items */
-    margin: 0em .5em; /* Space around the line */
-    color: #747474;
-  }
-  
-  .case-study-toc li:last-child::after {
-    content: ""; /* Remove the line after the last item */
-  }
-  
+  content: "-"; /* The line between the items */
+  margin: 0em .5em; /* Space around the line */
+  color: #747474;
+}
+
+.case-study-toc li:last-child::after {
+  content: ""; /* Remove the line after the last item */
+}
+
 
 .case-study-toc {
-    position: sticky;
-    top: 5em;
-    z-index: 1000;
-    background-color: #F8F8F8;
-    padding: 1em 0;
-    overflow-y: auto; /* Adds a scrollbar if content overflows */
+  position: sticky;
+  top: 5em;
+  z-index: 1000;
+  background-color: #F8F8F8;
+  padding: 1em 0;
+  overflow-y: auto; /* Adds a scrollbar if content overflows */
 }
 
 .case-study-container {
-    padding-top: 6em;
-    max-width: 100%;
-  }
-  
-  .case-study-content-wrapper {
-    display: flex; /* Apply flexbox to center the content */
-    padding-top: 3em; /* Ensure content starts below the TOC */
-    width: 100%;
-    justify-content: center; /* Center content horizontally */
-    overflow: visible;
-  }
-  
-  .case-study-content {
-    max-width: 60%; /* Set maximum width for content */
-    width: 100%; /* Ensure content takes up full width of the wrapper */
-    overflow: visible;
-  }
+  padding-top: 6em;
+  max-width: 100%;
+}
+
+.case-study-content-wrapper {
+  display: flex; /* Apply flexbox to center the content */
+  padding-top: 3em; /* Ensure content starts below the TOC */
+  width: 100%;
+  justify-content: center; /* Center content horizontally */
+  overflow: visible;
+}
+
+.case-study-content {
+  max-width: 60%; /* Set maximum width for content */
+  width: 100%; /* Ensure content takes up full width of the wrapper */
+  overflow: visible;
+}
 
 /* General table styling */
 .case-study-content table {
-  width: 100%; /* Make the table take up the full width of its container */
-  border-collapse: collapse; /* Merge borders of adjacent cells */
-  margin: 2em 0; /* Add margin to separate from other content */
+width: 100%; /* Make the table take up the full width of its container */
+border-collapse: collapse; /* Merge borders of adjacent cells */
+margin: 2em 0; /* Add margin to separate from other content */
 }
 
 /* Style table headers */
- th {
-  color: #333; /* Darker text color */
-  font-weight: bold; /* Make text bold */
-  padding: .25 em 0em; /* Add padding to make the text more readable */
-  text-align: left; /* Align text to the left */
-  border-bottom: 1px solid #ddd; /* Add a bottom border to headers */
+th {
+color: #333; /* Darker text color */
+font-weight: bold; /* Make text bold */
+padding: .25 em 0em; /* Add padding to make the text more readable */
+text-align: left; /* Align text to the left */
+border-bottom: 1px solid #ddd; /* Add a bottom border to headers */
 }
 
 /* Style table rows */
 td {
-  padding: .25em 0em; /* Add padding to make the text more readable */
-  text-align: left; /* Align text to the left */
+padding: .25em 0em; /* Add padding to make the text more readable */
+text-align: left; /* Align text to the left */
 }
 
 .case-study-content h2 {
-  margin-top: 6em; /* Adjust this value as needed */
+margin-top: 6em; /* Adjust this value as needed */
 }
 
 .case-study-content .gatsby-resp-image-wrapper {
-  max-width: 100% !important; /* Override inline max-width */
+max-width: 100% !important; /* Override inline max-width */
 }
 
 
@@ -348,121 +348,121 @@ td {
 
 /* Responsive adjustments */
 @media (max-width: 900px) {
-  header {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    padding: 0.5em 0em; /* Further reduce padding */
-    gap: 1em;
-    position: fixed; /* Make it sticky */
-    top: 0;
-    left: 0;
-    }
-    .case-study-toc {
-        display: none;
-    }
+header {
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  padding: 0.5em 0em; /* Further reduce padding */
+  gap: 1em;
+  position: fixed; /* Make it sticky */
+  top: 0;
+  left: 0;
+  }
+  .case-study-toc {
+      display: none;
+  }
 
-    .case-study-content {
-        max-width: 100vw; /* Allows content to take up more space on smaller screens */
-        padding: 1em; /* Adjust padding for smaller screens */
-    }
+  .case-study-content {
+      max-width: 100vw; /* Allows content to take up more space on smaller screens */
+      padding: 1em; /* Adjust padding for smaller screens */
+  }
 }
 
 
 
 /* password pages */
 .passwordpage form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; 
-    flex-wrap: wrap;
-    gap: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  flex-wrap: wrap;
+  gap: 2em;
 }
 
 
 .passwordinput {
-    flex: 1;
-    width: 100%; /* Full width */
-    max-width: 400px; /* Max width for the input */
-    padding: .5em; /* Padding inside the input */
-    font-size: 1em; /* Font size */
-    font-family: 'Karla', sans-serif; /* Font family */
-    border: 2px solid #47b566; /* Border color */
-    border-radius: 5px; /* Rounded corners */
-    outline: none; /* Remove the default outline */
-    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
-    margin-right: 16px;
-    min-width: 200px;
+  flex: 1;
+  width: 100%; /* Full width */
+  max-width: 400px; /* Max width for the input */
+  padding: .5em; /* Padding inside the input */
+  font-size: 1em; /* Font size */
+  font-family: 'Karla', sans-serif; /* Font family */
+  border: 2px solid #47b566; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  outline: none; /* Remove the default outline */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+  margin-right: 16px;
+  min-width: 200px;
 }
 
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 10em; /* Adjust this value based on your header height */
+  scroll-behavior: smooth;
+  scroll-padding-top: 10em; /* Adjust this value based on your header height */
 }
 
 img {
-    max-width: 100%; /* Constrain images to a maximum width of 800px */
-    height: auto; /* Maintain aspect ratio */
-  }
+  max-width: 100%; /* Constrain images to a maximum width of 800px */
+  height: auto; /* Maintain aspect ratio */
+}
 
 
- /* grid on misc page */ 
+/* grid on misc page */ 
 
 .grid-section {
-    width: 100%;
+  width: 100%;
 }
 
 .grid-container {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
-  gap: 2em;
+display: grid;
+width: 100%;
+grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
+gap: 2em;
 }
 
 .grid-item {
-  display: flex;
-  flex-direction: column; /* Stacks text above the image */
-  align-items: left;
+display: flex;
+flex-direction: column; /* Stacks text above the image */
+align-items: left;
 }
 
 .overlay-text {
-  text-align: left;
-  font-style: italic;
-  margin-bottom: 0.5em; /* Adds space between text and image */
-  color: #333; /* Set color to contrast with the background */
+text-align: left;
+font-style: italic;
+margin-bottom: 0.5em; /* Adds space between text and image */
+color: #333; /* Set color to contrast with the background */
 }
 
 .grid-item img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 4px; /* Optional styling */
-  aspect-ratio: 3 / 2;
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 4px; /* Optional styling */
+aspect-ratio: 3 / 2;
 }
 
 .tools-section {
-  padding: 2em;
-  padding-top: 4em;
-  width: 100%;
+padding: 2em;
+padding-top: 4em;
+width: 100%;
 }
 
 .tools-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: left;
-  margin: 1rem 0;
-  font-size: 1rem;
+width: 100%;
+border-collapse: collapse;
+text-align: left;
+margin: 1rem 0;
+font-size: 1rem;
 }
 
 .tools-table thead th {
-  border-bottom: 0px solid #ddd;
-  font-weight: bold;
+border-bottom: 0px solid #ddd;
+font-weight: bold;
 }
 
 .tools-table tbody td {
-  font-style: italic;
-  font-weight: light;
-  color: #333;
-  width:18%;
+font-style: italic;
+font-weight: light;
+color: #333;
+width:18%;
 }
