@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
   
 h1 {
-    font-size: 1.25em;
+    font-size: 1.4em;
   }
   
 h2 {
@@ -48,13 +48,15 @@ a {
   
 a:hover {
     text-decoration: underline;
-    text-underline-offset: 4px; /* Adjust this value to move the underline further below */
+    text-decoration-thickness: 2px; /* Adjust the thickness */
+    text-underline-offset: 6px; /* Adjust this value to move the underline further below */
 
   }
 
 a.active {
     text-decoration: underline;
-    text-underline-offset: 4px; /* Adjust this value to move the underline further below */
+    text-decoration-thickness: 2px; /* Adjust the thickness */
+    text-underline-offset: 6px; /* Adjust this value to move the underline further below */
 
 }
 
@@ -91,20 +93,19 @@ header {
     left: 0;
     background-color: #fff; /* Or whatever background color you want */
     z-index: 1000; /* Ensure it stays on top of other content */
-    margin: 0 auto; /* Center the content */
-    padding: 2em 0em; /* Add padding as needed */
+    /*margin: 0 auto;  Center the content */
+    padding: 2em; /* Add padding as needed */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     gap: 6em;
     text-transform: uppercase;
 }
 
 /* landing/about page styling */
 .base-page {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 2rem 0em;
+    padding: 2em 2em;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
@@ -112,25 +113,26 @@ header {
 }
 
 .base-page-intro {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers content vertically */
-    align-items: flex-start; /* Aligns text to the left */
+    /* align-items: flex-start; Aligns text to the left */
 }
 
 .statictext {
-    text-align: left;
-    display: inline-block;
+  text-align: left;
+  display: inline-block;
+  align-items: center;
 }
 
 .typer {
-    display: block;
-    text-align: left;
-    height: 1.4em;
-    width: 100%; /* or a fixed width like 500px */
-
+  display: block;
+  text-align: left;
+  height: 1.4em;
+  align-items: center;
+  width: 100%; /* or a fixed width like 500px */
 }
 
 .external-links {
@@ -188,7 +190,7 @@ header {
 .projects {
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 4em;
 
 }
 
@@ -196,6 +198,7 @@ header {
 .case-study-tile {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .case-study-image-wrapper {
@@ -216,11 +219,11 @@ header {
   display: flex; /* Apply flexbox to center content */
   align-items: baseline; /* Vertically center the image */
   justify-content: center; /* Horizontally center the image */
-  aspect-ratio: 24 / 9;
+  aspect-ratio: 20 / 9;
 }
 
 .case-study-image-wrapper:hover .case-study-image {
-  transform: scale(1.03); /* Zoom the image on hover */
+  transform: scale(1.01); /* Zoom the image on hover */
   transform-origin: center; /* Ensure zoom effect is centered */
 }
 
@@ -228,6 +231,7 @@ header {
 .tile-description {
     display: flex;
     align-items: center; /* Ensures vertical alignment */
+    width: 100%;
     /*justify-content: space-between;*/
 }
 
@@ -244,6 +248,7 @@ header {
 .tile-description-element:nth-child(3) {
     margin-left: auto;
 }
+
 
 /* case study pages */
 .case-study-toc ul, /* Target unordered lists inside the TOC container */
@@ -299,11 +304,13 @@ header {
     padding-top: 3em; /* Ensure content starts below the TOC */
     width: 100%;
     justify-content: center; /* Center content horizontally */
+    overflow: visible;
   }
   
   .case-study-content {
-    max-width: 50%; /* Set maximum width for content */
+    max-width: 60%; /* Set maximum width for content */
     width: 100%; /* Ensure content takes up full width of the wrapper */
+    overflow: visible;
   }
 
 /* General table styling */
@@ -335,6 +342,7 @@ td {
 .case-study-content .gatsby-resp-image-wrapper {
   max-width: 100% !important; /* Override inline max-width */
 }
+
 
 
 
@@ -409,7 +417,7 @@ img {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
-  gap: 3em;
+  gap: 2em;
 }
 
 .grid-item {

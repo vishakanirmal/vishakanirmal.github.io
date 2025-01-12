@@ -22,7 +22,7 @@ const TypingAnimation = () => {
 
     shuffle(words);
 
-    let placeholder = document.getElementById("text");
+    let placeholder = document.getElementById("home-typer");
     let index = 0;
 
     function type(word) {
@@ -32,7 +32,7 @@ const TypingAnimation = () => {
         i++;
         if (i >= word.length) {
           clearInterval(writing);
-          setTimeout(erase, 2000);
+          setTimeout(erase, 3000);
         }
       }, 75);
     }
@@ -54,7 +54,9 @@ const TypingAnimation = () => {
     type(words[index]);
   }, []);
 
-  return <span id="text"></span>;
+  return (
+    <h1 id="home-typer" className="typer"></h1>
+  );
 };
 
 export default TypingAnimation;

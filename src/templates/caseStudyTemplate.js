@@ -12,9 +12,9 @@ export default function CaseStudyTemplate({ data }) {
     <div>
       <Header siteTitle="Vishaka Nirmal"/>
       <div className="case-study-container">
-        <aside className="case-study-toc">
+{/*         <aside className="case-study-toc">
           <div dangerouslySetInnerHTML={{ __html: tableOfContents }} />
-        </aside>
+        </aside> */}
         <div className="case-study-content-wrapper"> 
           <div className="case-study-content">
             <h1>{frontmatter.title}</h1>
