@@ -1,61 +1,91 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react"; 
 
 const TypingAnimation = () => {
+  const defaultText = {
+    base: "vishaka is a ",
+    designing: "designer",
+  };
+
+  const variations = [
+    {
+      base: " human-centered",
+    },
+    {
+      base: " highly collaborative",
+    },
+    {
+      base: " future-thinking",
+    },
+  ];
+
+  const [currentText, setCurrentText] = useState(defaultText);
+  const [index, setIndex] = useState(0);
+  const [variationText, setVariationText] = useState({
+    base: "",
+  });
+
+  // Helper function to type out variation text gradually
+  const typeText = (text, part, callback) => {
+    let i = 0;
+    const interval = setInterval(() => {
+      setVariationText((prev) => ({
+        ...prev,
+        [part]: prev[part] + text.charAt(i),
+      }));
+      i++;
+      if (i >= text.length) {
+        clearInterval(interval);
+        callback(); // Once typing is complete, call the callback to proceed
+      }
+    }, 75);
+  };
+
   useEffect(() => {
-    let words = [
-      "a human centered designer.",
-      "a design strategist.",
-      "a user researcher.",
-      "a user experience designer.",
-      "a design technologist.",
-      "a motion designer.",
-      "a human-factors designer."
-    ];
+    let typingTimeout;
 
-    // Shuffle the array of words
-    function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    }
+    // Function to animate the next variation text after a short delay
+    const animateText = () => {
+      setVariationText({
+        base: "",
+      }); // Reset the variation text
+      setCurrentText(defaultText); // Render default text immediately
 
-    shuffle(words);
+      setTimeout(() => {
+        typeText(variations[index].base, "base", () => {
+        });
+      }, 100); // Delay before starting the first line
+    };
 
-    let placeholder = document.getElementById("home-typer");
-    let index = 0;
+    typingTimeout = setTimeout(animateText, 500); // Initial delay before animation starts
 
-    function type(word) {
-      let i = 0;
-      let writing = setInterval(() => {
-        placeholder.innerHTML += word.charAt(i);
-        i++;
-        if (i >= word.length) {
-          clearInterval(writing);
-          setTimeout(erase, 3000);
-        }
-      }, 75);
-    }
+    return () => clearTimeout(typingTimeout);
+  }, [index]); // Trigger animation when index changes
 
-    function erase() {
-      let deleting = setInterval(() => {
-        placeholder.innerHTML = placeholder.innerHTML.slice(0, -1);
-        if (placeholder.innerHTML.length <= 0) {
-          clearInterval(deleting);
-          index++;
-          if (index >= words.length) {
-            index = 0;
-          }
-          type(words[index]);
-        }
-      }, 25);
-    }
-
-    type(words[index]);
-  }, []);
+  // Shuffle function to reset and switch to a new variation
+  const handleShuffle = () => {
+    setVariationText({
+      base: "",
+    }); // Reset variation text
+    setCurrentText(defaultText); // Reset to default text
+    setIndex((prevIndex) => (prevIndex + 1) % variations.length); // Cycle through variations
+  };
 
   return (
-    <h1 id="home-typer" className="typer"></h1>
+    <div>
+      {/* Render default text and variation text in separate spans */}
+      <h1>
+        <span className="statictext">{currentText.base}</span>
+      </h1>
+      <h1>
+        <span className="typer">{variationText.base}</span>
+      </h1>
+      <h1>
+        <span className="statictext">{currentText.designing}</span>
+      </h1>
+
+
+      <button onClick={handleShuffle}>remix</button>
+    </div>
   );
 };
 

@@ -72,7 +72,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
+              maxWidth: 1200,
               withWebp: true,
               tracedSVG: true,
             },
@@ -96,6 +96,10 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-static-images`,
+            options: {
+              // Add any options provided by the plugin
+              maxWidth: 1000, // Example for controlling width (if supported)
+            },
           },
         ],
       },
@@ -107,6 +111,7 @@ module.exports = {
       options: {
         fonts: [
           `Karla\:300,400,400i,700`,
+          'Spectral\:300,400,400i,700i'
         ],
         display: 'swap',
       },

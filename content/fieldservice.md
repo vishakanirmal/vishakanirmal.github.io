@@ -1,0 +1,22 @@
+---
+slug: "/fieldserviceapp"
+date: "2024-08-15"
+title: "Field Service Application"
+isPasswordProtected: false
+---
+
+## Microsoft's Field Service Application
+> Redesigning a mobile tool for field service technicians to enhance information management.
+| Setting    | Role   | Time  |
+|:-------------|:-------------|:--------------------|
+| University of Washington| Designer & Researcher| January 2021 - June 2021|
+|Microsoft Dynamics 365 | |
+
+![Hero image of field service app](../src/images/fieldservice/heronew.png)
+
+## About the work
+In this student capstone project, partnered with Microsoft Dynamics 365, we were tasked with redesigning the Field Service Application. Our goal was to **improve how field service technicians create, manage, and find resources**.
+
+Throughout this project, my student team and I worked directly with Microsoft to research, design, and handoff solutions for their team. The final deliverable included a proof of concept for a mobile-AR powered application to help technicians find and track information recorded at a jobsite. 
+
+**To learn more about this work with Microsoft, feel free to reach out to me.**

@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import { Link } from "gatsby";
 import PasswordProtect from "/src/components/PasswordProtect"; // Import PasswordProtect component
 import Header from "/src/components/header"; // Assuming you want to include the header
 
@@ -12,12 +13,10 @@ export default function CaseStudyTemplate({ data }) {
     <div>
       <Header siteTitle="Vishaka Nirmal"/>
       <div className="case-study-container">
-{/*         <aside className="case-study-toc">
-          <div dangerouslySetInnerHTML={{ __html: tableOfContents }} />
-        </aside> */}
-        <div className="case-study-content-wrapper"> 
+      <div className="case-study-content-wrapper"> 
+
           <div className="case-study-content">
-            <h1>{frontmatter.title}</h1>
+          <Link to="/work">← Back </Link>
             <div dangerouslySetInnerHTML={{ __html: html }} />
           </div>
         </div>

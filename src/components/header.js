@@ -3,9 +3,13 @@ import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header className="header">
-    <Link to="/" activeClassName="active">Case Studies 📗 </Link>
-    <Link to="/misc" activeClassName="active">Experiments 🧪 </Link>
-    <Link to="/about" activeClassName="active">About 🍵</Link>
+    <h1 className="vishaka">
+      <Link to="/">
+      Vishaka Nirmal
+      </Link></h1>
+    <Link to="/work" activeClassName="active">Work</Link>
+    <Link to="/misc" activeClassName="active">Play</Link>
+    <Link to="/about" activeClassName="active">About</Link>
   </header>
 )
 

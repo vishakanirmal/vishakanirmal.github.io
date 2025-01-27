@@ -12,7 +12,7 @@ import TypingAnimationAbout from '../components/TypingAnimationAbout';
 
 // Tool categories and their respective tools
 const tools = {
-  'Research/Synthesis': ['UserResearch.com', 'Optimal Workshop', 'Maze', 'Lucid', 'Mural', 'Miro'],
+  'Research': ['UserResearch.com', 'Optimal Workshop', 'Maze', 'Lucid', 'Mural', 'Miro'],
   '2D': ['Illustrator', 'Photoshop', 'Figma', 'Sketch'],
   '3D': ['Fusion', 'Blender', 'Unity', 'Rhino', 'Maya'],
   'Fabrication': ['Laser Cutter', '3D Printing', 'CNC', 'Sewing', 'Embroidery'],
@@ -25,29 +25,20 @@ const AboutPage = () => {
     <Layout>
       <main>
         <div className="base-page">
-          <div className="base-page-intro">
-            <div className="statictext">
-              <h1>Vishaka's fun facts:</h1>
-            </div>
-            <TypingAnimationAbout />
-          </div>
           <div className="aboutinfo">
             <div className="about-image">
               <img src={image} alt="A description of the image" className="about-image" />
             </div>
             <div>
               <p>
-                I am a human-centered designer currently focused on crafting meaningful interactive experiences. My academic journey in Human-Centered Design & Engineering from the University of Washington, combined with my ongoing studies in Design Engineering at Brown University and the Rhode Island School of Design, equips me with a deep understanding of user needs and effective design.
+              Hi! I’m Vishaka, a designer usually based out of Seattle, Washington. 
               </p>
               <p>
-                With four years of experience as a UX Designer at Lucid Software, and client projects with Dandelion chocolate and Microsoft Dynamics 365, I’ve had the opportunity to work on impactful projects. At Lucid, I designed Quick Tools and Visual Activities, enhancing user interactions and the functionality of our products. My role also involved refining core features to improve the overall user experience.
-              </p>
+              For as long as I can remember, I’ve always designed for people — ranging from organizing cabinets to help my family find things they need, to crafting individualized presents for birthdays/holidays.               </p>
               <p>
-                Looking ahead, I’m excited to explore interdisciplinary approaches to design, particularly in researching and creating hybrid digital-physical products. I’m passionate about pushing the boundaries of traditional design and creating innovative solutions that bridge the digital and physical worlds.
-              </p>
+              As I grew up, I was surrounded by a constant source of medical and aerospace terminology from my parent’s complex work environments. In navigating my career path, I knew that I wanted to blend my understanding of complex, technical fields with the simplicity of reorganizing cabinets for efficiency.               </p>
               <p>
-                Outside of work, you can find me enjoying a visit to a local tea house, experimenting with new creative hobbies, or taking a walk with my dog.
-              </p>
+              In the future, I want to continue designing for complex problems and technology, and making them as intuitive as reaching in a cabinet to find the thing you need most.               </p>
             </div>
           </div>
           <div className="tools-section">
