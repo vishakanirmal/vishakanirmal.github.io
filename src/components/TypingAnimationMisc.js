@@ -2,15 +2,9 @@ import React, { useEffect } from "react";
 
 const TypingAnimationMisc = () => {
   const words = [
-    "3d animation.",
-    "industrial design.",
-    "rapid prototyping.",
-    "product sketching.",
-    "motion design.",
-    "human-ai collaboration.",
-    "computer vision.",
-    "physical computing.",
-    "sustainable materials.",
+    "a strong collaborator.",
+    "an ambitious technologist.",
+    "an investigative researcher.",
     // Add more project descriptions as needed
   ];
 

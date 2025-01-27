@@ -4,20 +4,16 @@ import React, { useEffect } from 'react';
 const TypingAnimationAbout = () => {
   useEffect(() => {
     const words = [
-      "#1 she has double-jointed thumbs",
-      "#2 she is a native Seattlite, but doesn't drink coffee",
-      "#3 her favorite fish is salmon",
-      "#4 she is a die-hard dog lover", 
-      "#5 she began snowboarding during the pandemic",
-      "#6 she is the proud owner of an Animal Crossing themed switch",
-      "#7 she worked on an animated film about squirrels",
-      "#8 she learned web development to make this website!",
-      "#9 her favorite movie is Meet the Robinsons",
-      "#10 her most recent international trip was to Guatemala",
-      "#11 she has most recently binge watched Severance", 
-      "#12 she can fully understand Malayalam, but can't speak it",
-      "#13 she is obsessed with anything allergen-friendly",
-      "#14 she has a london fog every morning",
+      "And she is a native Seattlite, but doesn't drink coffee.",
+      "And she is a die-hard dog lover.", 
+      "And she's an amateur snowboarder (pandemic hobby).",
+      "And she is the proud owner of an Animal Crossing themed switch.",
+      "And she worked on an animated film about squirrels.",
+      "And she learned web development to make this website!",
+      "And her favorite movie is Meet the Robinsons.",
+      "And she has most recently binge watched Severance.", 
+      "And she is obsessed with anything allergen-friendly.",
+      "And she has a london fog every morning.",
     ];
 
     function shuffle(array) {

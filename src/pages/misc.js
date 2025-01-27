@@ -9,12 +9,12 @@ const Misc = () => {
     <Layout>
       <main>
         <div className="base-page">
-          <div className="base-page-intro">
+          {/* <div className="base-page-intro">
             <div className="statictext">
               <h1>Vishaka often tinkers with</h1>
             </div>
             <TypingAnimationNewPage/>
-          </div>
+          </div> */}
           <div className="grid-section">
             <GridComponent />
           </div>
