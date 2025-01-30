@@ -23,22 +23,6 @@ const IndexPage = () => (
           isPasswordProtected={false}
         />
         <CaseStudyTile 
-          to="/dandelion"
-          title="Dandelion Chocolate" 
-          role="Designing experiences for building craft chocolate flavor profiles-- Coming soon!"
-          image={dandelion}
-          isActive={false}
-          isPasswordProtected={false}
-        /> 
-        <CaseStudyTile 
-          /*to="/terra" */
-          title="Terra" 
-          role="Crafting an AI-powered game device for tactile interactions and replayability-- Coming soon!"
-          image={terrahero}
-          isActive={false}
-          isPasswordProtected={false}
-        />
-        <CaseStudyTile 
           to="/lucid"
           title="Lucid Software" 
           role="Designing dynamic, on-canvas tools for virtual collaboration."
@@ -53,6 +37,22 @@ const IndexPage = () => (
           image={fshero}
           isActive={true}
           isPasswordProtected={true}
+        />
+        <CaseStudyTile 
+          /*to="/dandelion"*/
+          title="Dandelion Chocolate" 
+          role="Designing experiences for building craft chocolate flavor profiles-- Coming soon!"
+          image={dandelion}
+          isActive={false}
+          isPasswordProtected={false}
+        /> 
+        <CaseStudyTile 
+          /*to="/terra" */
+          title="Terra" 
+          role="Crafting an AI-powered game device for tactile interactions and replayability-- Coming soon!"
+          image={terrahero}
+          isActive={false}
+          isPasswordProtected={false}
         />
         {/* 
         <CaseStudyTile 

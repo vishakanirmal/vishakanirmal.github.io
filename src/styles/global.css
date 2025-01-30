@@ -341,7 +341,7 @@ header {
   width: 100%;
   flex-direction: column; /* Stack items vertically */
   align-items: left; /* Center items horizontally */
-  padding: .25; /* Further reduce padding */
+  padding: 1em 0em .25em 0em; /* Further reduce padding */
   gap: .25em;
   position: fixed; /* Make it sticky */
   top: 0;
@@ -352,7 +352,7 @@ header {
   .base-page {
     max-width: 80%;
     margin: 0 auto;
-    padding: 10em 1em 0em 1em;
+    padding: 14em 0em 5em 0em;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
@@ -361,8 +361,15 @@ header {
 
 
   .case-study-content {
-      max-width: 80%; /* Allows content to take up more space on smaller screens */
-      padding: 10em 1em 0em 1em;
+      max-width: 90%; /* Allows content to take up more space on smaller screens */
+      padding: 10em 0em 0em 0em;
+    }
+
+  .grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr) !important; /* Adjust number of columns as needed */
+    gap: 2em;
     }
 }
 
