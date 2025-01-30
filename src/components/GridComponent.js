@@ -6,7 +6,7 @@ import laser from "../images/playground/laser.gif";
 import shapes from "../images/playground/shapesinuse.gif";
 import zoomy from "../images/playground/zoomytunez.gif";
 import id from "../images/playground/id.png";
-import weather from "../images/playground/physical computing-2.png";
+import weather from "../images/playground/weather.gif";
 import fruit from "../images/playground/physical computing.png";
 import dog from "../images/playground/doghealth.png";
 import tactileUI from "../images/playground/table.gif";
@@ -16,7 +16,7 @@ import anim from "../images/animation/newhero.png"
 
 const GridComponent = () => {
   const projects = [
-    { id: 4, imageUrl: tactileUI, description: "Designed an interactive drawing tabletop utilizing object tracking computer vision and projection mapping." },
+    { id: 4, imageUrl: tactileUI, description: "Designed an interactive drawing tabletop utilizing object tracking, computer vision, and projection mapping." },
     { id: 1, imageUrl: anim, description: "Worked on story, modelling, and animation for 3D animated short film." },
     { id: 3, imageUrl: ai, description: "Drafted and designed a graphic novel in collaboration with AI." },
     { id: 6, imageUrl: id, description: "Designed and prototyped a dual measuring tape for midpoints." },

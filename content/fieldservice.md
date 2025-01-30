@@ -19,4 +19,4 @@ In this student capstone project, partnered with Microsoft Dynamics 365, we were
 
 Throughout this project, my student team and I worked directly with Microsoft to research, design, and handoff solutions for their team. The final deliverable included a proof of concept for a mobile-AR powered application to help technicians find and track information recorded at a jobsite. 
 
-**To learn more about this work with Microsoft, feel free to reach out to me.**
+**If you have the password from my resume, you can take a look at my case study of this project [here](/fieldserviceapp).**
