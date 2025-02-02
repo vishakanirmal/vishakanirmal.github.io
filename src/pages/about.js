@@ -1,24 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout';
 import '../styles/global.css';
-import image from '/src/images/profile.jpg';
-import uw from '/src/images/logos/uw.png';
-import brown from '/src/images/logos/brown.png';
-import risd from '/src/images/logos/risd.png';
-import lucid from '/src/images/logos/lucid.png';
-import microsoft from '/src/images/logos/microsoft.jpg';
-import metro from '/src/images/logos/metro.png';
-import TypingAnimationAbout from '../components/TypingAnimationAbout';
-
-// Tool categories and their respective tools
-const tools = {
-  'Research': ['UserResearch.com', 'Optimal Workshop', 'Maze', 'Lucid', 'Mural', 'Miro'],
-  '2D': ['Illustrator', 'Photoshop', 'Figma', 'Sketch'],
-  '3D': ['Fusion', 'Blender', 'Unity', 'Rhino', 'Maya'],
-  'Fabrication': ['Laser Cutter', '3D Printing', 'CNC', 'Sewing', 'Embroidery'],
-  'Code': ['HTML/CSS', 'Javascript', 'Java', 'Python', 'Processing', 'p5', 'SQL', 'R'],
-  'Other': ['Arduino', 'Raspberry Pi'],
-};
+import image2 from '/src/images/about/uw.jpg';
+import image3 from '/src/images/about/allergycard.png';
 
 const AboutPage = () => {
   return (
@@ -26,54 +10,53 @@ const AboutPage = () => {
       <main>
         <div className="base-page">
           <div className="aboutinfo">
-            <div className="about-image">
-              <img src={image} alt="A description of the image" className="about-image" />
+          <h1>
+              Hi, I’m Vishaka. 
+          </h1>
+          <div className="about-image">
+             <img src={image2} alt="A description of the image" className="about-image" />
+          </div>
+          <div>
+              <h2>
+              Currently~
+              </h2>
+              <p>
+              I’m a masters student at Brown and RISD, focused on <b>designing interactions that weave digital technology into the tangible world.</b>                 
+              </p>
             </div>
             <div>
+              <h2>
+              The basic info:              
+              </h2>
               <p>
-              Hi! I’m Vishaka, a designer usually based out of Seattle, Washington. 
+              I spent 4 years working at Lucid Software, designing tools for virtual collaboration. Prior to this role, I completed my undergraduate degree at the University of Washington, in <b>Human Centered Design & Engineering</b>, with concentrations in <b>Human-Computer Interaction</b>, and <b>3D animation</b>.
+              Outside of this role, I have worked on client projects for Dandelion Chocolate, Microsoft, and King County Metro, where I worked on designing spatial and immersive experiences across a variety of contexts. 
+              </p>
+            </div>
+            <div>
+              <h2>
+              Why design?              
+              </h2>
+              <div className="about-image">
+                <img src={image3} alt="Designed allergy cards" className="about-image" />
+              </div>
+              <p>
+              I have a wide range of severe food allergies that shape my daily interactions. Whether it’s grocery shopping, dining out, traveling, or even picking out dog treats, I often encounter systems that weren’t designed with people like me in mind.
               </p>
               <p>
-              For as long as I can remember, I’ve always designed for people — ranging from organizing cabinets to help my family find things they need, to crafting individualized presents for birthdays/holidays.               </p>
-              <p>
-              As I grew up, I was surrounded by a constant source of medical and aerospace terminology from my parent’s complex work environments. In navigating my career path, I knew that I wanted to blend my understanding of complex, technical fields with the simplicity of reorganizing cabinets for efficiency.               </p>
-              <p>
-              In the future, I want to continue designing for complex problems and technology, and making them as intuitive as reaching in a cabinet to find the thing you need most.               </p>
+              Technology has been a tool that helps me bridge these gaps—making communication and tracking allergens just a little easier. But I know technology isn’t always seamlessly integrated into the real world. That’s why <b>I design for complex interactions, creating solutions that make navigating both digital and physical spaces more intuitive for everyone.</b>
+              </p>
             </div>
-          </div>
-          <div className="tools-section">
-            <h2>I work with a variety of toolkits, including:</h2>
-            <table className="tools-table">
-              <thead>
-                <tr>
-                  {Object.keys(tools).map((category) => (
-                    <th key={category}>{category}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {Array.from({ length: Math.max(...Object.values(tools).map((col) => col.length)) }).map((_, rowIndex) => (
-                  <tr key={rowIndex}>
-                    {Object.keys(tools).map((category) => (
-                      <td key={category}>
-                        {tools[category][rowIndex] || ''} {/* Handle uneven rows */}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="logo-section">
-            <h2>I've had the joy of working with:</h2>
-            <div className="logo-container">
-              <img src={uw} alt="University of Washington" />
-              <img src={brown} alt="Brown University" />
-              <img src={risd} alt="RISD" />
-              <img src={lucid} alt="Lucid Software" />
-              <img src={microsoft} alt="Microsoft" />
-              <img src={metro} alt="King County Metro" />
-              {/* Add more logos as needed */}
+            <div>
+              <h2>
+              Things not on my resume              
+              </h2>
+              <ul>
+                <li>I spent 3 years as a leadership mentor for high school students 🎒</li>
+                <li>My favorite movie is Meet the Robinsons 💡</li>
+                <li>I’ve spent years crafting the best london fog 🫖</li>
+                <li>My pandemic hobby was taking up snowboarding 🏂</li>
+              </ul>
             </div>
           </div>
         </div>

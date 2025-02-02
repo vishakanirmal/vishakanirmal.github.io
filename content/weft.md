@@ -94,9 +94,10 @@ The final product combines **customizable furniture** with a **digital narrative
 ![The final deliverables](../src/images/weft/Finaldeliverables.png)
 
 ## Future Work
-With this project, we got to a working prototype of our cabinet that was made entirely with textile scraps, equipped with a QR code to a digital prototype of it's story along the way. 
+This project was **accepted to the ACM Tangible and Embedded Interfaces conference, where my peers and I will be presenting this work in Bordeaux, France in March 2025.** Stay tuned for updates from this conference!
 
-In the future, we aim to continue working on a couple parts of this project, including:
-1. Adhesives: Transitioning from resin to bio-based alternatives (e.g., lignin-based adhesives).
-2. Material durability: Enhancing weather resistance and load capacity.
-3. Scalability: Personalizing digital stories for large-scale production.
+In terms of the project future, we aim to continue working on a couple parts of this work, including:
+1. Using alternative adhesives: We aim to transition from resin to bio-based alternatives (e.g., lignin-based adhesives).
+2. Testing material durability: How can we enhance weather resistance and load capacity?
+3. Managing system scalability: How could this personalization be brought to a larger scale production?
+

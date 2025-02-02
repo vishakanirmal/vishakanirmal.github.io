@@ -10,6 +10,10 @@ isPasswordProtected: false
 |:-------------|:-------------|:--------------------|
 | Lucid Software | User Experience Designer| June 2020 - March 2024|
 
+**If you have the password from my resume, you can take a look at my case studies for [Quick Tools](/quicktools) and [Visual Activities](/visualactivities).**
+
+Otherwise, scroll through the live versions of this work below:
+
 ![Hero image of work done at Lucid](../src/images/lucid/lucidhero.png)
 
 ## About the work
@@ -20,10 +24,6 @@ Throughout my time at Lucid I worked on a variety of teams, and was able to lead
 
 ## Selected projects
 This selection of projects showcases my journey at Lucid, starting as a UX intern in 2020 and culminating in my role as the youngest Senior UX Designer at the company. My most recent project, Quick Tools, involved leading 0→1 product development, transforming my winning 2023 hackathon concept into a fully launched feature set. I collaborated closely with Directors and C-Suite executives to bring this vision to life.
-
-**If you have the password from my resume, you can take a look at my case studies for [Quick Tools](/quicktools) and [Visual Activities](/visualactivities) here.**
-
-Otherwise, scroll through the live versions of this work below:
 
 ## [Quick tools](https://training.lucid.co/quick-tools/1954453), Senior UX Designer (2024)
 ![Quick tools](../src/images/quicktools/quickshapebank.gif)
