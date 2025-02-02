@@ -3,10 +3,9 @@ import "../styles/global.css";
 import ai from "../images/playground/ai.png";
 import cv from "../images/playground/drawing.gif";
 import laser from "../images/playground/laser.gif";
-import shapes from "../images/playground/shapesinuse.gif";
 import zoomy from "../images/playground/zoomytunez.gif";
 import id from "../images/playground/id.png";
-import weather from "../images/playground/weather.gif";
+import weather from "../images/playground/weather2.gif";
 import fruit from "../images/playground/physical computing.png";
 import dog from "../images/playground/doghealth.png";
 import tactileUI from "../images/playground/table.gif";
@@ -24,7 +23,6 @@ const GridComponent = () => {
     { id: 2, imageUrl: cv, description: "Developed a collaborative drawing interactive program using computer vision and body segmentation." },
     { id: 7, imageUrl: laser, description: "Design for a self erasing canvas tool." },
     { id: 8, imageUrl: fruit, description: "Developed a smart fruit bowl to track current and optimal fruit storage conditions." },
-    { id: 9, imageUrl: shapes, description: "Interaction design for a new, dynamic shape library that keeps track of your styled flowchart shapes." },
     { id: 10, imageUrl: zoomy, description: "Design and development for a running application that builds playlists based on your running patterns, using the Spotify API." },
     { id: 11, imageUrl: dog, description: "Designed UI for a centralized dog health tracking application." },
 

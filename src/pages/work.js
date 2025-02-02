@@ -14,14 +14,6 @@ const IndexPage = () => (
   <Layout>
     <div className="base-page">
       <div className="projects">
-      <CaseStudyTile 
-          to="/weft"
-          title="Weft Furniture" 
-          role="Developing a sustainable, interactive prototype for furniture longevity."
-          image={wefthero}
-          isActive={true}
-          isPasswordProtected={false}
-        />
         <CaseStudyTile 
           to="/lucid"
           title="Lucid Software" 
@@ -29,6 +21,14 @@ const IndexPage = () => (
           image={lucidhero}
           isActive={true}
           isPasswordProtected={true}
+        />
+        <CaseStudyTile 
+          to="/weft"
+          title="Weft Furniture" 
+          role="Developing a sustainable, interactive prototype for furniture longevity."
+          image={wefthero}
+          isActive={true}
+          isPasswordProtected={false}
         />
         <CaseStudyTile 
           to="/fieldservice" 
@@ -47,11 +47,11 @@ const IndexPage = () => (
           isPasswordProtected={false}
         /> 
         <CaseStudyTile 
-          /*to="/terra" */
+          to="/terra"
           title="Terra" 
-          role="Crafting an AI-powered game device for tactile interactions and replayability-- Coming soon!"
+          role="Crafting an AI-powered game device for tactile interactions and replayability"
           image={terrahero}
-          isActive={false}
+          isActive={true}
           isPasswordProtected={false}
         />
         {/* 
