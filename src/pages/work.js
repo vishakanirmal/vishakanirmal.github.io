@@ -7,7 +7,7 @@ import fshero from "../images/fieldservice/heronew.png"
 import wefthero from "../images/weft/newhero.png"
 import terrahero from "../images/terra/terrahero.png"
 import lucidhero from "../images/lucid/lucidhero.png"
-import dandelion from "../images/dandelion/dandelionhero.png"
+import dandelion from "../images/dandelion/hero.png"
 
 
 const IndexPage = () => (
@@ -15,9 +15,17 @@ const IndexPage = () => (
     <div className="base-page">
       <div className="projects">
         <CaseStudyTile 
+          to="/dandelion"
+          title="Dandelion Chocolate" 
+          role="Designing the tasting experiences for craft chocolate"
+          image={dandelion}
+          isActive={true}
+          isPasswordProtected={false}
+        /> 
+        <CaseStudyTile 
           to="/lucid"
           title="Lucid Software" 
-          role="Designing dynamic, on-canvas tools for virtual collaboration."
+          role="Crafting dynamic, on-canvas tools for virtual collaboration."
           image={lucidhero}
           isActive={true}
           isPasswordProtected={true}
@@ -39,17 +47,9 @@ const IndexPage = () => (
           isPasswordProtected={true}
         />
         <CaseStudyTile 
-          /*to="/dandelion"*/
-          title="Dandelion Chocolate" 
-          role="Designing experiences for building craft chocolate flavor profiles-- Coming soon!"
-          image={dandelion}
-          isActive={false}
-          isPasswordProtected={false}
-        /> 
-        <CaseStudyTile 
           to="/terra"
           title="Terra" 
-          role="Crafting an AI-powered game device for tactile interactions and replayability"
+          role="Creating an AI-powered game device for tactile interactions and replayability"
           image={terrahero}
           isActive={true}
           isPasswordProtected={false}

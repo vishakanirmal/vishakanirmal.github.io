@@ -7,16 +7,18 @@ isPasswordProtected: false
 
 ## Terra
 > Designing a game device for enhanced tactile interactions and replayability
-| Setting    | Role   | Time  |
-|:-------------|:-------------|:--------------------|
-| Brown + RISD | Researcher + Designer| October 2024 - December 2024|
 
 ![Hero image of Terra](../src/images/terra/terrahero.png)
+
+| Role   | Time  |
+|:-------------|:--------------------|
+| Researcher + Designer @Brown & RISD| October 2024 - December 2024 (3 months)|
+
 
 ## About the project
 This project aims to **combine tactile interaction with emerging technology** to create a dynamic and endlessly replayable game. 
 
-Terra caters to an adult audience, hoping to bridge the gap between displayed gaming consoles and tangible board games. We utilized a human-centered, iterative approach to our design process. The end result, Terra, is **an engaging hybrid game that can also serve as a display object.**
+Terra caters to an adult audience, hoping to bridge the gap between displayed gaming consoles and tangible board games. We utilized a human-centered, iterative approach to our design process. The end result, Terra, is **an engaging hybrid gaming system that can also serve as a display object.**
 
 ![Example of terra gameplay](../src/images/terra/terra.gif)
 
@@ -24,7 +26,7 @@ Terra caters to an adult audience, hoping to bridge the gap between displayed ga
 ## Context
 Games are a staple part of many households in the US, with both physical board games as well as digital gaming systems. Focused primarily on digital gaming, the **global gaming industry was estimated to generate $184.4 billion in 2022.** 
 
-However, in this wide industry of games, there is a curious **lack of successful hybrid physical-digital games.** The few well-known hybrid games, such as Bop It! or Keep Talking and Nobody Explodes, are quick trends within the gaming market, but quickly become repetitive and boring. Many of these hybrid games also boast brightly colored plastic enclosures, catering to a younger audience. 
+However, in this wide industry of games, there is a curious **lack of successful hybrid physical-digital games.** The few well-known hybrid games, such as Bop It! or Keep Talking and Nobody Explodes, are quick trends within the gaming market, but quickly become repetitive and boring. Many of these hybrid games also boast brightly colored plastic enclosures, catering to younger audiences. 
 
 ![Context of gaming industry](../src/images/terra/context.png)
 
@@ -36,21 +38,18 @@ For this project, I worked closely with Kayla Blalack, who has a mechanical engi
 - **Electronics prototyping** to create a tactile working circuit of our prototype
 
 
-| Design Team    | Tools   |
+| Team    | Toolkit   |
 |:-------------|:-------------|
-| Vishaka Nirmal | Figma        | 
-|  Kayla Blalack | Prusa        | 
-|            | Arduino  |
-|            |              | 
-
+| Vishaka Nirmal | Figma, fabrication, Arduino        | 
+|  Kayla Blalack |         | 
 
 ## Research
 Our primary research included both qualitative and quantitative data from an **observational study at two locations, informal surveys with 25 participants, and two in-depth user interviews.** 
 
 From this research, we saw that:
-- Memorable games create a sense of community within the group
+- Memorable games create a sense of community within the group.
 - The visual aesthetics of most games are often too vibrant to fit into household aesthetics, leading to them being stored away. 
-- Games that are highly replayable have a longer lifespan in gamer rotations
+- Games that are highly replayable have a longer lifespan in gamer rotations.
 
 
 Building upon our understanding of the hybrid gaming context and our primary research findings, we aligned on our driving view throughout our ideation: **people repeatedly reach for party games that create a sense of camaraderie through energizing challenges.**

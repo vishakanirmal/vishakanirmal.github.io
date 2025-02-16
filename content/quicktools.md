@@ -5,32 +5,36 @@ title: "Quick tools"
 isPasswordProtected: true
 password: olive
 ---
+## Quick tools
+> Designing the newest canvas widgets for Lucid's smart templates. 
+
 ![Hero image of quick tools](../src/images/quicktools/hero.png)
-> The newest canvas widgets for Lucid's smart templates. 
 
-## Context 
+| Role   | Time  |
+|:-------------|:--------------------|
+| Senior UX Designer @Lucid Software | July 2023 - July 2024 (1 year)|
 
-This project was done for Lucid Software. Throughout this work, I helped to lead the strategic and design work for this project. Initiating from my team's winning hackathon project, this work launched to all Lucid users in May 2024. Although most of the details of my work is under an NDA, you can read an overview of my work below. 
+## About the project 
+Quick tools was designed to be a new set of dynamic canvas widgets for Lucid Software's virtual canvas tools, including Lucidchart, Lucidspark, and Lucidscale. Throughout this work, I helped to lead the strategic and design work for this project. Initiating from my team's winning hackathon project, this work **launched to all Lucid users in June 2024.**
 
-| Time     | Tools     | Design team      |
-|:---------|:----------|:----------|
-| 6 months | Figma     | Vishaka Nirmal  |
-|          | Lucidspark |    |
-|          |   Maze        |      |
+## Why this project?
+Prior to this project, my hackathon team and I noticed how integral templates were to our users. We imagined the concept of having 'smart' templates, that would provide dynamic links and tools to everything you needed--at your fingertips. 
 
-## Concept
-> A winning hackathon project led to this game-changing feature.
-
-The concept for Quick Tools was born during Lucid’s 2023 hackathon, where my team and I developed the initial iterations of shape banks and action buttons. Our project won first place in the "Build to Delight" category.
-
-Post-hackathon, I led UX strategy, user research, and design for the Quick Tools feature, which officially launched to all Lucid users in June 2024.
+Quick Tools was then developed during Lucid’s 2023 hackathon, where my team and I created the initial iterations of shape banks and action buttons. **Our project won first place in the "Build to Delight" category.**
 
 ![Working on our hackathon booth](../src/images/quicktools/role.png)
 
-## Research
-> Although there was internal reception to this project, we needed to understand if this was valuable with our users.
+## My role
+| Team    | Toolkit   |
+|:-------------|:-------------|
+| Lead designer    | Figma, After Effects  | 
 
-During the hackathon, user research conducted by Erin Lilly quickly validated our idea. One product manager remarked that the tools “helped participants focus on content rather than learning how to use the tool.”
+My work for this project began during the hackathon, but afterwards, I led UX strategy, user research, and design for the Quick Tools feature.
+
+## Researching for whiteboard needs
+Although there was internal reception to this project, we needed to understand if this was valuable with our users.
+
+During the hackathon, user research conducted by Erin Lilly quickly validated our idea. One product manager remarked that the tools **“helped participants focus on content rather than learning how to use the tool.”**
 
 After the hackathon, I led continous user interviews with paid, free, and enterprise users at Lucid to understand their needs with smart templates. Our main findings were that:
 - New users found it hard to find the tools they need
@@ -38,36 +42,35 @@ After the hackathon, I led continous user interviews with paid, free, and enterp
 
 ![the original prototype](../src/images/quicktools/prototype.gif)
 
-## Strategy
-> I led a number of discussions to align our design, engineering, and product leaders and stakeholders.
-
+## Leading strategic conversations 
 Following our hackathon success, I led discussions with Product, UX, and Marketing leadership to secure investment in shape banks and quick actions. Using our research and internal testing, we demonstrated that these tools would:
 
 - Accelerate individual and team workflows.
 - Enhance discoverability of features on the canvas.
 - Enable facilitators to curate focused participation experiences.
 
+However, one of our larger questions with this project was:
+> Would creating these widgets be adding UI to the canvas? How would we define what this looks like?
+
+I worked closely with our design systems team to come up with a proposal for the look and feel of these new widgets, matching what our current canvas shapes looked like, while attempting to feel in the same family as our UI system components. 
+
 ![one of the many boards we used to develop our strategy](../src/images/quicktools/strategy.png)
 
-## Iteration
-> Through design iteration, my work defined the new problem space of UI on the canvas
-
+## Iterating designs
 With leadership buy-in, I collaborated with a new development team to further develop Quick Tools. Our objective was to increase template utilization by refining and expanding the tools.
 
 Working closely with my product manager, James Webb, we outlined our goals and roadmap. I created high-level concept mocks and detailed designs to transition Quick Tools from its hackathon state to a polished product.
 
 ![iterations of the designs](../src/images/quicktools/design.png)
 
-## Validation
-> With user interviews, observation sessions, and usability testing, we refined quick tools in an agile development cycle.
-
-Beyond initial hackathon research, I conducted three major research initiatives, including usability testing and participatory design exercises. 
+## Validation of the concept
+With user interviews, observation sessions, and usability testing, we refined quick tools in an agile development cycle. Beyond initial hackathon research, I conducted three major research initiatives, including usability testing and participatory design exercises. 
 
 In addition to formal studies, I regularly engaged with users through weekly calls to gather feedback and insights, which informed continuous improvements to the product.
 
 ![multiple of my research reports](../src/images/quicktools/research.png)
 
-## Final Designs
+## Final designs
 > Quick shape banks allow users to quickly add from a pre-built library of shapes, directly from the canvas. 
 
 Our research guided the development of widgets that allowed users to create and reuse shapes easily. We emphasized intuitive design, like stackable items in the shape bank and customizable shape banks for personalized use.
