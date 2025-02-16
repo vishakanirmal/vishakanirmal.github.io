@@ -7,7 +7,10 @@
 /**
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
-exports.onRenderBody = ({ setHtmlAttributes }) => {
-  setHtmlAttributes({ lang: `en` })
-}
+exports.onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
+  setHtmlAttributes({ lang: `en` });
 
+  setHeadComponents([
+    <link rel="icon" href="/favi.png" sizes="32x32" key="favicon" />
+  ]);
+};
