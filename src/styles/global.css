@@ -305,27 +305,40 @@ transform-origin: center; /* Ensure zoom effect is centered */
 
 /* General table styling */
 .case-study-content table {
-width: 90%; 
-border-collapse: collapse; /* Merge borders of adjacent cells */
-margin: 1.5em 0; /* Add margin to separate from other content */
+width:100w - .5em; 
+border-collapse: separate; 
+margin: 1.5em -.5em; /* Add margin to separate from other content */
+border-spacing: .5em 0em; /* Adjust this value for more/less spacing */
 }
 
 /* Style table headers */
 th {
-text-transform: uppercase;
-padding: .25em .5em; /* Add padding to make the text more readable */
-padding-left: 0 !important;
+color: #1e1e1e;
+font-family: 'Spectral', serif;
+font-size: 30px;
+line-height: 40px;
+letter-spacing:1.3px;
+font-weight: normal;
+padding: .5em;
+padding-bottom: .25em !important;
 text-align: left; /* Align text to the left */
-border-bottom: 1px solid #ddd; /* Add a bottom border to headers */
-color: #747474;
-font-size: 20px;
+border: 1px solid #ddd; /* Adds a border around each column */
+border-bottom: none; /* Only a bottom border */
 }
 
 /* Style table rows */
 td {
-  padding: .25em .5em; /* Add padding to make the text more readable */
-  padding-left: 0 !important;
+  padding: .25em .5em;
   text-align: left; /* Align text to the left */
+  border-left: 1px solid #ddd; /* Only a bottom border */
+  border-right: 1px solid #ddd; /* Only a bottom border */
+  border-bottom: none; /* Only a bottom border */
+  border-top: none; /* Remove top border to prevent double lines */
+}
+
+
+tr:last-child td {
+  border-bottom: 1px solid #ddd; /* Only a bottom border */
 }
 
 .case-study-content h2 {

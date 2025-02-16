@@ -6,15 +6,16 @@ isPasswordProtected: false
 ---
 ## Lucid Software
 > Helping distributed teams collaborate effectively on the virtual canvas.
-| Setting    | Role   | Time  |
-|:-------------|:-------------|:--------------------|
-| Lucid Software | User Experience Designer| June 2020 - March 2024|
+
+![Hero gif of work done at Lucid](../src/images/lucid/lucidhero.gif)
+
+| Role   | Time  |
+|:-------------|:--------------------|
+| User Experience Designer @Lucid Software| June 2020 - July 2024 (4 years)|
 
 **If you have the password from my resume, you can take a look at my case studies for [Quick Tools](/quicktools) and [Visual Activities](/visualactivities).**
 
-Otherwise, scroll through the live versions of this work below:
-
-![Hero image of work done at Lucid](../src/images/lucid/lucidhero.png)
+Otherwise, scroll through the live versions of this work below ↓
 
 ## About the work
 Distributed teams often turn to the virtual canvas as their collaboration environment, looking for tools to help them communicate, plan, and make decisions effectively. My work at Lucid focused on **understanding how teams work together in a virtual environment**, pinpointing needs and pain points throughout their collaborative efforts.
