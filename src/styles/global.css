@@ -88,6 +88,22 @@ a.active {
   text-decoration-style: dotted;
 }
 
+/* Default cursor for the body or specific elements */
+body {
+  cursor: url('/Regular.svg'), auto; /* Custom default cursor */
+}
+
+/* Custom cursor on hover for specific elements */
+button:hover, a:hover {
+  cursor: url('/Hover.svg'), pointer; /* Change cursor on hover */
+}
+
+/* Example for all links */
+a {
+  cursor: url('/Regular.svg'), pointer; /* Custom cursor for links */
+}
+
+
 
 
 /* button */
@@ -138,7 +154,7 @@ header {
 
 /* landing/about page styling */
 .base-page {
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   padding: 2em 2em;
   display: flex;
@@ -267,8 +283,8 @@ transition: transform 0.3s ease;
 }
 
 .case-study-image-wrapper:hover .case-study-image {
-transform: scale(1.03);
-transform-origin: center; /* Ensure zoom effect is centered */
+/* transform: scale(1.03);
+transform-origin: center; Ensure zoom effect is centered */
 }
 
 
@@ -299,7 +315,7 @@ transform-origin: center; /* Ensure zoom effect is centered */
 }
 
 .case-study-content {
-  max-width: 50%; /* Set maximum width for content */
+  max-width: 60%; /* Set maximum width for content */
   width: 100%; /* Ensure content takes up full width of the wrapper */
 }
 
