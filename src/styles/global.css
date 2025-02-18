@@ -90,18 +90,18 @@ a.active {
 
 /* Default cursor for the body or specific elements */
 body {
-  cursor: url('/Hover.svg'), auto; /* Custom default cursor */
+  cursor: url('/1.svg'), auto; /* Custom default cursor */
 }
 
 /* Custom cursor on hover for specific elements */
 button:hover, a:hover {
-  cursor: url('/Regular.svg'), pointer; /* Change cursor on hover */
+  cursor: url('/2.svg'), pointer; /* Change cursor on hover */
 
 }
  
 /* Example for all links */
 a {
-  cursor: url('/Hover.svg'), pointer; /* Custom cursor for links */
+  cursor: url('/1.svg'), pointer; /* Custom cursor for links */
 }
 
 
