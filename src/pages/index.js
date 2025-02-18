@@ -1,77 +1,80 @@
-import React, { useState, useEffect } from "react"
-import Layout from '../components/layout'
+import React, { useState } from "react"
+import Layout from "../components/layout"
 import { Link } from "gatsby"
-import TypingAnimationMisc from "../components/TypingAnimationMisc"
-import sketch1 from "/src/images/2.png"
-import sketch2 from "/src/images/1.png"
-import sketch3 from "/src/images/4.png"
-import sketch4 from "/src/images/5.png"
-import sketch5 from "/src/images/6.png"
-import sketch6 from "/src/images/3.png"
+import sketch1 from "/src/images/1.svg"
+import sketch2 from "/src/images/2.svg"
+import sketch3 from "/src/images/3.svg"
 
-const sketches = [
-  { src: sketch1, top: 20, left: 5 },
-  { src: sketch2, top: 15, left: 35 },
-  { src: sketch3, top: 20, left: 65 },
-  { src: sketch4, top: 55, left: 15 },
-  { src: sketch5, top: 60, left: 45 },
-  { src: sketch6, top: 55, left: 70 },
+const interactiveWords = [
+  { text: "intuitive experiences", color: "#E62A9E", sketch: sketch1, note: "I proudly take on the role of ‘explainer of rules’ for any new board game, finding ways to easily bring others into the new experience.", top: "35%", left: "20%" },
+  { text: "strong collaborator", color: "#3300FF", sketch: sketch2, note: "My very first collaborative project involved creating rube-goldberg  marble runs in my friend’s garage.", top: "75%", left: "40%" },
+  { text: "ambitious technologist", color: "#FF7D19", sketch: sketch3, note: "My first exploration into 3D tools was for a short film where I modeled and animated flying squirrels.", top: "45%", left: "70%" },
 ];
 
 const IndexPage = () => {
-  const [cursor, setCursor] = useState({ x: 0, y: 0 });
-  const [visibleSketches, setVisibleSketches] = useState({});
-
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setCursor({ x: e.clientX, y: e.clientY });
-
-      const updatedVisibility = {};
-      sketches.forEach((_, index) => {
-        const sketchX = (window.innerWidth * sketches[index].left) / 100;
-        const sketchY = (window.innerHeight * sketches[index].top) / 100;
-        const distance = Math.hypot(sketchX - e.clientX, sketchY - e.clientY);
-
-        updatedVisibility[index] = distance < 300; // Adjust radius for fade effect
-      });
-
-      setVisibleSketches(updatedVisibility);
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
+  const [hoveredWord, setHoveredWord] = useState(null);
 
   return (
     <Layout>
       <div className="base-page">
-        {/* Background Sketches */}
-        <div className="sketch-container">
-          {sketches.map((sketch, index) => (
-            <img
-              key={index}
-              src={sketch.src}
-              alt={`Sketch ${index + 1}`}
-              className={`sketch ${visibleSketches[index] ? "visible" : ""}`}
-              style={{
-                top: `${sketch.top}%`,
-                left: `${sketch.left}%`,
-              }}
-            />
-          ))}
-        </div>
+        {/* Background Sketch (Only one displayed at a time) */}
+        {hoveredWord && (
+          <img
+            src={hoveredWord.sketch}
+            alt="Sketch"
+            className="sketch-visible"
+            style={{ top: hoveredWord.top, left: hoveredWord.left }}
+          />
+        )}
 
         {/* Intro Content */}
-        <div className="base-page-intro">
-          <div className="statictext">
-            <h1>Vishaka is a human-centered designer who crafts intuitive experiences.</h1>
-            <h1>She's also a strong collaborator and ambitious technologist.</h1>
-            <Link to="/work"> Learn more about my work → </Link>
-          </div>
+        <div className="intro-content">
+          <h1>
+            Vishaka is a human-centered designer who crafts{" "}
+            <span
+              className="interactive-word"
+              style={{ "--hover-color": interactiveWords[0].color }}
+              onMouseEnter={() => setHoveredWord(interactiveWords[0])}
+              onMouseLeave={() => setHoveredWord(null)}
+            >
+              intuitive experiences
+              {hoveredWord === interactiveWords[0] && (
+                <span className="tooltip">{interactiveWords[0].note}</span>
+              )}
+            </span>
+          </h1>
+          <h1>
+            She's also a{" "}
+            <span
+              className="interactive-word"
+              style={{ "--hover-color": interactiveWords[1].color }}
+              onMouseEnter={() => setHoveredWord(interactiveWords[1])}
+              onMouseLeave={() => setHoveredWord(null)}
+            >
+              strong collaborator
+              {hoveredWord === interactiveWords[1] && (
+                <span className="tooltip">{interactiveWords[1].note}</span>
+              )}
+            </span>{" "}
+            and{" "}
+            <span
+              className="interactive-word"
+              style={{ "--hover-color": interactiveWords[2].color }}
+              onMouseEnter={() => setHoveredWord(interactiveWords[2])}
+              onMouseLeave={() => setHoveredWord(null)}
+            >
+              ambitious technologist
+              {hoveredWord === interactiveWords[2] && (
+                <span className="tooltip">{interactiveWords[2].note}</span>
+              )}
+            </span>
+            .
+          </h1>
+          <Link to="/work"> Learn more about my work → </Link>
         </div>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

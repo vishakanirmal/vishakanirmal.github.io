@@ -6,18 +6,21 @@ import Header from "/src/components/header"; // Assuming you want to include the
 
 export default function CaseStudyTemplate({ data }) {
   const { markdownRemark } = data;
-  const { frontmatter, html, tableOfContents } = markdownRemark;
-  const { isPasswordProtected, password } = frontmatter;
+  const { frontmatter, html } = markdownRemark;
+  const { isPasswordProtected, password, blockquoteColor } = frontmatter;
 
   const content = (
     <div>
-      <Header siteTitle="Vishaka Nirmal"/>
+      <Header siteTitle="Vishaka Nirmal" />
       <div className="case-study-container">
-      <div className="case-study-content-wrapper"> 
-
+        <div className="case-study-content-wrapper">
           <div className="case-study-content">
-          <Link to="/work">← Back </Link>
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <Link to="/work">← Back</Link>
+            <div
+              className="case-study-body"
+              style={{ "--blockquote-color": blockquoteColor }} // Pass color as a CSS variable
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
         </div>
       </div>
@@ -35,6 +38,7 @@ export default function CaseStudyTemplate({ data }) {
 }
 
 
+
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -43,6 +47,7 @@ export const query = graphql`
         title
         isPasswordProtected
         password
+        blockquoteColor # Fetch the color from frontmatter
       }
       tableOfContents
     }

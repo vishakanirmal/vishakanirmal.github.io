@@ -2,6 +2,7 @@
 slug: "/dandelion"
 date: "2025-1-27"
 title: "Dandelion"
+blockquoteColor: "#8B6747" # Add your hex color here
 isPasswordProtected: false
 ---
 

@@ -2,6 +2,7 @@
 slug: "/lcuid"
 date: "2025-01-26"
 title: "Lucid Software"
+blockquoteColor: "#3C41C2" # Add your hex color here
 isPasswordProtected: false
 ---
 ## Lucid Software

@@ -2,6 +2,7 @@
 slug: "/animationcapstone"
 date: "2024-08-15"
 title: "Animation capstone"
+blockquoteColor: "#FF5733" # Add your hex color here
 isPasswordProtected: false
 ---
 
