@@ -3,9 +3,11 @@ slug: "/fieldserviceapp"
 date: "2024-08-15"
 title: "Field Service Application"
 isPasswordProtected: true
+blockquoteColor: "#007aff" # Add your hex color here
 password: olive
 ---
 
+## Microsoft's Field Service Application
 > Redesigning a mobile tool for field service technicians to enhance information management.
 
 ![Hero image of field service app](../src/images/fieldservice/hero.png)

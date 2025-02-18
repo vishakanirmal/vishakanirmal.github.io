@@ -2,6 +2,7 @@
 slug: "/weft"
 date: "2024-08-15"
 title: "Weft Furniture"
+blockquoteColor: "#485D7D" # Add your hex color here
 isPasswordProtected: false
 ---
 ## Weft Furniture

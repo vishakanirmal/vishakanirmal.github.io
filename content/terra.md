@@ -2,6 +2,7 @@
 slug: "/terra"
 date: "2025-1-27"
 title: "Terra"
+blockquoteColor: "#117261" # Add your hex color here
 isPasswordProtected: false
 ---
 

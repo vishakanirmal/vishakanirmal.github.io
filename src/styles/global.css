@@ -90,17 +90,18 @@ a.active {
 
 /* Default cursor for the body or specific elements */
 body {
-  cursor: url('/Regular.svg'), auto; /* Custom default cursor */
+  cursor: url('/Hover.svg'), auto; /* Custom default cursor */
 }
 
 /* Custom cursor on hover for specific elements */
 button:hover, a:hover {
-  cursor: url('/Hover.svg'), pointer; /* Change cursor on hover */
-}
+  cursor: url('/Regular.svg'), pointer; /* Change cursor on hover */
 
+}
+ 
 /* Example for all links */
 a {
-  cursor: url('/Regular.svg'), pointer; /* Custom cursor for links */
+  cursor: url('/Hover.svg'), pointer; /* Custom cursor for links */
 }
 
 
@@ -133,12 +134,10 @@ footer {
 
 header {
   width: 92%; /* Ensure it takes up the full width of the page */
-   /* position: fixed;Make it sticky */
   top: 0;
   left: 0%;
   background-color: #f9f9f9; /* Or whatever background color you want */
   z-index: 1000; /* Ensure it stays on top of other content */
-  /*margin: 0 auto;  Center the content */
   padding: 4%; /* Add padding as needed */
   display: flex;
   justify-content: left;
@@ -154,48 +153,64 @@ header {
 
 /* landing/about page styling */
 .base-page {
-  max-width: 60%;
+  width: 92%; /* Ensure it takes up the full width of the page */
   margin: 0 auto;
   padding: 2em 2em;
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   flex-direction: column; /* Stacks elements vertically */
+  min-height: 60vh;
 }
 
-.base-page-intro {
+.intro-content {
+  align-items: center; /* Centers vertically */
+  width:60%;
   height: 60vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  /* align-items: flex-start; Aligns text to the left */
 }
 
-.statictext {
-text-align: left;
-display: block;
-flex-wrap: wrap;
-align-items: center;
+.interactive-word {
+  position: relative;
+  display: inline-block;
+  color: var(--hover-color);
+  transition: all 0.3s ease-in-out;
 }
 
-.statictext h1,
-.statictext h3 {
-  margin: 0;
-  display: inline-block; /* Makes them flow together */
+.interactive-word:hover {
+  background-color: var(--hover-color);
+  color: white;
+}
+
+/* Tooltip Style */
+.tooltip {
+  position: absolute;
+  width: 96% -2px;
+  top: 100%;
+  left: 0%;
+  background-color: white;
+  color: black;
+  padding: 2%;
+  font-family: 'Karla', sans-serif; /* Font family */
+  font-style: normal;
+  font-size: .5em;
+  border: 1px solid var(--hover-color); /* This ensures the border is visible */
+  text-wrap: wrap;
+  line-height: 28px;
+  opacity: 1;
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+/* Sketch Styling */
+.sketch-visible {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  opacity: .5;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1; /* Keeps it in the background */
 }
 
 
-.typer {
-display: inline;
-text-align: left;
-color: #77C875;
-align-items: center;
-width: 100%; /* or a fixed width like 500px */
-font-style: italic;
-font-size: 36px;
-height: 42px;
-}
 
 .external-links {
   display: flex;
@@ -206,6 +221,7 @@ height: 42px;
 
 }
 .aboutinfo {
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -240,7 +256,7 @@ padding: 3em 0em;
 
 .logo-container img {
 height: 4em; /* Adjust the size of the logos */
-width: auto; /* Maintain aspect ratio */
+width: auto; /* Maintain ratio */
 filter: grayscale(100);
 padding: 1em;
 }
@@ -249,57 +265,85 @@ padding: 1em;
 
 
 /*project tiles styling on home page*/
+/* Projects grid */
 .projects {
-  display: flex;
-  flex-direction: column;
-  gap: 4em;
-
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 0em; /* Adjust spacing as needed */
+  width: 100%;
+  max-width: 1200px; /* Optional: prevent overly wide layout */
+  margin: 0 auto; /* Center the grid */
 }
 
-/* case study tile */
+
 .case-study-tile {
-display: flex;
-flex-direction: column;
-align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+/* Image background */
 .case-study-image-wrapper {
-display: block;
-position: relative; /* Establish a positioning context */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .case-study-image {
-width: 100%;
-height: auto;
-transition: transform 0.3s ease-in-out;
-display: block; /* Ensure it takes up the container properly */
-}
-
-.case-study-image-wrapper {
-display: flex; /* Apply flexbox to center content */
-align-items: baseline; /* Vertically center the image */
-justify-content: center; /* Horizontally center the image */
-transition: transform 0.3s ease;
-}
-
-.case-study-image-wrapper:hover .case-study-image {
-/* transform: scale(1.03);
-transform-origin: center; Ensure zoom effect is centered */
-}
-
-
-.tile-description {
-  display: flex;
-  flex-direction: column;
-  align-items: left; /* Ensures vertical alignment */
   width: 100%;
-  padding-top: .5em;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
-.tile-description-element {
-  margin: 0;
-  padding: 0 !important;
+/* Hover effect: zoom-in */
+.case-study-tile:hover .case-study-image {
+  transform: scale(1.03);
 }
+
+/* Logo Styling */
+.case-study-logo {
+  position: absolute;
+  top: 5%;
+  width: 225px; /* Adjust size */
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.case-study-description {
+  position: absolute;
+  top: 0%;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust horizontal centering */
+  width: 90%; /* Adjust the width to give room for wrapping */
+  font-size: .75em;
+  text-align: center;
+  mix-blend-mode: difference;
+  color: white; /* Fallback color */
+  padding: 1em;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  word-wrap: break-word; /* Ensures long words break to the next line */
+}
+
+/* Show description, hide logo on hover */
+.case-study-tile:hover .case-study-logo {
+  opacity: 0;
+}
+
+.case-study-tile:hover .case-study-description {
+  opacity: 1;
+}
+
+
+
 
 
 /* case study pages */
@@ -318,6 +362,11 @@ transform-origin: center; Ensure zoom effect is centered */
   max-width: 60%; /* Set maximum width for content */
   width: 100%; /* Ensure content takes up full width of the wrapper */
 }
+
+.case-study-body blockquote {
+  color: var(--blockquote-color, black); /* Default to black if undefined */
+}
+
 
 /* General table styling */
 .case-study-content table {
@@ -401,7 +450,7 @@ header {
   }
 
   .base-page {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 14em 0em 5em 0em;
     display: flex;
@@ -416,11 +465,15 @@ header {
       padding: 10em 0em 0em 0em;
     }
 
+  .projects {
+    grid-template-columns: repeat(1, 1fr); /* Two equal columns */
+  }
+
   .grid-container {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(1, 1fr) !important; /* Adjust number of columns as needed */
-    gap: 2em;
+    gap: 0em;
     }
 }
 
@@ -465,22 +518,44 @@ img {
 
 /* grid on misc page */ 
 
-.grid-section {
-  width: 100%;
-}
-
 .grid-container {
-display: grid;
-width: 100%;
-grid-template-columns: repeat(2, 1fr); /* Adjust number of columns as needed */
-gap: 2em;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 0em; /* Adjust spacing */
 }
 
 .grid-item {
-display: flex;
-flex-direction: column; /* Stacks text above the image */
-align-items: left;
+  position: relative; /* Needed for absolute positioning of the overlay */
+  overflow: hidden;
 }
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background: rgba(54, 54, 54, 0.7); /* Semi-transparent black background */
+  color: white;
+  text-align: center;
+  font-size: .75em;
+  padding: 5%;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.grid-item:hover .overlay-text {
+  opacity: 1;
+  transform: translateY(0); /* Moves up into view */
+}
+
 
 
 

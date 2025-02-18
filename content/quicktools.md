@@ -2,10 +2,11 @@
 slug: "/quick tools"
 date: "2024-08-15"
 title: "Quick tools"
+blockquoteColor: "#3C41C2" # Add your hex color here
 isPasswordProtected: true
-password: olive
+password: green
 ---
-## Quick tools
+## Lucid Software's Quick Tools
 > Designing the newest canvas widgets for Lucid's smart templates. 
 
 ![Hero image of quick tools](../src/images/quicktools/hero.png)

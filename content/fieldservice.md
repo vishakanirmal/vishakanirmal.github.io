@@ -2,6 +2,7 @@
 slug: "/fieldserviceapp"
 date: "2024-08-15"
 title: "Field Service Application"
+blockquoteColor: "#007aff" # Add your hex color here
 isPasswordProtected: false
 ---
 
