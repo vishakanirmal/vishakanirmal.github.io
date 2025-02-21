@@ -2,7 +2,7 @@
 slug: "/dandelion"
 date: "2025-1-27"
 title: "Dandelion"
-blockquoteColor: "#8B6747" # Add your hex color here
+blockquoteColor: "#8B6747"
 isPasswordProtected: false
 ---
 
@@ -11,9 +11,20 @@ isPasswordProtected: false
 
 ![Hero image of dandelion chocolate](../src/images/dandelion/hero.png)
 
-| Role   | Time  |
-|:-------------|:--------------------|
-| Researcher & Designer @Dandelion Chocolate | January 2025 (3 weeks)|
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Role</div>
+        Researcher & Designer
+    </div>
+    <div class="info-block">
+        <div class="info-title">Setting</div>
+        Dandelion Chocolate
+    </div>
+    <div class="info-block">
+        <div class="info-title">Time</div>
+        January 2025 (3 weeks) 
+    </div>
+</div>
 
 ## About the project
 Dandelion Chocolate is a San Francisco-based chocolate company. Their specialty is craft and single-origin chocolate. During my time in the Brown/RISD Masters of Design Engineering program, I had the opportunity to work with on this client project. This project's design process encompassed stakeholder researcher, competitive analysis, concept ideation, prototyping, and handoff. 
@@ -29,17 +40,39 @@ The outcome was a **set of design recommendations presented to Dandelion Chocola
 >How could Dandelion enhance their tastings to provide a more meaningful flavor experience?
 
 ## My role
-| Team    | Toolkit   |
-|:-------------|:-------------|
-| Solo project    | Figma, physical fabrication, Blender       | 
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Team</div>
+        Solo project, with collaborator & stakeholder feedback
+    </div>
+    <div class="info-block">
+        <div class="info-title">Toolkit</div>
+        Figma, Physical fabrication, Blender
+    </div>
+</div>
 
 This project was completed as a client project through the Brown University @ Rhode Island School of Design Wintersession. Although I completed this project on my own, I worked alongside six other students working for Dandelion as they designed for retail pop ups, advent calendar, and factory uniform design. With this group, I was able to gather feedback from these collaborators as well as Dandelion stakeholders.  
 
 In this project, notable parts of my main design process included:
-- **Research & synthesis** to learn from the experts and customers at Dandelion
-- **Ideation** of spatial experience flows that could be augmented with the survey prototype
-- **Experience prototyping** to facilitate interactions in store/online
-- **Validation** through a simulated testing experience
+<div class="process-flow">
+  <div class="process-step">
+    <span class="process-title">Research</span>
+    <span class="process-desc">to learn from the experts and customers at Dandelion</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Ideation</span>
+    <span class="process-desc">of spatial experience flows that could be augmented with the survey prototype</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Prototyping</span>
+    <span class="process-desc">to facilitate interactions in store/online</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Validation</span>
+    <span class="process-desc">through a simulated testing experience</span>
+  </div>
+</div>
+
 
 ## Research into tasting experiences
 To fully grasp the client problem space, I held **two initial stakeholder interviews with Elaine from Dandelion.** In the first, I learned more about her experience with the problem, and in the second, we dove into specifics on how her survey worked and how it could be translated to other platforms. Additionally, I hosted **informal interviews with two classmates who were frequent customers** in San Francisco previously. 
@@ -49,15 +82,33 @@ Learning more about the curated tasting experience, I conducted a **competitive 
 ![Screenshot of research images/notes taken](../src/images/dandelion/Research.png)
 
 From my research, some notable touchpoints came out: 
-- **Information overload:** In stores, users have a lot of information to process when going through self-guided tasting experiences, which are often set up with upwards of 8 tasting possibilities 
-- **Valuable custom recommendations:** Online product surveys allow each company to tailor their product recommendations to each user
+
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">Too much information to process 😵‍💫</div>
+  In stores, users have a lot of information to process when going through self-guided tasting experiences, which are often set up with upwards of 8 tasting possibilities all at once.
+  </div>
+  <div class="info-block">
+   <div class="info-title">Valued custom recommendations 💌</div>
+  Overall, online product surveys allow each company to tailor their product recommendations to each user, and were viewed as a great way to match personal preferences with a product. 
+  </div>
+</div>
 
 Then, synthesizing these findings, I began to map out the current and potential future user flows.
 ![Current/future user flows](../src/images/dandelion/Synthesis.png)
 
 Overall, the improvements in the future user flow stemmed from these design requirements:
-1. Information overload → Enhance the informational experience of chocolate tastings to be easily digestible.
-2. Valuable custom recommendations → Allow Dandelion to gather and utilize flavor profile data for engaging customer data.
+
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">Too much information to process →</div>
+  One of my goals was to provide the informational experience in bite-size pieces for users.
+  </div>
+  <div class="info-block">
+   <div class="info-title">Valued custom recommendations →</div>
+  The other goal was to allow Dandelion to gather and utilize flavor valuable profile data, facilitating their engagement with customer data.
+  </div>
+</div>
 
 ## Ideating a range of concepts
 Based on the set user needs, I then began to sketch out concepts for improvements. My initial ideation took two forms, through hand-drawn sketches and wireframes. At this stage, I presented my initial ideas to other student collaborators, gathering feedback on concepts and design sensibilities. 

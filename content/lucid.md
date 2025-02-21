@@ -2,7 +2,7 @@
 slug: "/lcuid"
 date: "2025-01-26"
 title: "Lucid Software"
-blockquoteColor: "#3C41C2" # Add your hex color here
+blockquoteColor: "#3C41C2" 
 isPasswordProtected: false
 ---
 ## Lucid Software
@@ -10,9 +10,20 @@ isPasswordProtected: false
 
 ![Hero gif of work done at Lucid](../src/images/lucid/lucidhero.gif)
 
-| Role   | Time  |
-|:-------------|:--------------------|
-| User Experience Designer @Lucid Software| June 2020 - July 2024 (4 years)|
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Role</div>
+        User Experience Designer
+    </div>
+    <div class="info-block">
+        <div class="info-title">Setting</div>
+        Lucid Software
+    </div>
+    <div class="info-block">
+        <div class="info-title">Time</div>
+        June 2020 - July 2024 (4 years) 
+    </div>
+</div>
 
 **If you have the password from my resume, you can take a look at my case studies for [Quick Tools](/quicktools) and [Visual Activities](/visualactivities).**
 

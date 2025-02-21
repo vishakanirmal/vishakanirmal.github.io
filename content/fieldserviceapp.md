@@ -17,12 +17,16 @@ password: olive
 
 In this student capstone project, partnered with Microsoft Dynamics 365, we were tasked with redesigning the Field Service Application. Our goal was to improve how field service technicians create, manage, and find resources during their tasks, focusing on a tool that could enhance their workflow.
 
-| Team     | Tools |
-|:---------|:-----|
-|Vishaka Nirmal| Figma|  
-|Alli Hishikawa| Maze        |  
-|Avery Wolf| UserTesting |  
-|Kailey Terraciano|           |    
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Team</div>
+        Vishaka Nirmal, Alli Hishikawa, Avery Wolf, Kailey Terraciano
+    </div>
+    <div class="info-block">
+        <div class="info-title">Tools</div>
+        Figma, Maze, UserTesting.com
+    </div>
+</div>    
 
 ## Problem
 > Technician note-taking and resource management is inefficient.

@@ -1,0 +1,30 @@
+import React from "react"
+
+const DesignProcess = ({ steps }) => {
+  return (
+    <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
+      <h2 style={{ textAlign: "center", fontSize: "1.5rem", marginBottom: "20px" }}>
+        Design Process Overview
+      </h2>
+      <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+        {steps.map((step, index) => (
+          <div
+            key={index}
+            style={{
+              padding: "16px",
+              background: "#f9f9f9",
+              borderLeft: "5px solid #007bff",
+              boxShadow: "2px 2px 10px rgba(0,0,0,0.1)",
+              borderRadius: "5px",
+            }}
+          >
+            <h3 style={{ margin: "0 0 10px" }}>{step.title}</h3>
+            <p style={{ margin: 0 }}>{step.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default DesignProcess;

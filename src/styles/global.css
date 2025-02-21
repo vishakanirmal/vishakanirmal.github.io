@@ -410,6 +410,69 @@ tr:last-child td {
 margin-top: 2em; /* Adjust this value as needed */
 }
 
+.info-container {
+  display: flex;
+  gap: 1em; /* Adds space between notes */
+  justify-content: center; /* Centers them in the row */
+  flex-wrap: wrap; /* Ensures they wrap if the screen is small */
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.info-block {
+  background-color: #F3F3F3;
+  padding: 1.5em;
+  text-align: left;
+  flex: 1; /* Allows them to be flexible */
+  min-width: 150px; /* Ensures they don't shrink too much */
+  max-width: 500px; /* Optional: Prevents them from getting too large */
+}
+
+.info-title {
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+.process-flow {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 1em; /* Space between steps */
+  flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.process-step {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Stack title and description */
+  align-items: left;
+  text-align: left;
+  padding-right: .5em;
+  padding-left: .25em;
+  flex: 1 1 50px; /* Grow, shrink, and set a min width */
+}
+
+.process-step:first-child {
+  padding-left: 0px !important;
+}
+
+/* Styling for the title */
+.process-title {
+  font-weight: bold;
+}
+
+/* Styling for the description */
+.process-desc {
+  margin-top: .25em;
+  font-size: .75em;
+  line-height: 1.25em;
+}
+
+
 
 .sketch-container {
   position: absolute;
