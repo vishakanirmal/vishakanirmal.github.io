@@ -11,9 +11,20 @@ isPasswordProtected: false
 
 ![Hero image of Terra](../src/images/terra/terrahero.png)
 
-| Role   | Time  |
-|:-------------|:--------------------|
-| Researcher + Designer @Brown & RISD| October 2024 - December 2024 (3 months)|
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Role</div>
+        Researcher + Designer
+    </div>
+    <div class="info-block">
+        <div class="info-title">Setting</div>
+        Brown University & RISD (Rhode Island School of Design)
+    </div>
+    <div class="info-block">
+        <div class="info-title">Time</div>
+        October 2024 - December 2024 (3 months)
+    </div>
+</div>
 
 
 ## About the project
@@ -33,16 +44,36 @@ However, in this wide industry of games, there is a curious **lack of successful
 
 
 ## Role
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Team</div>
+        Vishaka Nirmal, Kayla Blalack
+    </div>
+    <div class="info-block">
+        <div class="info-title">Toolkit</div>
+        Figma, Physical fabrication, Arduino
+    </div>
+</div>
 For this project, I worked closely with Kayla Blalack, who has a mechanical engineering background. We collaborated closely on many parts of this project, though some of my notable contributions can be seen in:
-- **Research & synthesis** to understand user needs and flows
-- **AI experimentation** to craft for human-computer interactions
-- **Electronics prototyping** to create a tactile working circuit of our prototype
 
-
-| Team    | Toolkit   |
-|:-------------|:-------------|
-| Vishaka Nirmal | Figma, fabrication, Arduino        | 
-|  Kayla Blalack |         | 
+<div class="process-flow">
+  <div class="process-step">
+    <span class="process-title">Research</span>
+    <span class="process-desc">to understand user needs and flows within a gaming context</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Ideation</span>
+    <span class="process-desc">for the ergonomics of the physical game controller</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">AI Prototyping</span>
+    <span class="process-desc">to craft for human-computer interactions</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Form prototyping</span>
+    <span class="process-desc">to create a tactile working prototype</span>
+  </div>
+</div>
 
 ## Research
 Our primary research included both qualitative and quantitative data from an **observational study at two locations, informal surveys with 25 participants, and two in-depth user interviews.** 

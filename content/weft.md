@@ -10,9 +10,20 @@ isPasswordProtected: false
 
 ![Hero image of weft furniture](../src/images/weft/newhero.png)
 
-| Role   | Time  |
-|:-------------|:--------------------|
-| Researcher + Designer @Brown University & RISD | June 2024 - August 2024 (2 months)|
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Role</div>
+        Researcher & Designer
+    </div>
+    <div class="info-block">
+        <div class="info-title">Setting</div>
+        Brown University & RISD (Rhode Island School of Design)
+    </div>
+    <div class="info-block">
+        <div class="info-title">Time</div>
+        June 2024 - August 2024 (2 months)
+    </div>
+</div>
 
 ## About the project
 Weft Furniture was a project created during my time in the Brown/RISD Masters of Design Engineering program. This project involved a design process of market research, user studies, product ideation, and prototyping. 
@@ -25,27 +36,44 @@ This project will be presented at the **ACM Tangible and Embedded Information Co
 ## Why design with textiles & furniture?
 **11.3 million tons of textile waste and 12 million tons of furniture waste end up in U.S. landfills annually.** 
 
-Our team began our project looking into large-scale problems in the world we could tackle. We landed on fast fashion as our intitial target, learning about recent companies that use textile waste to create art installations, such as Fabbrick. We then began to explore the questions--
+Our team began our project looking into large-scale problems in the world we could tackle. We landed on fast fashion as our intitial target, learning about recent companies that use textile waste to create art installations, such as Fabbrick. We then began to explore the question--
 
->Could the combination of emotional connection and sustainability be a way to promote longer product lifespans?
+>How might the use of emotional connection promote longer product lifespans?
 
 ![Textile waste and fast furniture trends](../src/images/weft/Problem.png)
 
 
 ## My role
-| Team    | Toolkit   |
-|:-------------|:-------------|
-| Vishaka Nirmal| Figma, physical fabrication| 
-|  Eunjin Hong |         | 
-| Sarah Fletcher |   |
-| Bennett Graff |              | 
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Team</div>
+        Vishaka Nirmal, Eunjin Hong, Sarah Fletcher, Bennett Graff
+    </div>
+    <div class="info-block">
+        <div class="info-title">Toolkit</div>
+        Figma, Physical fabrication, Materials testing
+    </div>
+</div>
 
 The team went through the holistic research and design process together, but some of my notable contributions included:
-- **Research & synthesis** to understand user needs and flows
-- **Material prototyping** to create durable boards
-- **Experience prototyping** to facilitate user interactions with the product
-
-
+<div class="process-flow">
+  <div class="process-step">
+    <span class="process-title">Research</span>
+    <span class="process-desc">to understand user sustainability pains and sentimentality practices</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Ideation</span>
+    <span class="process-desc">to design how users might interact with new piece of furniture</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Material Prototyping</span>
+    <span class="process-desc">to create durable textile boards</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Experience prototyping</span>
+    <span class="process-desc">to create interactive prototypes used alongside the product</span>
+  </div>
+</div>
 
 ![Our team as we created textile boards](../src/images/weft/Role.png)
 
@@ -53,12 +81,30 @@ The team went through the holistic research and design process together, but som
 To understand sustainability attitudes, we surveyed **51 participants** and conducted **11 semi-structured interviews**. We focused our line of questioning onto how emotional connections might affect user perception on sustainable products.
 
 From our research, we saw that: 
-- The average self-rating for interest in sentimental products was 6.34/10 (1 being low interest, 10 being high)
-- Emotional connection stems from items that "memorialize cherished moments," such as familial belongings, or event-specific clothing.
 
-We then synthesized these findings, setting requirements for our design that would:
-1. **Foster emotional connections** by documenting the story behind the original materials. 
-2. **Encourage sustainable consumption** through durable, utility focused products. 
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">Sentimental-driven products 🧸</div>
+    The average self-rating for interest in sentimental products was 6.34/10 (1 being low interest, 10 being high).
+  </div>
+  <div class="info-block">
+   <div class="info-title">Emotions are tied to event specific items 💍</div>
+    Emotional connection stems from items that "memorialize cherished moments," such as familial belongings, or event-specific clothing.
+  </div>
+</div>
+
+Along with our original goals to design for sustainability, we then synthesized our research findings to set design requirements for our work:
+
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">Foster emotional connections</div>
+    By documenting the story behind the original materials. 
+  </div>
+  <div class="info-block">
+   <div class="info-title">Encourage sustainable consumption</div>
+    Through durable, utility focused products. 
+  </div>
+</div>
 
 ![A snippet of our research](../src/images/weft/Research.png)
 
