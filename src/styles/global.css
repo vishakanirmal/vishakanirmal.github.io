@@ -133,6 +133,7 @@ footer {
 }
 
 header {
+  height: 2em; /* Adjust as needed */
   width: 92%; /* Ensure it takes up the full width of the page */
   top: 0;
   left: 0%;
@@ -148,7 +149,8 @@ header {
 .vishaka {
   flex: 1;
   font-size: 22px !important;
-  line-height: 30px !important;
+  line-height: 44px !important;
+  align-self: baseline;
 }
 
 /* landing/about page styling */
