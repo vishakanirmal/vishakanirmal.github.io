@@ -51,7 +51,7 @@ The outcome was a **set of design recommendations presented to Dandelion Chocola
     </div>
 </div>
 
-This project was completed as a client project through the Brown University @ Rhode Island School of Design Wintersession. Although I completed this project on my own, I worked alongside six other students working for Dandelion as they designed for retail pop ups, advent calendar, and factory uniform design. With this group, I was able to gather feedback from these collaborators as well as Dandelion stakeholders.  
+This project was completed as a client project through the Brown University & Rhode Island School of Design Wintersession. Although I completed this project on my own, I worked alongside six other students working for Dandelion as they designed for retail pop ups, advent calendar, and factory uniform design. With this group, I was able to gather feedback from my student collaborators as well as relevant Dandelion stakeholders.  
 
 In this project, notable parts of my main design process included:
 <div class="process-flow">
