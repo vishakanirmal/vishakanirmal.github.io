@@ -1,8 +1,11 @@
 import React from 'react';
 import Layout from '../components/layout';
 import '../styles/global.css';
-import image2 from '/src/images/about/uw.jpg';
-import image3 from '/src/images/about/allergycard.png';
+import image2 from '/src/images/about/image.jpg';
+import image3 from '/src/images/about/aero.png';
+import image4 from '/src/images/about/lucid.png';
+import image5 from '/src/images/about/olive.jpeg';
+import Card from '../components/Card';
 
 const AboutPage = () => {
   return (
@@ -10,54 +13,31 @@ const AboutPage = () => {
       <main>
         <div className="base-page">
           <div className="aboutinfo">
-          <h1>
-              Hi, I’m Vishaka. 
-          </h1>
-          <div className="about-image">
-             <img src={image2} alt="A description of the image" className="about-image" />
-          </div>
-          <div>
-              <h2>
-              Currently~
-              </h2>
-              <p>
-              I’m a masters student at Brown and RISD, focused on <b>designing interactions that weave digital technology into the tangible world.</b>                 
-              </p>
-            </div>
-            <div>
-              <h2>
-              The basic info:              
-              </h2>
-              <p>
-              I spent 4 years working at Lucid Software, designing tools for virtual collaboration. Prior to this role, I completed my undergraduate degree at the University of Washington, in <b>Human Centered Design & Engineering</b>, with concentrations in <b>Human-Computer Interaction</b>, and <b>3D animation</b>.
-              Outside of this role, I have worked on client projects for Dandelion Chocolate, Microsoft, and King County Metro, where I worked on designing spatial and immersive experiences across a variety of contexts. 
-              </p>
-            </div>
-            <div>
-              <h2>
-              Why design?              
-              </h2>
-              <div className="about-image">
-                <img src={image3} alt="Designed allergy cards" className="about-image" />
-              </div>
-              <p>
-              I have a wide range of severe food allergies that shape my daily interactions. Whether it’s grocery shopping, dining out, traveling, or even picking out dog treats, I often encounter systems that weren’t designed with people like me in mind.
-              </p>
-              <p>
-              Technology has been a tool that helps me bridge these gaps—making communication and tracking allergens just a little easier. But I know technology isn’t always seamlessly integrated into the real world. That’s why <b>I design for complex interactions, creating solutions that make navigating both digital and physical spaces more intuitive for everyone.</b>
-              </p>
-            </div>
-            <div>
-              <h2>
-              Things not on my resume              
-              </h2>
-              <ul>
-                <li>I spent 3 years as a leadership mentor for high school students 🎒</li>
-                <li>My favorite movie is Meet the Robinsons 💡</li>
-                <li>I’ve spent years crafting the best london fog 🫖</li>
-                <li>My pandemic hobby was taking up snowboarding 🏂</li>
-              </ul>
-            </div>
+            <Card
+              title="Hi, I'm Vishaka!"
+              text="Currently, I’m a masters student at Brown and RISD, focused on designing interactions that weave digital technology into the tangible world."
+              color="#E62A9E"
+              image={image2}
+            />
+
+            <Card
+              title="The origin story"
+              text="I'm a product of dinner table conversations filled with medical and aerospace terminology, so making sense of complex ideas has always been second nature. Now, as a designer, I get to translate technical problems into simple, elegant solutions."
+              color="#FF7D19"
+              image={image3}
+            />
+              <Card
+                title="Previously.."
+                text="I spent almost 4 years working at Lucid Software, designing tools for virtual collaboration. But I've also worked on client projects for Dandelion Chocolate, Microsoft, and King County Metro."
+                color="#3300FF"
+                image={image4}
+              />
+              <Card
+                title="Not on the resume:"
+                text="I'm a tea enthusiast and pandemic-taught snowboarder. My favorite movie is Meet the Robinsons, and I've seen it countless times. Also, my favorite hobby is to take silly pictures of my dog, Olive. "
+                color="#F6EF23"
+                image={image5}
+              />
           </div>
         </div>
       </main>

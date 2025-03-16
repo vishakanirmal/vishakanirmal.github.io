@@ -1,10 +1,10 @@
 /* Set a global font style and size */
 body {
   font-family: 'Karla', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 100;
-  line-height: 30px;
-  letter-spacing:1px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
   color: #1e1e1e;
   margin: 0;
   padding: 0;
@@ -30,8 +30,8 @@ h1 {
 
 h2 {
   color: #1e1e1e;
-  font-family: 'Spectral', serif;
-  font-size: 30px;
+  font-family: 'Karla', sans-serif;
+  font-size: 28px;
   line-height: 40px;
   letter-spacing:1.3px;
   font-weight: normal;
@@ -39,9 +39,9 @@ h2 {
 
 h3 {
   color: #1e1e1e;
-  font-size: 30px;
-  line-height: 40px;
-  font-family: 'Spectral', serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Karla', sans-serif;
   letter-spacing:1.3px;
   font-style: italic;
 }
@@ -50,12 +50,10 @@ blockquote {
   color: #1e1e1e;
   font-family: 'Spectral', serif;
   font-size: 40px;
-  line-height: 52px;
-  letter-spacing:1.3px;
-  line-height: normal;
+  line-height: 44px;
+  letter-spacing:1px;
   margin: 0em;
-  font-weight: normal;
-  font-style: italic;
+  font-weight: bold;
 }
 
 p {
@@ -325,7 +323,7 @@ padding: 1em;
   left: 50%; /* Center horizontally */
   transform: translateX(-50%); /* Adjust horizontal centering */
   width: 90%; /* Adjust the width to give room for wrapping */
-  font-size: .75em;
+  font-size: 1em;
   text-align: center;
   mix-blend-mode: difference;
   color: white; /* Fallback color */
@@ -344,7 +342,30 @@ padding: 1em;
   opacity: 1;
 }
 
+.case-study-tags {
+  position: absolute;
+  top: 80%;
+  left: 0%; /* Center horizontally */
+  z-index: 1;
+  width: 100%; /* Adjust the width to give room for wrapping */
+  display: flex;
+  justify-content: center;
+  gap: .25em;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
 
+.case-study-tile:hover .case-study-tags {
+  opacity: 1;
+}
+
+.case-study-tag {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: .25em .5em;
+  color: white;
+  font-size: .75em;
+  text-decoration: none !important;
+}
 
 
 
@@ -505,14 +526,18 @@ margin-top: 2em; /* Adjust this value as needed */
 header {
   width: 100%;
   flex-direction: column; /* Stack items vertically */
-  align-items: left; /* Center items horizontally */
-  padding: 1em 0em .25em 0em; /* Further reduce padding */
+  align-items: center; /* Center items horizontally */  padding: 1em 0em .25em 0em; /* Further reduce padding */
   gap: .25em;
   position: fixed; /* Make it sticky */
   top: 0;
   left: 0;
   font-size: 16px;
+  height: fit-content;
   }
+
+  .vishaka {
+    align-self:auto;
+    }
 
   .base-page {
     max-width: 100%;
@@ -655,4 +680,56 @@ font-style: italic;
 font-weight: light;
 color: #333;
 width:18%;
+}
+
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em; /* Adds space between notes */
+  justify-content: center; /* Centers them in the row */
+  flex-wrap: wrap; /* Ensures they wrap if the screen is small */
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.about-block {
+  background-color: #F3F3F3;
+  padding: 1.5em;
+  text-align: left;
+  flex: 1; /* Allows them to be flexible */
+  min-width: 150px; /* Ensures they don't shrink too much */
+  max-width: 100%; /* Optional: Prevents them from getting too large */
+}
+
+
+.aboutinfo {
+  position: relative;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  gap:1em;
+  height: 300px; /* Adjust this as needed */
+  outline: 2px solid;
+  top: 3em;
+  background-color: #f9f9f9;
+  max-width: 100%;
+}
+
+
+.card-content {
+  text-align: left;
+  padding: 1em;
+}
+
+.card-image {
+  min-width: 50%;
+  width: 50%;
+  max-height: 100%;
+  object-fit:cover;
 }

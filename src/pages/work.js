@@ -22,30 +22,38 @@ const IndexPage = () => (
           image={dandelion}
           logo={dandelionLogo}
           description="Designing the tasting experiences for craft chocolate."
+          tags={["Experience design", "Physical fabrication"]}
+
         /> 
         <CaseStudyTile 
           to="/lucid"
           image={lucidhero}
           logo={lucidLogo}
           description="Crafting dynamic, on-canvas tools for virtual collaboration."
+          tags={["User research", "Experience design", "Strategy", "Usability testing"]}
+
         />
         <CaseStudyTile 
           to="/weft"
           image={wefthero}
           logo={weftLogo}
           description="Developing a sustainable, interactive prototype for furniture longevity."
+          tags={["Market research", "Experience design", "Physical fabrication", "Sustainability"]}
+
         />
         <CaseStudyTile 
           to="/fieldservice"
           image={fshero}
           logo={fsLogo}
           description="Designing an AR-powered mobile experience for field service technicians."
+          tags={["User research", "Experience design", "Usability testing"]}
         />
         <CaseStudyTile 
           to="/terra"
           image={terrahero}
           logo={terraLogo}
           description="Creating an AI-powered game device for tactile interactions and replayability."
+          tags={["User research", "Experience design", "Physical computing"]}
         />
       </div>
     </div>
