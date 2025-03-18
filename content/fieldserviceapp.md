@@ -27,6 +27,8 @@ password: olive
     </div>
 </div>    
 
+<a id="content"></a>
+
 >How might we design a tool for technicians to effectively create, manage, and find resources for their jobs?
 Field service technicians work on a variety of devices, often relying on notes and images to document their work. Currently, technician note-taking and resource management on the Field Serivce App is inefficient. The existing application made it difficult for technicians to quickly create and access these resources, leading to inefficiencies and potential errors.
 

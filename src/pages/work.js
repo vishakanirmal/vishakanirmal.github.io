@@ -23,7 +23,7 @@ const IndexPage = () => (
           image={dandelion}
           logo={dandelionLogo}
           description="Designing the tasting experiences for craft chocolate."
-          tags={["Experience design", "Physical fabrication"]}
+          tags={["Retail experience design", "Client proposal"]}
 
         /> 
         <CaseStudyTile 
@@ -31,7 +31,7 @@ const IndexPage = () => (
           image={quicktoolshero}
           logo={lucidLogo}
           description="Crafting dynamic, on-canvas widgets for virtual collaboration."
-          tags={["User research", "Experience design", "Strategy"]}
+          tags={["Digital experience design", "Interaction design" ,"Strategic design"]}
 
         />
         <CaseStudyTile 
@@ -39,7 +39,7 @@ const IndexPage = () => (
           image={wefthero}
           logo={weftLogo}
           description="Developing a sustainable, interactive prototype for furniture longevity."
-          tags={["Market research", "Experience design", "Physical fabrication"]}
+          tags={["Sustainable experience design", "Business development"]}
 
         />
         <CaseStudyTile 
@@ -47,14 +47,14 @@ const IndexPage = () => (
           image={fshero}
           logo={fsLogo}
           description="Designing an AR-powered mobile experience for field service technicians."
-          tags={["User research", "Experience design", "Usability testing"]}
+          tags={["User research", "Information architecture", "Mobile XR design"]}
         />
         <CaseStudyTile 
           to="/terra"
           image={terrahero}
           logo={terraLogo}
           description="Creating an AI-powered game device for tactile interactions and replayability."
-          tags={["User research", "Experience design", "Physical computing"]}
+          tags={["User research", "Game experience design", "Physical computing"]}
         />
       </div>
     </div>
