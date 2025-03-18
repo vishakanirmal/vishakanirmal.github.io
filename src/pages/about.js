@@ -42,7 +42,7 @@ const AboutPage = () => {
           <h2>
           In other news, my work is featured in:
           </h2>
-          <Link to="https://dl.acm.org/doi/10.1145/3689050.3707700">[Mar 2025] Weft Furniture @ ACM TEI ↗</Link>
+          <Link to="https://dl.acm.org/doi/10.1145/3689050.3707700">[March 2025] Weft Furniture @ ACM TEI ↗</Link>
           <Link to="https://www.risd.edu/news/stories/brown-risd-master-of-arts-in-design-engineering-bridges-disciplines">[January 2025] MADE program highlights @ RISD ↗</Link>
           <Link to="https://lucid.co/resources/webinars/use-cases-for-visual-activities-jan-2024">[February 2024] Aligning teams with Visual Activities @ Lucid Software ↗</Link>
           <Link to="https://medium.com/lucid-software-design/run-activity-based-interviews-to-maximize-your-time-with-users-3c233f379084">[October 2022] Running activity-based collaborative user interviews @ Lucid Software ↗</Link>
