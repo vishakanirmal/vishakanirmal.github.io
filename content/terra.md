@@ -6,19 +6,19 @@ blockquoteColor: "#117261" # Add your hex color here
 isPasswordProtected: false
 ---
 
-## Terra
+### Terra
 > Designing a game device for enhanced tactile interactions and replayability
 
-![Hero image of Terra](../src/images/terra/terrahero.png)
+![Example of terra gameplay](../src/images/terra/demo.gif)
 
 <div class="info-container">
     <div class="info-block">
-        <div class="info-title">Role</div>
-        Researcher + Designer
+        <div class="info-title">Context</div>
+        Researched and designed at Brown University & Rhode Island School of Design
     </div>
     <div class="info-block">
-        <div class="info-title">Setting</div>
-        Brown University & RISD (Rhode Island School of Design)
+        <div class="info-title">Impact</div>
+        Created an AI powered game device
     </div>
     <div class="info-block">
         <div class="info-title">Time</div>
@@ -26,24 +26,15 @@ isPasswordProtected: false
     </div>
 </div>
 
-
-## About the project
-This project aims to **combine tactile interaction with emerging technology** to create a dynamic and endlessly replayable game. 
-
-Terra caters to an adult audience, hoping to bridge the gap between displayed gaming consoles and tangible board games. We utilized a human-centered, iterative approach to our design process. The end result, Terra, is **an engaging hybrid gaming system that can also serve as a display object.**
-
-![Example of terra gameplay](../src/images/terra/terra.gif)
-
-
-## Context
+>How might emerging technology create engaging hybrid games?
 Games are a staple part of many households in the US, with both physical board games as well as digital gaming systems. Focused primarily on digital gaming, the **global gaming industry was estimated to generate $184.4 billion in 2022.** 
 
-However, in this wide industry of games, there is a curious **lack of successful hybrid physical-digital games.** The few well-known hybrid games, such as Bop It! or Keep Talking and Nobody Explodes, are quick trends within the gaming market, but quickly become repetitive and boring. Many of these hybrid games also boast brightly colored plastic enclosures, catering to younger audiences. 
+When starting this project, my collaborator Kayla and I found ourselves drawn to physical/digital gaming systems. There are a few well-known hybrid games, such as Bop It! or Keep Talking and Nobody Explodes, but they're often trends within the gaming market,  quickly becoming repetitive and boring. Through this work, we explore the **intersection of tactile interaction with emerging technology** to create a dynamic and endlessly replayable game. 
 
 ![Context of gaming industry](../src/images/terra/context.png)
 
 
-## Role
+## My contributions
 <div class="info-container">
     <div class="info-block">
         <div class="info-title">Team</div>
@@ -75,13 +66,25 @@ For this project, I worked closely with Kayla Blalack, who has a mechanical engi
   </div>
 </div>
 
-## Research
+## Research into gaming experiences
 Our primary research included both qualitative and quantitative data from an **observational study at two locations, informal surveys with 25 participants, and two in-depth user interviews.** 
 
 From this research, we saw that:
-- Memorable games create a sense of community within the group.
-- The visual aesthetics of most games are often too vibrant to fit into household aesthetics, leading to them being stored away. 
-- Games that are highly replayable have a longer lifespan in gamer rotations.
+
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">Community</div>
+    Memorable games create a sense of community within the group.
+  </div>
+  <div class="info-block">
+   <div class="info-title">Aesthetics</div>
+    The visual aesthetics of most games are often too vibrant to fit into household aesthetics, leading to them being stored away. 
+  </div>
+  <div class="info-block">
+    <div class="info-title">Replayability</div>
+    Games that are highly replayable have a longer lifespan in gamer rotations.
+  </div>
+</div>
 
 
 Building upon our understanding of the hybrid gaming context and our primary research findings, we aligned on our driving view throughout our ideation: **people repeatedly reach for party games that create a sense of camaraderie through energizing challenges.**

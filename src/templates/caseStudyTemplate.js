@@ -21,6 +21,7 @@ export default function CaseStudyTemplate({ data }) {
               style={{ "--blockquote-color": blockquoteColor }} // Pass color as a CSS variable
               dangerouslySetInnerHTML={{ __html: html }}
             />
+            <Link to="/work">← Back to all projects</Link>
           </div>
         </div>
       </div>

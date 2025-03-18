@@ -10,6 +10,7 @@ import fruit from "../images/playground/physical computing.png";
 import dog from "../images/playground/doghealth.png";
 import tactileUI from "../images/playground/table.gif";
 import anim from "../images/animation/newhero.png"
+import emp from "../images/playground/emp.jpg";
 
 
 
@@ -25,6 +26,7 @@ const GridComponent = () => {
     { id: 8, imageUrl: fruit, description: "Developed a smart fruit bowl to track current and optimal fruit storage conditions." },
     { id: 10, imageUrl: zoomy, description: "Design and development for a running application that builds playlists based on your running patterns, using the Spotify API." },
     { id: 11, imageUrl: dog, description: "Designed UI for a centralized dog health tracking application." },
+    { id: 12, imageUrl: emp, description: "Usability testing with a paper and cardboard prototype for an in-museum experience." },
 
   ];
 

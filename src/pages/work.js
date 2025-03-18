@@ -1,17 +1,18 @@
 import React from "react"
 import Layout from '../components/layout'
 import CaseStudyTile from "../components/CaseStudyTile"
-import quicktoolshero from "../images/quicktools/newhero.png"
+import quicktoolshero from "../images/quicktools/hero.png"
 import fshero from "../images/fieldservice/heronew.png"
 import wefthero from "../images/weft/newhero.png"
 import terrahero from "../images/terra/terrahero.png"
-import lucidhero from "../images/lucid/lucidhero.png"
+import vahero from "../images/visualactivities/hero.png"
 import dandelion from "../images/dandelion/hero.png"
 import dandelionLogo from "../images/logos/Dandelionlogo.png" // Add logos
 import lucidLogo from "../images/logos/Lucidlogo.png"
 import weftLogo from "../images/logos/Weftlogo.png"
 import fsLogo from "../images/logos/Microsoftlogo.png"
 import terraLogo from "../images/logos/Terralogo.png"
+import xrlogo from "../images/logos/naturelablogo.png"
 
 const IndexPage = () => (
   <Layout>
@@ -26,11 +27,11 @@ const IndexPage = () => (
 
         /> 
         <CaseStudyTile 
-          to="/lucid"
-          image={lucidhero}
+          to="/quicktoolsintro"
+          image={quicktoolshero}
           logo={lucidLogo}
-          description="Crafting dynamic, on-canvas tools for virtual collaboration."
-          tags={["User research", "Experience design", "Strategy", "Usability testing"]}
+          description="Crafting dynamic, on-canvas widgets for virtual collaboration."
+          tags={["User research", "Experience design", "Strategy"]}
 
         />
         <CaseStudyTile 
@@ -38,11 +39,11 @@ const IndexPage = () => (
           image={wefthero}
           logo={weftLogo}
           description="Developing a sustainable, interactive prototype for furniture longevity."
-          tags={["Market research", "Experience design", "Physical fabrication", "Sustainability"]}
+          tags={["Market research", "Experience design", "Physical fabrication"]}
 
         />
         <CaseStudyTile 
-          to="/fieldservice"
+          to="/fieldserviceintro"
           image={fshero}
           logo={fsLogo}
           description="Designing an AR-powered mobile experience for field service technicians."

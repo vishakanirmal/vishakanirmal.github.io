@@ -1,10 +1,10 @@
 /* Set a global font style and size */
 body {
   font-family: 'Karla', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
   line-height: 24px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   color: #1e1e1e;
   margin: 0;
   padding: 0;
@@ -34,7 +34,7 @@ h2 {
   font-size: 28px;
   line-height: 40px;
   letter-spacing:1.3px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 h3 {
@@ -43,7 +43,8 @@ h3 {
   line-height: 24px;
   font-family: 'Karla', sans-serif;
   letter-spacing:1.3px;
-  font-style: italic;
+  padding-top: 2em;
+  font-weight: 100;
 }
 
 blockquote {
@@ -59,31 +60,33 @@ blockquote {
 p {
   margin: 0;
   padding: 0;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
 }
 
 
 /* Links */
 a {
   color: #141414;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Adjust the thickness */
+  text-underline-offset: 6px; /* Adjust this value to move the underline further below */
+  text-decoration-style: dotted;
   cursor: pointer;
-
+  padding: .25em 0em;
 }
 
 a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 2px; /* Adjust the thickness */
+  text-decoration-thickness: 1.5px; /* Adjust the thickness */
   text-underline-offset: 6px; /* Adjust this value to move the underline further below */
-  text-decoration-style: dotted;
-
+  text-decoration-style: solid;
 }
 
 a.active {
   text-decoration: underline;
-  text-decoration-thickness: 2px; /* Adjust the thickness */
+  text-decoration-thickness: 1.5px; /* Adjust the thickness */
   text-underline-offset: 6px; /* Adjust this value to move the underline further below */
-  text-decoration-style: dotted;
+  text-decoration-style: solid;
 }
 
 /* Default cursor for the body or specific elements */
@@ -123,7 +126,7 @@ button:hover {
 }
 
 footer {
-  padding: 20px; /* Adjust the padding as needed */
+  padding: 4em 0em; /* Adjust the padding as needed */
   color: #747474; /* Text color */
   display: flex;
   justify-content: space-evenly;
@@ -151,11 +154,21 @@ header {
   align-self: baseline;
 }
 
+.vishaka a {
+  text-decoration: none;
+}
+
+.vishaka a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px; /* Adjust the thickness */
+  text-underline-offset: 6px; /* Adjust this value to move the underline further below */
+  text-decoration-style: solid;
+}
+
 /* landing/about page styling */
 .base-page {
-  width: 92%; /* Ensure it takes up the full width of the page */
+  width: 100%; /* Ensure it takes up the full width of the page */
   margin: 0 auto;
-  padding: 2em 2em;
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
@@ -165,8 +178,8 @@ header {
 
 .intro-content {
   align-items: center; /* Centers vertically */
-  width:60%;
-  height: 60vh;
+  width: 80%;
+  height: 100%;
 }
 
 .interactive-word {
@@ -205,11 +218,10 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
   width: 20%;
-  opacity: .5;
+  opacity: .4;
   transition: opacity 0.3s ease-in-out;
   z-index: -1; /* Keeps it in the background */
 }
-
 
 
 .external-links {
@@ -221,7 +233,7 @@ header {
 
 }
 .aboutinfo {
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -231,11 +243,6 @@ header {
 
 
 
-.about-image {
-  width: 300px; /* Adjust the width as needed */
-  height: auto;  
-  flex-shrink: 0; /* Prevent the image from shrinking */
-}
 
 .about-page-content {
   text-align: left;
@@ -270,8 +277,7 @@ padding: 1em;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two equal columns */
   gap: 0em; /* Adjust spacing as needed */
-  width: 100%;
-  max-width: 1200px; /* Optional: prevent overly wide layout */
+  width: 80%;
   margin: 0 auto; /* Center the grid */
 }
 
@@ -285,6 +291,11 @@ padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.projects a {
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 
@@ -305,7 +316,7 @@ padding: 1em;
 
 /* Hover effect: zoom-in */
 .case-study-tile:hover .case-study-image {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 /* Logo Styling */
@@ -344,7 +355,7 @@ padding: 1em;
 
 .case-study-tags {
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 0%; /* Center horizontally */
   z-index: 1;
   width: 100%; /* Adjust the width to give room for wrapping */
@@ -379,17 +390,49 @@ padding: 1em;
   width: 100%;
   justify-content: center; /* Center content horizontally */
   overflow: visible;
+  background-color: var(--blockquote-color, #f9f9f9);
 }
 
 .case-study-content {
-  max-width: 60%; /* Set maximum width for content */
+  max-width: 60vw; /* Set maximum width for content */
   width: 100%; /* Ensure content takes up full width of the wrapper */
 }
 
-.case-study-body blockquote {
-  color: var(--blockquote-color, black); /* Default to black if undefined */
+.case-study-body {
+  padding-bottom: 6em;
 }
 
+
+.case-study-body blockquote {
+  color: var(--blockquote-color, black); /* Default to black if undefined */
+  padding-bottom: .5em;
+}
+
+.case-study-body p {
+  max-width: 60vw; /* Limit paragraph width */
+  width: 100%; /* Ensures it doesn’t exceed max-width */
+  margin: 0 auto; /* Centers the paragraph container */
+  padding-bottom: 0em;
+}
+
+
+.case-study-body h2 {
+  color: var(--blockquote-color, black); /* Default to black if undefined */
+  max-width: 60vw; /* Limit paragraph width */
+  width: 100%; /* Ensures it doesn’t exceed max-width */
+  margin: 0 auto; /* Centers the paragraph container */
+  padding-top: 3em; /* Adjust this value as needed */
+  padding-bottom: .5em;
+}
+
+.gatsby-resp-image-wrapper {
+  max-width: 80vw !important; /* Make it larger than viewport */
+  width: 80vw !important; /* Expand beyond container */
+  margin-left: -10vw !important; /* Pull it outward for centering */
+  margin-right: -10vw !important;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 /* General table styling */
 .case-study-content table {
@@ -429,9 +472,7 @@ tr:last-child td {
   border-bottom: 1px solid #ddd; /* Only a bottom border */
 }
 
-.case-study-content h2 {
-margin-top: 2em; /* Adjust this value as needed */
-}
+
 
 .info-container {
   display: flex;
@@ -491,8 +532,7 @@ margin-top: 2em; /* Adjust this value as needed */
 /* Styling for the description */
 .process-desc {
   margin-top: .25em;
-  font-size: .75em;
-  line-height: 1.25em;
+
 }
 
 
@@ -533,6 +573,7 @@ header {
   left: 0;
   font-size: 16px;
   height: fit-content;
+  padding-bottom: 1em;
   }
 
   .vishaka {
@@ -555,6 +596,26 @@ header {
       padding: 10em 0em 0em 0em;
     }
 
+    .case-study-body p {
+      max-width: 100%; /* Limit paragraph width */
+      width: 100%; /* Ensures it doesn’t exceed max-width */
+      margin: 0 auto; /* Centers the paragraph container */
+    }
+
+    .case-study-body h2 {
+      max-width: 100%; /* Limit paragraph width */
+      width: 100%; /* Ensures it doesn’t exceed max-width */
+      margin: 0 auto; /* Centers the paragraph container */
+      margin-top: 1em; /* Adjust this value as needed */
+    }
+
+    .gatsby-resp-image-wrapper {
+      max-width: 100vw !important; /* Make it larger than viewport */
+      width: 100vw !important; /* Expand beyond container */
+      margin: 0vw -5vw !important; /* Centers the paragraph container */
+
+    }
+
   .projects {
     grid-template-columns: repeat(1, 1fr); /* Two equal columns */
   }
@@ -564,6 +625,22 @@ header {
     width: 100%;
     grid-template-columns: repeat(1, 1fr) !important; /* Adjust number of columns as needed */
     gap: 0em;
+    }
+
+    .case-study-tags {
+      display:none;
+    }
+
+
+    .card {
+      flex-direction: column; /* Switch to vertical layout */
+      align-items: center;
+      flex-wrap:wrap;
+    }
+  
+    .card-image,
+    .card-content {
+      width: 100% !important; /* Full width on mobile */
     }
 }
 
@@ -607,6 +684,10 @@ img {
 
 
 /* grid on misc page */ 
+ .grid-section {
+  width: 80%;
+
+}
 
 .grid-container {
   display: grid;
@@ -635,7 +716,6 @@ img {
   background: rgba(54, 54, 54, 0.7); /* Semi-transparent black background */
   color: white;
   text-align: center;
-  font-size: .75em;
   padding: 5%;
   opacity: 0; /* Hidden by default */
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -683,53 +763,27 @@ width:18%;
 }
 
 
-.about-container {
-  display: flex;
-  flex-direction: row;
-  gap: 1em; /* Adds space between notes */
-  justify-content: center; /* Centers them in the row */
-  flex-wrap: wrap; /* Ensures they wrap if the screen is small */
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
-
-.about-block {
-  background-color: #F3F3F3;
-  padding: 1.5em;
-  text-align: left;
-  flex: 1; /* Allows them to be flexible */
-  min-width: 150px; /* Ensures they don't shrink too much */
-  max-width: 100%; /* Optional: Prevents them from getting too large */
-}
-
-
-.aboutinfo {
-  position: relative;
-}
-
-
 .card {
   display: flex;
-  flex-direction: row;
-  align-items: left;
-  justify-content: left;
-  gap:1em;
-  height: 300px; /* Adjust this as needed */
+  flex-direction: row; /* Default: horizontal */
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
   outline: 2px solid;
-  top: 3em;
   background-color: #f9f9f9;
   max-width: 100%;
-}
-
-
-.card-content {
-  text-align: left;
-  padding: 1em;
+  height: fit-content;
 }
 
 .card-image {
-  min-width: 50%;
-  width: 50%;
-  max-height: 100%;
-  object-fit:cover;
+  width: 50%; /* Ensures equal width on desktop */
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.card-content {
+  width: 50%; /* Ensures equal width on desktop */
+  text-align: left;
+  padding: 1em;
 }
