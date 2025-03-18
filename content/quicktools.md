@@ -26,8 +26,10 @@ password: green
     </div>
 </div>
 
->How could smart templates engage Lucid's returning and active users?
-Quick tools was designed to be a new set of dynamic canvas widgets for Lucid Software's virtual canvas tools, including Lucidchart, Lucidspark, and Lucidscale. Throughout this work, I helped to lead the strategic and design work for this project. Initiating from my team's winning hackathon project, this work **launched to all Lucid users in June 2024.**
+<a id="content"></a>
+
+>How could smart templates engage Lucid's returning and active users? 
+Quick tools was designed to be a new set of dynamic canvas widgets for Lucid Software's virtual canvas tools, including Lucidchart, Lucidspark, and Lucidscale. Throughout this project, I led the strategic and design work. Initiating from my team's winning hackathon project, this work **launched to all Lucid users in June 2024.**
 
 ## My contributions
 <div class="info-container">
@@ -43,22 +45,18 @@ Quick tools was designed to be a new set of dynamic canvas widgets for Lucid Sof
 
 
 ## Why do whiteboard templates need to be smart?
-Prior to this project, my hackathon team and I noticed how integral templates were to our users. Teams would use templates to learn the tool, run meetings, or just grab content that they wanted to adjust. But Lucid's templates were static and required users to find the tools they needed in the UI.  
+Prior to this project, my hackathon team and I noticed how integral whiteboard templates were to our users. Teams would use templates to learn the tool, run meetings, or just grab content that they wanted to adjust. But Lucid's templates were static and required users to find the tools they needed in the UI.  
 
 ![Prior templates](../src/images/quicktools/Current.png)
 
-## Hackathon concept
-We imagined the concept of having 'smart' templates, that would provide dynamic links and tools to everything you needed--at your fingertips. Quick Tools was then developed during Lucid’s 2023 hackathon, where my team and I **won first place in the "Build to Delight" category.**
+## This project began as a Hackathon concept
+During the 2023 Lucid Hackathon, my team and I imagined the concept of having 'smart' templates, that would provide dynamic links and tools to everything you needed, at your fingertips. Quick Tools was then developed during Lucid’s 2023 hackathon, where my team and I **won first place in the "Build to Delight" category.**
 
 ![Working on our hackathon booth](../src/images/quicktools/Hackathon.png)
 ![the original prototype](../src/images/quicktools/prototype.gif)
 
-
-
-## Researching for whiteboard needs
-During the hackathon, user research conducted by Erin Lilly quickly validated our idea. One product manager remarked that the tools **“helped participants focus on content rather than learning how to use the tool.”**
-
-After the hackathon, I led continous user interviews with paid, free, and enterprise users at Lucid to understand their needs with smart templates. Our main findings were that:
+## Researching: how could this tool support new and experienced whiteboard users?
+During the hackathon, user research conducted by Erin Lilly quickly validated our idea. One product manager remarked that the tools **“helped participants focus on content rather than learning how to use the tool.”** After the hackathon, I led continous user interviews with paid, free, and enterprise users at Lucid to understand their needs with smart templates. Our main findings were that:
 
 <div class="info-container">
   <div class="info-block">
@@ -90,20 +88,30 @@ Enable facilitators to curate focused participation experiences.
   </div>
 </div>
 
+To steer these conversations, I created high level template mocks, showcasing how these new widgets could enhance current template offerings:
+
 ![Strategic mocks](../src/images/quicktools/strategy.png)
 
+## Design system coordination
+**How would creating these new widgets on the canvas affect our interface design system?**
 
-However, one of our larger questions with this project was:
-> How would creating these new widgets on the canvas affect our interface design system? 
-
-I worked closely with our design systems team to come up with a proposal for the look and feel of these new widgets, matching what our current canvas shapes looked like, while attempting to feel in the same family as our UI system components. 
+Once we had buy in, we were able to secure a full development team dedicated to implementing this feature in production. However, one more obstacle we needed to solve was how this would fit into Lucid's design system on and off the canvas. I worked closely with our design systems team to come up with a proposal for the look and feel of these new widgets, matching what our current canvas shapes looked like, while attempting to feel in the same family as our UI system components so users understood how to interact with them. 
 
 ![Setting up design specs](../src/images/quicktools/DesignSystem.png)
 
-## Iterating designs
-With leadership buy-in, I collaborated with a new development team to further develop Quick Tools. Our objective was to increase template utilization by refining and expanding the tools.
+## Refining interactions, specifications and visuals
+With product and design leadership buy-in, I collaborated with our new development team to further develop Quick Tools. **With this new team, we drafted new OKRs and KPIs related to increasing template utilization rates for new and existing users.** Working closely with my product manager, James Webb, I helped scope out 2025 roadmaps, define upcoming sprint work, and refine backlog UX bugs. Our overall goals were to:
 
-Working closely with my product manager, James Webb, I created high-level concept mocks to guide our vision for possible tools, as well as detailed interaction specifications to transition Quick Tools from its hackathon state to a polished product.
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">Primary: Hackathon→Production</div>
+Fully transition Quick Tools from its hackathon state to a polished product.
+  </div>
+  <div class="info-block">
+   <div class="info-title">Secondary: Future visioning</div>
+How could we design these tools to be easily scalable as we add features over the next 5 years? 
+  </div>
+</div>
 
 ![Creating interaction patterns](../src/images/quicktools/Iterations.png)
 
@@ -116,17 +124,24 @@ In addition to formal studies, I regularly engaged with users through weekly cal
 ![multiple of my research reports](../src/images/quicktools/research.png)
 
 ## Final designs
-The final set of widgets created during this project includes Quick Shape Banks, and Quick Actions. 
+The final set of widgets created during this project includes shape banks and actions. 
 
-## Quick shape banks
-Our research guided the development of widgets that allowed users to create and reuse shapes easily. We emphasized intuitive design, like stackable items in the shape bank and customizable shape banks for personalized use.
-![shows how the quick shape bank works](../src/images/quicktools/quickshapebank.gif)
+## Shape banks
+On-canvas shape stacks that allow you to easily add new instances of a shape. Here are the different interaction states with a sticky note shape bank:
+![shows how the quick shape bank works](../src/images/quicktools/banks.png)
 
-## Quick actions
-Quick actions were designed to be simple yet effective, with buttons on the canvas that users could easily understand and interact with. I refined interactions to ensure a seamless user experience, including precise hover and padding states.
-![shows how the quick actions work](../src/images/quicktools/quickaction.gif)
+Here is an example of the emoji shape banks in a production environment:
+![shows how the quick shape bank works](../src/images/quicktools/shapebank.gif)
+
+
+## Actions
+On-canvas buttons that would allow you to quickly open/use any tool within the Lucid suite. Here are the different interaction states with a timer action:
+![shows how the quick actions work](../src/images/quicktools/actions.png)
+
+Here is the final action button in a production environment, showcasing one of our hard to find features, switching between Lucidspark (whiteboarding) and Lucidchart (diagramming):
+![shows how the quick actions work](../src/images/quicktools/actions.gif)
 
 ## Outcomes
-Since the launch, we've seen over 100,000 uses of quick tools each month. This project provided the space for me to lead a project from initial strategy to final development. 
+Since the launch, we've seen over 100,000 uses of quick tools each month. This project provided the space for me to lead a project from initial strategy to final development. This work was prominently featured in Lucid’s 2024 mid-year release webinar, and these widgets have been added to existing and new templates to enhance user experiences.
 
-This work was prominently featured in Lucid’s 2024 mid-year release webinar, showcasing the impact of our work on enhancing template experiences.
+![shows how new templates are made](../src/images/quicktools/Outcomes.png)

@@ -31,5 +31,5 @@ In this project, I worked to help Lucid uplevel their template capabilities, by 
 
 I worked as the Lead Designer for this work, taking my team's winning hackathon project to director and C-Suite level strategic conversations. The final work can be seen [live on any Lucid platform](https://x.com/LucidSoftware/status/1804213038121115850?lang=en). 
 
-## More information
-**If you have the password from my resume, you can take a look at my case study of this project [here](/quicktools).**
+## The full case study
+**If you have the password from my resume, you can take a look at my case study of this project [here](/quicktools#content).**

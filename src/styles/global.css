@@ -360,6 +360,7 @@ padding: 1em;
   z-index: 1;
   width: 100%; /* Adjust the width to give room for wrapping */
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: .25em;
   opacity: 0;
@@ -566,10 +567,9 @@ tr:last-child td {
 header {
   width: 100%;
   flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */  padding: 1em 0em .25em 0em; /* Further reduce padding */
+  align-items: center; /* Center items horizontally */  
+  padding: 1em 0em .25em 0em; /* Further reduce padding */
   gap: .25em;
-  position: fixed; /* Make it sticky */
-  top: 0;
   left: 0;
   font-size: 16px;
   height: fit-content;
@@ -583,7 +583,7 @@ header {
   .base-page {
     max-width: 100%;
     margin: 0 auto;
-    padding: 14em 0em 5em 0em;
+    padding: 4em 0em 5em 0em;
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
@@ -593,7 +593,7 @@ header {
 
   .case-study-content {
       max-width: 90%; /* Allows content to take up more space on smaller screens */
-      padding: 10em 0em 0em 0em;
+      padding: 0em 0em 0em 0em;
     }
 
     .case-study-body p {
@@ -625,6 +625,14 @@ header {
     width: 100%;
     grid-template-columns: repeat(1, 1fr) !important; /* Adjust number of columns as needed */
     gap: 0em;
+    }
+
+    .case-study-description {
+      display: none;
+    }
+    
+    .case-study-logo {
+      opacity: 100% !important;
     }
 
     .case-study-tags {
