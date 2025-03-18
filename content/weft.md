@@ -5,45 +5,35 @@ title: "Weft Furniture"
 blockquoteColor: "#485D7D" # Add your hex color here
 isPasswordProtected: false
 ---
-## Weft Furniture
+### Weft Furniture
 > Developing a prototype for interactive, sustainability-driven furniture
+
 
 ![Hero image of weft furniture](../src/images/weft/newhero.png)
 
 <div class="info-container">
     <div class="info-block">
-        <div class="info-title">Role</div>
-        Researcher & Designer
+        <div class="info-title">Context</div>
+        Researched and designed at Brown University & Rhode Island School of Design
     </div>
     <div class="info-block">
-        <div class="info-title">Setting</div>
-        Brown University & RISD (Rhode Island School of Design)
+        <div class="info-title">Impact</div>
+        ACM TEI Conference 2025: Most Innovative Vision of Sustainability & People's Choice Award
     </div>
     <div class="info-block">
-        <div class="info-title">Time</div>
+        <div class="info-title">Timeline</div>
         June 2024 - August 2024 (2 months)
     </div>
 </div>
 
-## About the project
-Weft Furniture was a project created during my time in the Brown/RISD Masters of Design Engineering program. This project involved a design process of market research, user studies, product ideation, and prototyping. 
+>How might the use of emotional connection promote longer product lifespans for recycled materials?
+1.3 million tons of textile waste and 12 million tons of furniture waste end up in U.S. landfills annually. In this project, we created **textile-board furniture prototype paired with a digital narrative tracing its origins.** This approach combines recycled materials with a digital storytelling platform to promote long-term product use and reduce waste. This project was presented at the **ACM Tangible and Embedded Information Conference** in Bordeaux, France, in March 2025. 
 
-The outcome was a **textile-board furniture prototype paired with a digital narrative tracing its origins**. This approach combines recycled materials with a digital storytelling platform to promote long-term product use and reduce waste.
-
-This project will be presented at the **ACM Tangible and Embedded Information Conference** in Bordeaux, France, in March 2025. 
-
-
-## Why design with textiles & furniture?
-**11.3 million tons of textile waste and 12 million tons of furniture waste end up in U.S. landfills annually.** 
-
-Our team began our project looking into large-scale problems in the world we could tackle. We landed on fast fashion as our intitial target, learning about recent companies that use textile waste to create art installations, such as Fabbrick. We then began to explore the question--
-
->How might the use of emotional connection promote longer product lifespans?
 
 ![Textile waste and fast furniture trends](../src/images/weft/Problem.png)
 
 
-## My role
+## My contributions
 <div class="info-container">
     <div class="info-block">
         <div class="info-title">Team</div>
@@ -136,12 +126,12 @@ We landed on a mobile-first digital experience, that would be activated through 
 ## Final concept
 The final product combines **customizable furniture** with a **digital narrative**. Our prototype encourages long-term use by making each piece personal and meaningful. With this project, our prototype helps to contextualize the future of textile recycling as a viable building material. We hope to break the cycle of fast fashion and fast furniture, by creating memorialized products that hold a greater emotional value to the owner. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E5rVwSv8zpM?si=mdJBYMrUFEvoDqlh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/E5rVwSv8zpM?si=mdJBYMrUFEvoDqlh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![The final deliverables](../src/images/weft/Finaldeliverables.png)
 
 ## Future iterations
-This project was **accepted to the ACM Tangible and Embedded Interfaces conference, where my peers and I will be presenting this work in Bordeaux, France in March 2025.** Stay tuned for updates from this conference!
+This project was **accepted to the ACM Tangible and Embedded Interfaces conference**, where it received two awards: Most Innovative Vision of Sustainability, and People's Choice Award.
 
 In terms of the project future, we aim to continue working on a couple parts of this work, including:
 1. Using alternative adhesives: We aim to transition from resin to bio-based alternatives (e.g., lignin-based adhesives).
