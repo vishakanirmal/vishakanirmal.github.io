@@ -111,12 +111,27 @@ Based on the set user needs, I then began to sketch out concepts for improvement
 ![Wireframes & sketches](../src/images/dandelion/Ideation.png)
 
 ## Prototyping across digital & physical mediums 
-After gathering feedback and narrowing down to an intended solution, I began to create physical artifacts and prototypes on Figma to convey my concepts. At this stage, my goal was to provide a proof of concept and light validation with these solutions. 
+After gathering feedback and narrowing down to an intended solution, I began to create physical artifacts and prototypes on Figma to convey my concepts. For the physical prototypes, I used a combination of fabrication methods, including:
 
+<div class="info-container">
+  <div class="info-block">
+   <div class="info-title">3D printed faceplate</div>
+    To hold the comparison info at a 45 degree angle for easy viewing from afar.  
+  </div>
+  <div class="info-block">
+   <div class="info-title">Paper-based insert</div>
+    To make sure the comparison block was reusable if store layouts changed.
+  </div>
+    <div class="info-block">
+   <div class="info-title">Laser cut/engraved tasting steps</div>
+    Once customers are close to the block, they can read through tasting steps to learn more about the chocolate flavors.
+  </div>
+</div>
+ 
 ![Creating prototypes](../src/images/dandelion/Prototyping.png)
 
 ## Validating through a student activity
-As a class demo, I set up each of my three leading concepts. I walked students through each intended experience, and observed as they interacted with the prototypes. 
+As a class demo, I set up each of my three leading concepts. I walked students through each intended experience, and observed as they interacted with the prototypes. At this stage, my goal was to provide a proof of concept and light validation with these solutions. 
 
 ![Validation](../src/images/dandelion/Validation.png)
 

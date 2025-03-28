@@ -9,7 +9,7 @@ isPasswordProtected: false
 > Developing a prototype for interactive, sustainability-driven furniture
 
 
-![Hero image of weft furniture](../src/images/weft/newhero.png)
+![Hero image of weft furniture](../src/images/weft/Splash.png)
 
 <div class="info-container">
     <div class="info-block">
@@ -126,14 +126,12 @@ We landed on a mobile-first digital experience, that would be activated through 
 ## Final concept
 The final product combines **customizable furniture** with a **digital narrative**. Our prototype encourages long-term use by making each piece personal and meaningful. With this project, our prototype helps to contextualize the future of textile recycling as a viable building material. We hope to break the cycle of fast fashion and fast furniture, by creating memorialized products that hold a greater emotional value to the owner. 
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/E5rVwSv8zpM?si=mdJBYMrUFEvoDqlh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="600" height="300" src="https://www.youtube.com/embed/E5rVwSv8zpM?si=mdJBYMrUFEvoDqlh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![The final deliverables](../src/images/weft/Finaldeliverables.png)
 
 ## Future iterations
-This project was **accepted to the ACM Tangible and Embedded Interfaces conference**, where it received two awards: Most Innovative Vision of Sustainability, and People's Choice Award.
-
-In terms of the project future, we aim to continue working on a couple parts of this work, including:
+This project was **accepted to the ACM Tangible and Embedded Interfaces conference, where it received two awards**: Most Innovative Vision of Sustainability, and People's Choice Award. For this project's future, we aim to continue working on a couple parts of this work, including:
 1. Using alternative adhesives: We aim to transition from resin to bio-based alternatives (e.g., lignin-based adhesives).
 2. Testing material durability: How can we enhance weather resistance and load capacity?
 3. Managing system scalability: How could this personalization be brought to a larger scale production?

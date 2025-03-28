@@ -18,7 +18,7 @@ password: green
     </div>
     <div class="info-block">
         <div class="info-title">Impact</div>
-        Research, design, strategy, and project handoff. Launched in June 2024.  
+        Research, design, strategy, and project handoff. Launched in June 2024, now with over 100k monthly returning users.
     </div>
     <div class="info-block">
         <div class="info-title">Timeline</div>
@@ -36,11 +36,34 @@ Quick tools was designed to be a new set of dynamic canvas widgets for Lucid Sof
     <div class="info-block">
         <div class="info-title">Team</div>
         Lead designer for Lucid's Workflows product team
+        (1 Designer, 1 Product Manager, 4 Engineers, 1 QA)
     </div>
     <div class="info-block">
         <div class="info-title">Toolkit</div>
-        Figma, After Effects
+        Figma, After Effects, Maze
     </div>
+</div>
+
+This project originated as a hackathon project in 2023, where I was the lead designer. Following this event, I helped lead strategic conversations throughout the course of this project, getting buy in for the new development team, and then getting to lead design work for this team. 
+
+In creating this feature, some notable parts of my design process include:
+<div class="process-flow">
+  <div class="process-step">
+    <span class="process-title">Research</span>
+    <span class="process-desc">to understand user needs surrounding templates</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Ideation</span>
+    <span class="process-desc">to refine how new features might help users navigate templates</span>
+  </div>
+  <div class="process-step">
+    <span class="process-title">Iteration and design system syncs</span>
+    <span class="process-desc">to refine the new feature and ensure our additions worked well with the existing design system</span>
+  </div>
+    <div class="process-step">
+    <span class="process-title">Validation and testing</span>
+    <span class="process-desc">to refine interactions for each widget shape on the canvas</span>
+  </div>
 </div>
 
 
