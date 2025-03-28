@@ -18,7 +18,7 @@ isPasswordProtected: false
     </div>
     <div class="info-block">
         <div class="info-title">Impact</div>
-        Research, design, strategy, and project handoff. Launched in June 2024.  
+        Research, design, strategy, and project handoff. Launched in June 2024, now with over 100k monthly returning users.
     </div>
     <div class="info-block">
         <div class="info-title">Timeline</div>

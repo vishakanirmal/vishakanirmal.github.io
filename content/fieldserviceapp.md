@@ -4,7 +4,7 @@ date: "2024-08-15"
 title: "Field Service Application"
 isPasswordProtected: true
 blockquoteColor: "#007aff" # Add your hex color here
-password: olive
+password: green
 ---
 
 ### Microsoft's Field Service Application
@@ -34,6 +34,17 @@ Field service technicians work on a variety of devices, often relying on notes a
 
 
 ## My contributions
+<div class="info-container">
+    <div class="info-block">
+        <div class="info-title">Team</div>
+        Vishaka Nirmal, Alli Hishikawa, Avery Wolf, Kailey Terraciano
+    </div>
+    <div class="info-block">
+        <div class="info-title">Toolkit</div>
+        Figma, Usertesting.com, Maze, Snap Lens Studio
+    </div>
+</div>
+
 As part of a student team of four, we collaborated closely with a design manager from the Microsoft Dynamics team. Drew Pusey. While I was involved in all aspects of the process, my most significant contributions were:
 
 <div class="process-flow">

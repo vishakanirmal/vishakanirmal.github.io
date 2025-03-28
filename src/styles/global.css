@@ -194,6 +194,8 @@ header {
   color: white;
 }
 
+
+
 /* Tooltip Style */
 .tooltip {
   position: absolute;
@@ -237,7 +239,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: top;
-  gap: 20px; /* Space between image and text */
+  gap: 2em; /* Space between cards */
 
 }
 
@@ -276,7 +278,7 @@ padding: 1em;
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-  gap: 0em; /* Adjust spacing as needed */
+  gap: 2em; /* Adjust spacing as needed */
   width: 80%;
   margin: 0 auto; /* Center the grid */
 }
@@ -291,6 +293,7 @@ padding: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: 2px solid;
 }
 
 .projects a {
@@ -336,12 +339,12 @@ padding: 1em;
   width: 90%; /* Adjust the width to give room for wrapping */
   font-size: 1em;
   text-align: center;
-  mix-blend-mode: difference;
   color: white; /* Fallback color */
   padding: 1em;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   word-wrap: break-word; /* Ensures long words break to the next line */
+  font-weight: 500;
 }
 
 /* Show description, hide logo on hover */
@@ -362,7 +365,7 @@ padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: .25em;
+  gap: .4em;
   opacity: 0;
   transition: opacity .3s ease-in-out;
 }
@@ -372,13 +375,30 @@ padding: 1em;
 }
 
 .case-study-tag {
-  background-color: rgba(0, 0, 0, 0.65);
+  opacity: 85%;
   padding: .25em .5em;
   color: white;
   font-size: .75em;
   text-decoration: none !important;
 }
 
+.case-study-year {
+  position: absolute;
+  bottom: 0;
+  right: 0; /* Center horizontally */
+  z-index: 1;
+  justify-content: center;
+  opacity: 85%;
+  transition: opacity .3s ease-in-out;
+  padding: .25em .5em;
+  color: white;
+  font-size: .75em;
+  text-decoration: none !important;
+}
+
+.case-study-tile:hover .case-study-year {
+  opacity: 0;
+}
 
 
 /* case study pages */
@@ -395,7 +415,7 @@ padding: 1em;
 }
 
 .case-study-content {
-  max-width: 60vw; /* Set maximum width for content */
+  max-width: 50vw; /* Set maximum width for content */
   width: 100%; /* Ensure content takes up full width of the wrapper */
 }
 
@@ -410,7 +430,7 @@ padding: 1em;
 }
 
 .case-study-body p {
-  max-width: 60vw; /* Limit paragraph width */
+  max-width: 50vw; /* Limit paragraph width */
   width: 100%; /* Ensures it doesn’t exceed max-width */
   margin: 0 auto; /* Centers the paragraph container */
   padding-bottom: 0em;
@@ -419,7 +439,7 @@ padding: 1em;
 
 .case-study-body h2 {
   color: var(--blockquote-color, black); /* Default to black if undefined */
-  max-width: 60vw; /* Limit paragraph width */
+  max-width: 50vw; /* Limit paragraph width */
   width: 100%; /* Ensures it doesn’t exceed max-width */
   margin: 0 auto; /* Centers the paragraph container */
   padding-top: 3em; /* Adjust this value as needed */
@@ -429,50 +449,11 @@ padding: 1em;
 .gatsby-resp-image-wrapper {
   max-width: 80vw !important; /* Make it larger than viewport */
   width: 80vw !important; /* Expand beyond container */
-  margin-left: -10vw !important; /* Pull it outward for centering */
-  margin-right: -10vw !important;
+  margin-left: -15vw !important; /* Pull it outward for centering */
+  margin-right: -15vw !important;
   margin-top: 2em;
   margin-bottom: 2em;
 }
-
-/* General table styling */
-.case-study-content table {
-width:100w - .5em; 
-border-collapse: separate; 
-margin: 1.5em -.5em; /* Add margin to separate from other content */
-border-spacing: .5em 0em; /* Adjust this value for more/less spacing */
-}
-
-/* Style table headers */
-th {
-color: #1e1e1e;
-font-family: 'Spectral', serif;
-font-size: 30px;
-line-height: 40px;
-letter-spacing:1.3px;
-font-weight: normal;
-padding: .5em;
-padding-bottom: .25em !important;
-text-align: left; /* Align text to the left */
-border: 1px solid #ddd; /* Adds a border around each column */
-border-bottom: none; /* Only a bottom border */
-}
-
-/* Style table rows */
-td {
-  padding: .25em .5em;
-  text-align: left; /* Align text to the left */
-  border-left: 1px solid #ddd; /* Only a bottom border */
-  border-right: 1px solid #ddd; /* Only a bottom border */
-  border-bottom: none; /* Only a bottom border */
-  border-top: none; /* Remove top border to prevent double lines */
-}
-
-
-tr:last-child td {
-  border-bottom: 1px solid #ddd; /* Only a bottom border */
-}
-
 
 
 .info-container {
@@ -701,7 +682,7 @@ img {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 0em; /* Adjust spacing */
+  gap: 2em; /* Adjust spacing */
 }
 
 .grid-item {
