@@ -688,6 +688,7 @@ img {
 .grid-item {
   position: relative; /* Needed for absolute positioning of the overlay */
   overflow: hidden;
+  outline: 2px solid #dddddd;
 }
 
 .grid-item img {
