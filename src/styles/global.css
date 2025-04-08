@@ -178,8 +178,18 @@ header {
 
 .intro-content {
   align-items: center; /* Centers vertically */
-  width: 80%;
+  width: 75%;
   height: 100%;
+}
+
+.base-page-home {
+  width: 80%; /* Ensure it takes up the full width of the page */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: left; /* Centers vertically */
+  flex-direction: column; /* Stacks elements vertically */
+  min-height: 60vh;
 }
 
 .interactive-word {
