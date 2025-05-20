@@ -12,7 +12,8 @@ import lucidLogo from "../images/logos/Lucidlogo.png"
 import weftLogo from "../images/logos/Weftlogo.png"
 import fsLogo from "../images/logos/Microsoftlogo.png"
 import terraLogo from "../images/logos/Terralogo.png"
-import xrlogo from "../images/logos/naturelablogo.png"
+import corohero from "../images/coro/hero.png"
+import corologo from "../images/logos/corologo.png"
 
 const IndexPage = () => (
   <Layout>
@@ -28,6 +29,15 @@ const IndexPage = () => (
           year="2023 - 2024"
         />
         <CaseStudyTile 
+          to="/coro"
+          image={corohero}
+          logo={corologo}
+          description="Redefining fitness communication with a system of haptic devices"
+          tags={["Interaction design", "Wearable devices" ,"Haptics"]}
+          descriptionColor="#3854F5" 
+          year="2025"
+        />
+        <CaseStudyTile 
           to="/dandelion"
           image={dandelion}
           logo={dandelionLogo}
@@ -37,15 +47,6 @@ const IndexPage = () => (
           year="2025"
         /> 
         <CaseStudyTile 
-          to="/weft"
-          image={wefthero}
-          logo={weftLogo}
-          description="Developing a sustainable, interactive prototype for furniture longevity."
-          tags={["Sustainable experience design", "Business development"]}
-          descriptionColor="#485D7D" 
-          year="2024"
-        />
-        <CaseStudyTile 
           to="/visualactivitiesintro"
           image={vahero}
           logo={lucidLogo}
@@ -53,6 +54,15 @@ const IndexPage = () => (
           tags={["Digital experience design", "Interaction design" ,"Strategic design"]}
           descriptionColor="#3C41C2" 
           year="2022 - 2023"
+        />
+        <CaseStudyTile 
+          to="/weft"
+          image={wefthero}
+          logo={weftLogo}
+          description="Developing a sustainable, interactive prototype for furniture longevity."
+          tags={["Sustainable experience design", "Business development"]}
+          descriptionColor="#485D7D" 
+          year="2024"
         />
         <CaseStudyTile 
           to="/terra"
