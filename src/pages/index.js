@@ -14,7 +14,7 @@ import animhero from "../images/playground/takingflight.gif";
 
 import quicktoolshero from "../images/quicktools/quicktoolstile.gif"
 import dandelion from "../images/dandelion/hero.png"
-import corohero from "../images/coro/hero.gif"
+import corohero from "../images/coro/newhero.gif"
 import GridComponent from "../components/GridComponent";
 
 
