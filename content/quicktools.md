@@ -6,19 +6,19 @@ blockquoteColor: "#3C41C2"
 isPasswordProtected: true
 password: green
 ---
-### Lucid Software
-> Designing the newest canvas widgets for Lucid's smart templates. 
 
-![Hero image of quick tools](../src/images/quicktools/Splash.png)
+## Creating the future of Lucid's smart templates, with the new feature: Quick Tools. 
 
 <div class="info-container">
     <div class="info-block">
-        <div class="info-title">Context</div>
-        Senior UX Designer for Lucid Software
+        <div class="info-title">Company</div>
+        Lucid Software
     </div>
     <div class="info-block">
-        <div class="info-title">Impact</div>
-        Research, design, strategy, and project handoff. Launched in June 2024, now with over 100k monthly returning users.
+        <div class="info-title">Role</div>
+          Senior UX Designer
+          <br>
+          Lead designer for 3 Agile teams
     </div>
     <div class="info-block">
         <div class="info-title">Timeline</div>
@@ -26,47 +26,18 @@ password: green
     </div>
 </div>
 
+
+
+### Context
+In 2023, I pitched a winning Hackathon project to build on-canvas widgets for Lucid’s virtual canvas tools. Following my team's 1st place finish, I then led strategic efforts to integrate the feature across our product suite. This work resulted in a toolkit of 30+ Quick Tools, **released to all 100 million Lucid users, and is now embedded in over 75% of Lucid templates.** You can now try this feature out [on any Lucid platform](https://x.com/LucidSoftware/status/1804213038121115850?lang=en). 
+<br>
+<br>
+
+![Hero image of quick tools](../src/images/quicktools/Splash.png)
+
 <a id="content"></a>
 
->How could smart templates engage Lucid's returning and active users? 
-Quick tools was designed to be a new set of dynamic canvas widgets for Lucid Software's virtual canvas tools, including Lucidchart, Lucidspark, and Lucidscale. Throughout this project, I led the strategic and design work. Initiating from my team's winning hackathon project, this work **launched to all Lucid users in June 2024.**
-
-## My contributions
-<div class="info-container">
-    <div class="info-block">
-        <div class="info-title">Team</div>
-        Lead designer for Lucid's Workflows product team
-        (1 Designer, 1 Product Manager, 4 Engineers, 1 QA)
-    </div>
-    <div class="info-block">
-        <div class="info-title">Toolkit</div>
-        Figma, After Effects, Maze
-    </div>
-</div>
-
-This project originated as a hackathon project in 2023, where I was the lead designer. Following this event, I helped lead strategic conversations throughout the course of this project, getting buy in for the new development team, and then getting to lead design work for this team. 
-
-In creating this feature, some notable parts of my design process include:
-<div class="process-flow">
-  <div class="process-step">
-    <span class="process-title">Research</span>
-    <span class="process-desc">to understand user needs surrounding templates</span>
-  </div>
-  <div class="process-step">
-    <span class="process-title">Ideation</span>
-    <span class="process-desc">to refine how new features might help users navigate templates</span>
-  </div>
-  <div class="process-step">
-    <span class="process-title">Iteration and design system syncs</span>
-    <span class="process-desc">to refine the new feature and ensure our additions worked well with the existing design system</span>
-  </div>
-    <div class="process-step">
-    <span class="process-title">Validation and testing</span>
-    <span class="process-desc">to refine interactions for each widget shape on the canvas</span>
-  </div>
-</div>
-
-
+#### Challenge
 ## Why do whiteboard templates need to be smart?
 Prior to this project, my hackathon team and I noticed how integral whiteboard templates were to our users. Teams would use templates to learn the tool, run meetings, or just grab content that they wanted to adjust. But Lucid's templates were static and required users to find the tools they needed in the UI.  
 
@@ -78,7 +49,8 @@ During the 2023 Lucid Hackathon, my team and I imagined the concept of having 's
 ![Working on our hackathon booth](../src/images/quicktools/Hackathon.png)
 ![the original prototype](../src/images/quicktools/prototype.gif)
 
-## Researching: how could this tool support new and experienced whiteboard users?
+#### Insights
+## How could this new tool support new and experienced whiteboard users?
 During the hackathon, user research conducted by Erin Lilly quickly validated our idea. One product manager remarked that the tools **“helped participants focus on content rather than learning how to use the tool.”** After the hackathon, I led continous user interviews with paid, free, and enterprise users at Lucid to understand their needs with smart templates. Our main findings were that:
 
 <div class="info-container">
@@ -93,7 +65,8 @@ Experienced facilitators wanted to help get their team up to speed using a digit
 </div>
 
 
-## Leading strategic conversations 
+#### Strategy
+## Leading cross-functional conversations 
 Following our hackathon success, I led discussions with Product, UX, and Marketing leadership to secure investment in shape banks and quick actions. Using our research and internal testing, we demonstrated that these tools would:
 
 <div class="info-container">
@@ -115,13 +88,13 @@ To steer these conversations, I created high level template mocks, showcasing ho
 
 ![Strategic mocks](../src/images/quicktools/strategy.png)
 
-## Design system coordination
-**How would creating these new widgets on the canvas affect our interface design system?**
+## How would creating these new widgets on the canvas affect our interface design system?
 
 Once we had buy in, we were able to secure a full development team dedicated to implementing this feature in production. However, one more obstacle we needed to solve was how this would fit into Lucid's design system on and off the canvas. I worked closely with our design systems team to come up with a proposal for the look and feel of these new widgets, matching what our current canvas shapes looked like, while attempting to feel in the same family as our UI system components so users understood how to interact with them. 
 
 ![Setting up design specs](../src/images/quicktools/DesignSystem.png)
 
+#### Hackathon to Production
 ## Refining interactions, specifications and visuals
 With product and design leadership buy-in, I collaborated with our new development team to further develop Quick Tools. **With this new team, we drafted new OKRs and KPIs related to increasing template utilization rates for new and existing users.** Working closely with my product manager, James Webb, I helped scope out 2025 roadmaps, define upcoming sprint work, and refine backlog UX bugs. Our overall goals were to:
 
@@ -139,16 +112,15 @@ How could we design these tools to be easily scalable as we add features over th
 ![Creating interaction patterns](../src/images/quicktools/Iterations.png)
 
 
-## Validation of the concept
+## Validating with our users
 With user interviews, observation sessions, and usability testing, we refined quick tools in an agile development cycle. Beyond initial hackathon research, I conducted three major research initiatives, including usability testing and participatory design exercises. 
 
 In addition to formal studies, I regularly engaged with users through weekly calls to gather feedback and insights, which informed continuous improvements to the product.
 
 ![multiple of my research reports](../src/images/quicktools/research.png)
 
-## Final designs
-The final set of widgets created during this project includes shape banks and actions. 
 
+#### Solution
 ## Shape banks
 On-canvas shape stacks that allow you to easily add new instances of a shape. Here are the different interaction states with a sticky note shape bank:
 ![shows how the quick shape bank works](../src/images/quicktools/banks.png)

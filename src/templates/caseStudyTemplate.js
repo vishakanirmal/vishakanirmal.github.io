@@ -15,13 +15,12 @@ export default function CaseStudyTemplate({ data }) {
       <div className="case-study-container">
         <div className="case-study-content-wrapper">
           <div className="case-study-content">
-            <Link to="/work">← Back</Link>
             <div
               className="case-study-body"
               style={{ "--blockquote-color": blockquoteColor }} // Pass color as a CSS variable
               dangerouslySetInnerHTML={{ __html: html }}
             />
-            <Link to="/work">← Back to all projects</Link>
+            <Link to="/#projects">← Back to all projects</Link>
           </div>
         </div>
       </div>

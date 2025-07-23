@@ -6,19 +6,18 @@ blockquoteColor: "#3C41C2"
 isPasswordProtected: false
 ---
 
-### Lucid Software
-> Designing the newest canvas widgets for Lucid's smart templates. 
-
-![Hero image of quick tools](../src/images/quicktools/Splash.png)
+## Creating the future of Lucid's smart templates, with the new feature: Quick Tools. 
 
 <div class="info-container">
     <div class="info-block">
-        <div class="info-title">Context</div>
-        Senior UX Designer for Lucid Software
+        <div class="info-title">Company</div>
+        Lucid Software
     </div>
     <div class="info-block">
-        <div class="info-title">Impact</div>
-        Research, design, strategy, and project handoff. Launched in June 2024, now with over 100k monthly returning users.
+        <div class="info-title">Role</div>
+         Senior UX Designer
+         <br>
+         Lead designer for 3 Agile teams
     </div>
     <div class="info-block">
         <div class="info-title">Timeline</div>
@@ -26,10 +25,12 @@ isPasswordProtected: false
     </div>
 </div>
 
-## About the work
-In this project, I worked to help Lucid uplevel their template capabilities, by designing **dynamic canvas widgets that allow ease of tool access**. The goal of this work was to increase user engagement with our initial point of contact-- templates.  
 
-I worked as the Lead Designer for this work, taking my team's winning hackathon project to director and C-Suite level strategic conversations. The final work can be seen [live on any Lucid platform](https://x.com/LucidSoftware/status/1804213038121115850?lang=en). 
+### Context
+In 2023, I pitched a winning Hackathon project to build on-canvas widgets for Lucid’s virtual canvas tools. Following my team's 1st place finish, I then led strategic efforts to integrate the feature across our product suite. This work resulted in a toolkit of 30+ Quick Tools, **released to all 100 million Lucid users, and is now embedded in over 75% of Lucid templates.** You can now try this feature out [on any Lucid platform](https://x.com/LucidSoftware/status/1804213038121115850?lang=en). 
+<br>
+<br>
 
-## The full case study
-**If you have the password from my resume, you can take a look at my case study of this project [here](/quicktools#content).**
+**With the password from my resume, you can take a look at the full case study [here](/quicktools#content) 🔐.**
+
+![Hero image of quick tools](../src/images/quicktools/Splash.png)

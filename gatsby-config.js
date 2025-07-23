@@ -45,10 +45,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1200,
+              maxWidth: 3600,
               withWebp: true,
-              tracedSVG: true,
-            },
+             },
           },
           {
             resolve: `gatsby-remark-table-of-contents`,
@@ -72,9 +71,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1600,
+              maxWidth: 3600,
               withWebp: true,
-              tracedSVG: true,
             },
           },
           {
@@ -98,7 +96,7 @@ module.exports = {
             resolve: `gatsby-remark-static-images`,
             options: {
               // Add any options provided by the plugin
-              maxWidth: 1000, // Example for controlling width (if supported)
+              maxWidth: 3600, // Example for controlling width (if supported)
             },
           },
         ],

@@ -12,7 +12,7 @@ import lucidLogo from "../images/logos/Lucidlogo.png"
 import weftLogo from "../images/logos/Weftlogo.png"
 import fsLogo from "../images/logos/Microsoftlogo.png"
 import terraLogo from "../images/logos/Terralogo.png"
-import corohero from "../images/coro/hero.png"
+import corohero from "../images/coro/hero.gif"
 import corologo from "../images/logos/corologo.png"
 
 const IndexPage = () => (
@@ -23,10 +23,10 @@ const IndexPage = () => (
           to="/quicktoolsintro"
           image={quicktoolshero}
           logo={lucidLogo}
-          description="Crafting dynamic, on-canvas widgets for virtual collaboration."
+          description="Introducing the on-canvas widget framework, leading to the development of 30+ new widgets."
           tags={["Digital experience design", "Interaction design" ,"Strategic design"]}
-          descriptionColor="#D916A8" 
-          year="2023 - 2024"
+          descriptionColor="#3C41C2" 
+          year="Lucid Software, 2024"
         />
         <CaseStudyTile 
           to="/coro"
@@ -34,8 +34,8 @@ const IndexPage = () => (
           logo={corologo}
           description="Redefining fitness communication with a system of haptic devices"
           tags={["Interaction design", "Wearable devices" ,"Haptics"]}
-          descriptionColor="#3854F5" 
-          year="2025"
+          descriptionColor= "#3854F5" 
+          year= "Brown / RISD, 2025"
         />
         <CaseStudyTile 
           to="/dandelion"
@@ -44,7 +44,7 @@ const IndexPage = () => (
           description="Designing the tasting experiences for craft chocolate."
           tags={["Retail experience design", "Client proposal"]}
           descriptionColor="#8A5A2F" 
-          year="2025"
+          year="Dandelion Chocolate - 2025"
         /> 
         <CaseStudyTile 
           to="/visualactivitiesintro"
@@ -53,7 +53,7 @@ const IndexPage = () => (
           description="Building a collaborative, on-canvas survey tool for Lucid users."
           tags={["Digital experience design", "Interaction design" ,"Strategic design"]}
           descriptionColor="#3C41C2" 
-          year="2022 - 2023"
+          year="Lucid Software, 2024"
         />
         <CaseStudyTile 
           to="/weft"
@@ -62,7 +62,7 @@ const IndexPage = () => (
           description="Developing a sustainable, interactive prototype for furniture longevity."
           tags={["Sustainable experience design", "Business development"]}
           descriptionColor="#485D7D" 
-          year="2024"
+          year="Brown / RISD, 2024"
         />
         <CaseStudyTile 
           to="/terra"
@@ -71,7 +71,7 @@ const IndexPage = () => (
           description="Creating an AI-powered game device for tactile interactions and replayability."
           tags={["User research", "Game experience design", "Physical computing"]}
           descriptionColor="#117261" 
-          year="2024"
+          year="Brown / RISD, 2024"
         />
         <CaseStudyTile 
           to="/fieldserviceintro"
@@ -80,7 +80,7 @@ const IndexPage = () => (
           description="Designing an AR-powered mobile experience for field service technicians."
           tags={["User research", "Information architecture", "Mobile XR design"]}
           descriptionColor="#1F8AFF" 
-          year="2021"
+          year="Microsoft, 2021"
         />
       </div>
     </div>
