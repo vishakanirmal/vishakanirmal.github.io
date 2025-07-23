@@ -47,6 +47,7 @@ Prior to this project, my hackathon team and I noticed how integral whiteboard t
 During the 2023 Lucid Hackathon, my team and I imagined the concept of having 'smart' templates, that would provide dynamic links and tools to everything you needed, at your fingertips. Quick Tools was then developed during Lucid’s 2023 hackathon, where my team and I **won first place in the "Build to Delight" category.**
 
 ![Working on our hackathon booth](../src/images/quicktools/Hackathon.png)
+
 ![the original prototype](../src/images/quicktools/prototype.gif)
 
 #### Insights
