@@ -120,7 +120,7 @@ const IndexPage = () => {
             description="Bridging communication gaps in group fitness using haptic devices"
             tags={["Wearable devices", "Haptics"]}
             descriptionColor="#3854F5"
-            year="Brown/RISD & RIT, 2025"
+            year="Brown/RISD, 2025"
           />
           <CaseStudyTile 
             to="/dandelion"
