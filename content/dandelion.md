@@ -54,8 +54,6 @@ Online product surveys proved especially relevant—they personalize recommendat
 
 ![Screenshot of research images/notes taken](../src/images/dandelion/Research.png)
 
-![Current/future user flows](../src/images/dandelion/Synthesis.png)
-
 #### Prototyping
 ## Digital
 
@@ -112,15 +110,15 @@ The final concept presented to Dandelion included three implementation tiers:
 
 ## Low lift for tasting online orders
 
-![Postcard to digital experience](../src/images/dandelion/Final.png)
+![Postcard to digital experience](../src/images/dandelion/lowlift.gif)
 
 ## Medium lift for intentional guided comparisons
 
-![Comparison block](../src/images/dandelion/Final-2.png)
+![Comparison block](../src/images/dandelion/medlift.gif)
 
 ## High lift for self-guided tastings
 
-![Tablet experience](../src/images/dandelion/Final-1.png)
+![Tablet experience](../src/images/dandelion/highlift.gif)
 
 ## Food for thought
 

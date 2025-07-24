@@ -76,10 +76,12 @@ const IndexPage = () => {
       </div>
       <div className="section-header">
         <h3>
-          Learn more about my work ↓
+          <a href="/#mywork">
+            Learn more about my work ↓
+          </a>
         </h3>    
       </div>
-      <div className="archive">
+      <div className="archive" id="mywork">
         <div className="intro-lists">
           <ListSection
             title="My foundation"
@@ -109,7 +111,7 @@ const IndexPage = () => {
         </div>
       <div className="section-header">
         <h3>
-          Some work I'm proud of:
+            Some work I'm proud of:
         </h3>    
       </div>
       {/* PROJECT TILE SECTION */} 
@@ -147,6 +149,11 @@ const IndexPage = () => {
                   label: "Lucid's Visual Activities ↗",
                   sub: "Designed and launched Lucid’s new canvas survey feature, called Visual Activities. I led work across strategy, user research, and interaction design. Rolled out in 2023 to all Lucid users, the new feature is now used over 170,000 times a month. After the launch, I co-led a customer webinar introducing the feature to over 1,000 attendees.",
                   link: "https://lucid.co/resources/webinars/use-cases-for-visual-activities-jan-2024"
+                },
+                {
+                  label: "Lucidspark's Facilitation Toolkit ↗",
+                  sub: "From scratch, I researched and designed a set of facilitator tools for Lucid's virtual whiteboard, Lucidspark. Some of the tools include a laser pointer, a way to broadcast messages, and extra locking/hiding capabilities. This toolkit launched in 2022 to all Lucid users.",
+                  link: "https://lucid.co/lucidspark/solutions/facilitation-tools"
                 },
                 {
                   label: "Microsoft's Field Service App ↗",
@@ -248,7 +255,7 @@ const IndexPage = () => {
                   {
                     label: "HCDE Awards of Excellence ↗",
                     sub: "I was awarded the undergraduate leadership award in 2021, for my work with the HCDE student association.",
-                    link: "https://medium.com/lucid-software-design/run-activity-based-interviews-to-maximize-your-time-with-users-3c233f379084"
+                    link: "https://www.hcde.washington.edu/news/2021-awards#:~:text=Vishaka%20Nirmal%0AUndergraduate%20Award%20for%20Leadership%20and%20Engagement"
                   },
                   {
                     label: "The pandemic intern experience ↗",
