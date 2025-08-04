@@ -96,7 +96,7 @@ const IndexPage = () => {
               { label: "Research" },
               { label: "Digital design" },
               { label: "Spatial experience" },
-              { label: "Physical computing" },
+              { label: "Hardware interactions" },
             ]}
           />
           <ListSection

@@ -39,25 +39,21 @@ Dandelion Chocolate is a San Francisco-based chocolate company focused on crafti
 
 #### Insights
 ## A line of tasting stations
-
-To fully understand the problem space, I worked closely with Dandelion employees and observed how tastings were currently run in-store. Their storefronts typically feature a long line of tasting dishes set up in a randomized order. Elaine was curious whether the layout could be optimized and made more intentional.
-
-In stores, customers often face a high cognitive load—tasting from 8+ options with little guidance. The self-guided nature of these tastings can make it hard to form comparisons or remember preferences.
+To fully understand the problem space, I worked closely with Dandelion employees and observed how tastings were currently run in-store. Each of their stores are unique, but typically each store has a tasting section on the wall that features a long line of tasting dishes with 8+ options. When working with Elaine at Dandelion, she was primarily interested in seeing how we could adjust the layout to be more intentional. 
 <br>
 <br>
 
 ## How to best collect data?
+Outside of adjusting the tasting layout, Elaine had been collecting information on each Dandelion bar's flavor profiles and tasting notes. Her goal was to use these tasting notes to distill customer preferences, through in-store and online tasting experiences. 
 
-Dandelion was eager to explore how customer flavor preferences could be captured, both in-store and online, to eventually offer personalized recommendations. To broaden our thinking, I also studied other tasting and recommendation experiences across tea shops, soap brands, bookstores, and perfume counters.
-
-Online product surveys proved especially relevant—they personalize recommendations while helping brands learn from user input. These models became a useful reference as we shaped our own survey and tasting concepts.
+Taking inspiration from various tasting experiences across tea shops, soap brands, bookstores, and perfume counters, I documented recommendation systems in store and online. 
 
 ![Screenshot of research images/notes taken](../src/images/dandelion/Research.png)
 
 #### Prototyping
 ## Digital
 
-After gathering feedback and narrowing down possible directions, I used Figma to develop digital artifacts and prototypes. These helped communicate the core experience and layout ideas clearly to stakeholders.
+I used Figma and digital sketches to develop possible changes for Dandelion's store and online experience. With this initial ideation, I gathered feedback from Elaine to help narrow down possible directions. 
 
 ![Wireframes & sketches](../src/images/dandelion/Ideation.png)
 
